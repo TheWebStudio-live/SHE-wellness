@@ -7,7 +7,7 @@ export default function HeroSection() {
       <style>
         {`
           .hero-background {
-            background-position: calc(100% - 5px) center;
+            background-position: 80% center;
           }
           @media (min-width: 768px) {
             .hero-background {
