@@ -1,11 +1,10 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'wouter';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [location] = useLocation();
+  const location = '/';
 
   const navItems = [
     { path: '/', label: 'Home' },
@@ -16,27 +15,33 @@ export default function Navigation() {
     <nav className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/">
-            <div className="flex items-center hover-elevate rounded-md px-2 py-1" data-testid="link-home">
-              <span className="text-2xl font-serif font-bold text-primary">S.H.E.</span>
-            </div>
-          </Link>
+          <div 
+            className="flex items-center hover-elevate rounded-md px-2 py-1" 
+            onClick={(e) => e.preventDefault()}
+            data-testid="link-home"
+          >
+            <span className="text-2xl font-serif font-bold text-primary">S.H.E.</span>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <Link key={item.path} href={item.path}>
-                <span
-                  className={`text-foreground hover:text-primary transition-colors cursor-pointer ${
-                    location === item.path ? 'text-primary font-medium' : ''
-                  }`}
-                  data-testid={`link-${item.label.toLowerCase().replace(' ', '-')}`}
-                >
-                  {item.label}
-                </span>
-              </Link>
+              <span
+                key={item.path}
+                className={`text-foreground hover:text-primary transition-colors cursor-pointer ${
+                  location === item.path ? 'text-primary font-medium' : ''
+                }`}
+                onClick={(e) => e.preventDefault()}
+                data-testid={`link-${item.label.toLowerCase().replace(' ', '-')}`}
+              >
+                {item.label}
+              </span>
             ))}
-            <Button variant="default" data-testid="button-book-session">
+            <Button 
+              variant="default" 
+              onClick={(e) => e.preventDefault()}
+              data-testid="button-book-session"
+            >
               Book a Session
             </Button>
           </div>
@@ -59,20 +64,27 @@ export default function Navigation() {
           <div className="md:hidden py-4 border-t">
             <div className="flex flex-col space-y-4">
               {navItems.map((item) => (
-                <Link key={item.path} href={item.path}>
-                  <span
-                    className={`block px-4 py-2 text-foreground hover:text-primary transition-colors cursor-pointer ${
-                      location === item.path ? 'text-primary font-medium' : ''
-                    }`}
-                    onClick={() => setIsMenuOpen(false)}
-                    data-testid={`mobile-link-${item.label.toLowerCase().replace(' ', '-')}`}
-                  >
-                    {item.label}
-                  </span>
-                </Link>
+                <span
+                  key={item.path}
+                  className={`block px-4 py-2 text-foreground hover:text-primary transition-colors cursor-pointer ${
+                    location === item.path ? 'text-primary font-medium' : ''
+                  }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setIsMenuOpen(false);
+                  }}
+                  data-testid={`mobile-link-${item.label.toLowerCase().replace(' ', '-')}`}
+                >
+                  {item.label}
+                </span>
               ))}
               <div className="px-4">
-                <Button variant="default" className="w-full" data-testid="mobile-button-book-session">
+                <Button 
+                  variant="default" 
+                  className="w-full" 
+                  onClick={(e) => e.preventDefault()}
+                  data-testid="mobile-button-book-session"
+                >
                   Book a Session
                 </Button>
               </div>
