@@ -1,12 +1,12 @@
 const sheWords = [
-  { text: 'Self-love Healing Evolution', size: 'text-lg', rotation: 'rotate-1', position: 'top-4 left-2' },
-  { text: 'Sacred Healing Energy', size: 'text-base', rotation: '-rotate-2', position: 'top-6 left-1/4' },
-  { text: 'Shifting Her Energy', size: 'text-lg', rotation: 'rotate-3', position: 'top-4 right-2' },
-  { text: 'Self-centered Healthy Empowerment', size: 'text-sm', rotation: '-rotate-1', position: 'top-8 right-1/4' },
-  { text: 'Self Healing Empowerment', size: 'text-base', rotation: 'rotate-2', position: 'bottom-8 left-2' },
-  { text: 'Soul Healing Era', size: 'text-lg', rotation: '-rotate-3', position: 'bottom-4 left-1/4' },
-  { text: 'Self-honor Healing Empowerment', size: 'text-sm', rotation: 'rotate-1', position: 'bottom-8 right-1/4' },
-  { text: 'Stand Heal Elevate', size: 'text-xl', rotation: '-rotate-1', position: 'bottom-4 right-2' }
+  { text: 'Self-love Healing Evolution', size: 'text-lg', rotation: '', position: 'top-4 left-2' },
+  { text: 'Sacred Healing Energy', size: 'text-base', rotation: '', position: 'top-6 left-1/4' },
+  { text: 'Shifting Her Energy', size: 'text-lg', rotation: '', position: 'top-4 right-2' },
+  { text: 'Self-centered Healthy Empowerment', size: 'text-sm', rotation: '', position: 'top-8 right-1/4' },
+  { text: 'Self Healing Empowerment', size: 'text-base', rotation: '', position: 'bottom-8 left-2' },
+  { text: 'Soul Healing Era', size: 'text-lg', rotation: '', position: 'bottom-4 left-1/4' },
+  { text: 'Self-honor Healing Empowerment', size: 'text-sm', rotation: '', position: 'bottom-8 right-1/4' },
+  { text: 'Stand Heal Elevate', size: 'text-xl', rotation: '', position: 'bottom-4 right-2' }
 ];
 
 export default function SHEWordCollage() {
