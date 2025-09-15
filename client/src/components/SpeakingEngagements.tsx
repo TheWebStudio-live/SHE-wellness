@@ -7,14 +7,6 @@ const upcomingEvents = [
   "December 3, 2025 - Professional Development Conference, Virtual Event"
 ];
 
-const speakingTopics = [
-  'Breaking Through Barriers: From Heartbreak to Empowerment',
-  'The Art of Self-Love: Practical Tools for Daily Life',
-  'Setting Boundaries That Protect Your Peace',
-  'Authentic Leadership for Women',
-  'Transforming Pain into Purpose',
-  'Building Unshakeable Self-Confidence'
-];
 
 export default function SpeakingEngagements() {
   return (
@@ -42,23 +34,6 @@ export default function SpeakingEngagements() {
         </div>
         
         <div className="bg-muted/20 rounded-lg p-8 md:p-12">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          <div>
-            <h3 className="text-2xl font-serif font-bold text-foreground mb-6" data-testid="text-speaking-topics-title">
-              Popular Speaking Topics
-            </h3>
-            <ul className="space-y-3">
-              {speakingTopics.map((topic, index) => (
-                <li key={index} className="flex items-start">
-                  <div className="w-2 h-2 bg-primary rounded-full mr-3 mt-2 flex-shrink-0"></div>
-                  <span className="text-muted-foreground" data-testid={`text-topic-${index}`}>
-                    {topic}
-                  </span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          
           <div>
             <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-title">
               Book Peta for Your Event
@@ -90,7 +65,6 @@ export default function SpeakingEngagements() {
               Book Peta Williams
             </Button>
           </div>
-        </div>
         </div>
       </div>
     </section>
