@@ -3,7 +3,6 @@ import HeroSection from '@/components/HeroSection';
 import AboutMe from '@/components/AboutMe';
 import AboutBrand from '@/components/AboutBrand';
 import SHEWordCollage from '@/components/SHEWordCollage';
-import SpeakingEngagements from '@/components/SpeakingEngagements';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <AboutMe />
       <AboutBrand />
       <SHEWordCollage />
-      <SpeakingEngagements />
       <Footer />
     </div>
   );
