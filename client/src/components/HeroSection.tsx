@@ -3,12 +3,25 @@ import heroBackgroundUrl from '@/assets/images/hero-background.png';
 
 export default function HeroSection() {
   return (
-    <section 
-      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-no-repeat bg-right md:bg-center"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${heroBackgroundUrl})`
-      }}
-    >
+    <>
+      <style>
+        {`
+          .hero-background {
+            background-position: calc(100% - 20px) center;
+          }
+          @media (min-width: 768px) {
+            .hero-background {
+              background-position: center;
+            }
+          }
+        `}
+      </style>
+      <section 
+        className="hero-background relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-no-repeat"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${heroBackgroundUrl})`
+        }}
+      >
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 className="text-6xl md:text-8xl font-serif font-bold mb-6" data-testid="text-hero-title">
           S.H.E.
@@ -38,5 +51,6 @@ export default function HeroSection() {
         </div>
       </div>
     </section>
+    </>
   );
 }
