@@ -13,14 +13,6 @@ export default function SHEWordCollage() {
   return (
     <section className="py-20 bg-muted/20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-collage-title">
-            What S.H.E. Means
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto" data-testid="text-collage-description">
-            Explore the powerful meanings behind S.H.E. - each one representing a different aspect of your journey to empowerment and healing.
-          </p>
-        </div>
         
         {/* Word Collage */}
         <div className="relative h-32 md:h-40 lg:h-48">
