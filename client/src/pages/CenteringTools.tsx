@@ -11,7 +11,6 @@ export default function CenteringTools() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-primary/5 to-accent/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -32,7 +31,6 @@ export default function CenteringTools() {
           </div>
         </div>
       </section>
-      
       {/* Shop S.H.E. Collection CTA */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -58,13 +56,10 @@ export default function CenteringTools() {
                 Supporting women's growth
               </div>
             </div>
-            <Button size="lg" data-testid="button-shop-collection">
-              Shop S.H.E. Collection on Shopify
-            </Button>
+            <Button size="lg" data-testid="button-shop-collection">Shop S.H.E. Collection</Button>
           </div>
         </div>
       </section>
-      
       <CourseModules />
       <SpeakingEngagements />
       <Footer />
