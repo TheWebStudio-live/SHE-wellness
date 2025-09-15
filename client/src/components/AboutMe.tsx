@@ -5,8 +5,8 @@ import coachImage from '@assets/Screenshot 2025-09-15 at 11.25.35_1757949943995.
 export default function AboutMe() {
   return (
     <section className="py-16 bg-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-4 md:gap-8 lg:gap-12 items-center">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 gap-4 md:gap-8 lg:gap-12 items-center mb-12">
           <div className="order-2 lg:order-1">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-serif font-bold text-foreground mb-4 md:mb-6" data-testid="text-about-title">
               About Your Coach
@@ -21,7 +21,7 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="order-1 lg:order-2">
-            <Card className="overflow-hidden border-none shadow-lg max-w-sm xl:max-w-xs mx-auto">
+            <Card className="overflow-hidden border-none shadow-lg">
               <CardContent className="p-0">
                 <img
                   src={coachImage}
@@ -35,7 +35,7 @@ export default function AboutMe() {
         </div>
         
         {/* Centered text under the image */}
-        <div className="mt-12 text-center max-w-4xl mx-auto">
+        <div className="text-center">
           <p className="text-muted-foreground leading-relaxed mb-4 text-base" data-testid="text-coach-bio-2">
             Seeing how many of us struggle to reconnect with ourselves while giving so much to others, Peta created this experience to make personal growth accessible, practical, and deeply transformative. Whether you're navigating a relationship or thriving on your own, she understands the sacrifices, the doubts, and the longing to step fully into your potential.
           </p>
