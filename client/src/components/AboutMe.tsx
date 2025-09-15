@@ -21,7 +21,7 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="order-1 lg:order-2">
-            <Card className="overflow-hidden border-none shadow-lg">
+            <Card className="overflow-hidden border-none shadow-lg max-w-sm xl:max-w-xs mx-auto">
               <CardContent className="p-0">
                 <img
                   src={coachImage}
