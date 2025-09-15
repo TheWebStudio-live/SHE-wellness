@@ -120,6 +120,7 @@ export default function SpeakingEngagements() {
           ))}
         </div>
         
+        <div className="bg-muted/20 rounded-lg p-8 md:p-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h3 className="text-2xl font-serif font-bold text-foreground mb-6" data-testid="text-speaking-topics-title">
@@ -138,10 +139,10 @@ export default function SpeakingEngagements() {
           </div>
           
           <div>
-            <h3 className="text-2xl font-serif font-bold text-foreground mb-6" data-testid="text-booking-title">
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-title">
               Book Peta for Your Event
             </h3>
-            <p className="text-muted-foreground mb-6" data-testid="text-booking-description">
+            <p className="text-lg text-muted-foreground mb-6" data-testid="text-booking-description">
               Whether you're planning a corporate event, wellness retreat, conference, or workshop, 
               Peta brings powerful, transformative content that resonates with audiences and creates 
               lasting impact. Available for both virtual and in-person engagements.
@@ -168,6 +169,7 @@ export default function SpeakingEngagements() {
               Book Peta Williams
             </Button>
           </div>
+        </div>
         </div>
       </div>
     </section>
