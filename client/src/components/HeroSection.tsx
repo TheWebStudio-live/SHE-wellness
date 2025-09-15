@@ -17,7 +17,7 @@ export default function HeroSection() {
         `}
       </style>
       <section 
-        className="hero-background relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-no-repeat"
+        className="hero-background relative h-screen w-full flex items-center justify-center overflow-hidden bg-cover bg-no-repeat -mt-0 -mx-0"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${heroBackgroundUrl})`
         }}
