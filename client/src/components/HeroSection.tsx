@@ -1,11 +1,12 @@
 import { Button } from '@/components/ui/button';
+import heroBackgroundUrl from '@/assets/images/hero-background.png';
 
 export default function HeroSection() {
   return (
     <section 
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(/assets/generated_images/Wellness_background_woman_positioned_right_5624fb3f.png)`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${heroBackgroundUrl})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
