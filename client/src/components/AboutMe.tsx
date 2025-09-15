@@ -28,7 +28,7 @@ export default function AboutMe() {
                   loading="lazy"
                   decoding="async"
                   alt="Peta Williams - Your Transformation Coach"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-auto object-cover object-center"
                   data-testid="img-coach"
                 />
               </CardContent>
