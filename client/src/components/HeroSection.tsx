@@ -41,24 +41,24 @@ export default function HeroSection() {
         </div>
       </div>
       
-      {/* Floating acronym meanings */}
+      {/* Floating acronym meanings - very subtle */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-20 left-10 text-white/20 text-sm font-light rotate-12">
+        <div className="absolute top-20 left-10 text-white/10 text-sm font-light rotate-12">
           Sacred Healing Energy
         </div>
-        <div className="absolute top-40 right-20 text-white/20 text-sm font-light -rotate-6">
+        <div className="absolute top-40 right-20 text-white/10 text-sm font-light -rotate-6">
           Shifting Her Energy
         </div>
-        <div className="absolute bottom-32 left-20 text-white/20 text-sm font-light rotate-6">
+        <div className="absolute bottom-32 left-20 text-white/10 text-sm font-light rotate-6">
           Stand Heal Elevate
         </div>
-        <div className="absolute bottom-20 right-10 text-white/20 text-sm font-light -rotate-12">
+        <div className="absolute bottom-20 right-10 text-white/10 text-sm font-light -rotate-12">
           Soul Healing Era
         </div>
-        <div className="absolute top-60 left-1/4 text-white/15 text-sm font-light rotate-3">
+        <div className="absolute top-60 left-1/4 text-white/8 text-sm font-light rotate-3">
           Self-centered Healthy Empowerment
         </div>
-        <div className="absolute top-80 right-1/3 text-white/15 text-sm font-light -rotate-3">
+        <div className="absolute top-80 right-1/3 text-white/8 text-sm font-light -rotate-3">
           Self-honor Healing Empowerment
         </div>
       </div>
