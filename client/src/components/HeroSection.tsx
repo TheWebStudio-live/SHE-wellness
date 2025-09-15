@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section 
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${heroBackground})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${heroBackground})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'
@@ -41,24 +41,24 @@ export default function HeroSection() {
         </div>
       </div>
       
-      {/* Floating acronym meanings - very subtle */}
+      {/* Floating acronym meanings - extremely subtle */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-20 left-10 text-white/10 text-sm font-light rotate-12">
+        <div className="absolute top-20 left-10 text-white/5 text-sm font-light rotate-12">
           Sacred Healing Energy
         </div>
-        <div className="absolute top-40 right-20 text-white/10 text-sm font-light -rotate-6">
+        <div className="absolute top-40 right-20 text-white/5 text-sm font-light -rotate-6">
           Shifting Her Energy
         </div>
-        <div className="absolute bottom-32 left-20 text-white/10 text-sm font-light rotate-6">
+        <div className="absolute bottom-32 left-20 text-white/5 text-sm font-light rotate-6">
           Stand Heal Elevate
         </div>
-        <div className="absolute bottom-20 right-10 text-white/10 text-sm font-light -rotate-12">
+        <div className="absolute bottom-20 right-10 text-white/5 text-sm font-light -rotate-12">
           Soul Healing Era
         </div>
-        <div className="absolute top-60 left-1/4 text-white/8 text-sm font-light rotate-3">
+        <div className="absolute top-60 left-1/4 text-white/[0.03] text-sm font-light rotate-3">
           Self-centered Healthy Empowerment
         </div>
-        <div className="absolute top-80 right-1/3 text-white/8 text-sm font-light -rotate-3">
+        <div className="absolute top-80 right-1/3 text-white/[0.03] text-sm font-light -rotate-3">
           Self-honor Healing Empowerment
         </div>
       </div>
