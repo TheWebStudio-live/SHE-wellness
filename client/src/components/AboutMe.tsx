@@ -34,8 +34,8 @@ export default function AboutMe() {
           </div>
         </div>
         
-        {/* Centered text under the image */}
-        <div className="text-center">
+        {/* Left-aligned text under the image */}
+        <div className="text-left">
           <p className="text-muted-foreground leading-relaxed mb-4 text-base" data-testid="text-coach-bio-2">
             Seeing how many of us struggle to reconnect with ourselves while giving so much to others, Peta created this experience to make personal growth accessible, practical, and deeply transformative. Whether you're navigating a relationship or thriving on your own, she understands the sacrifices, the doubts, and the longing to step fully into your potential.
           </p>
