@@ -1,11 +1,9 @@
 import { Button } from '@/components/ui/button';
-import { Heart, Instagram, Facebook, Linkedin, Mail } from 'lucide-react';
+import { Heart, Mail, Video } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Instagram, href: '#', label: 'Instagram' },
-  { icon: Facebook, href: '#', label: 'Facebook' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:hello@sheempowerment.com', label: 'Email' }
+  { icon: Mail, href: 'mailto:Petawilliams@yes2wellnessfl.com', label: 'Email' },
+  { icon: Video, href: '#', label: 'TikTok' }
 ];
 
 const footerLinks = {
