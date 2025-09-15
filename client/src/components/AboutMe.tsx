@@ -1,6 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import coachImage from '@assets/About your coach_1757947104931.png';
+import coachImage from '@assets/Screenshot 2025-09-15 at 11.25.35_1757949943995.png';
 
 export default function AboutMe() {
   return (
