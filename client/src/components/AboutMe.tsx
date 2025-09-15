@@ -15,7 +15,7 @@ export default function AboutMe() {
               Meet Peta Williams: Your Transformation Coach
             </h3>
             <div className="prose prose-sm md:prose-lg max-w-none">
-              <p className="text-muted-foreground leading-relaxed mb-4 md:mb-6 text-base" data-testid="text-coach-bio-1">
+              <p className="text-muted-foreground leading-relaxed mb-6 text-base" data-testid="text-coach-bio-1">
                 Peta Williams is a licensed mental health counselor and certified sex and intimacy coach. As an integrative healer, she is passionate about helping people reclaim their power, break through barriers, and live fully empowered lives. With years of experience guiding individuals through life's toughest challenges, she has empowered countless people to embrace their true selves, boost their confidence, and create lives filled with joy, purpose, and clarity.
               </p>
             </div>
@@ -38,7 +38,7 @@ export default function AboutMe() {
         
         {/* Left-aligned text under the image */}
         <div className="text-left">
-          <p className="text-muted-foreground leading-relaxed mb-4 text-base" data-testid="text-coach-bio-2">
+          <p className="text-muted-foreground leading-relaxed mb-6 text-base" data-testid="text-coach-bio-2">
             Seeing how many of us struggle to reconnect with ourselves while giving so much to others, Peta created this experience to make personal growth accessible, practical, and deeply transformative. Whether you're navigating a relationship or thriving on your own, she understands the sacrifices, the doubts, and the longing to step fully into your potential.
           </p>
           <p className="text-muted-foreground leading-relaxed text-base mb-6" data-testid="text-coach-bio-3">
