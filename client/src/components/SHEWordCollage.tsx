@@ -1,12 +1,12 @@
 const sheWords = [
-  { text: 'Self-love Healing Evolution', size: 'text-lg', rotation: '', position: 'top-4 left-8' },
-  { text: 'Sacred Healing Energy', size: 'text-base', rotation: '', position: 'top-4 left-1/2 -translate-x-1/2' },
-  { text: 'Shifting Her Energy', size: 'text-lg', rotation: '', position: 'top-4 right-8' },
-  { text: 'Self-centered Healthy Empowerment', size: 'text-sm', rotation: '', position: 'top-12 right-8' },
-  { text: 'Self Healing Empowerment', size: 'text-base', rotation: '', position: 'bottom-12 left-8' },
-  { text: 'Soul Healing Era', size: 'text-lg', rotation: '', position: 'bottom-4 left-8' },
-  { text: 'Self-honor Healing Empowerment', size: 'text-sm', rotation: '', position: 'bottom-4 left-1/2 -translate-x-1/2' },
-  { text: 'Stand Heal Elevate', size: 'text-xl', rotation: '', position: 'bottom-4 right-8' }
+  { text: 'Self-love Healing Evolution', size: 'text-sm md:text-lg', rotation: '', position: 'top-2 md:top-4 left-1 md:left-8' },
+  { text: 'Sacred Healing Energy', size: 'text-xs md:text-base', rotation: '', position: 'top-8 md:top-4 left-1/2 -translate-x-1/2' },
+  { text: 'Shifting Her Energy', size: 'text-sm md:text-lg', rotation: '', position: 'top-2 md:top-4 right-1 md:right-8' },
+  { text: 'Self-centered Healthy Empowerment', size: 'text-xs md:text-sm', rotation: '', position: 'top-14 md:top-12 right-1 md:right-8' },
+  { text: 'Self Healing Empowerment', size: 'text-xs md:text-base', rotation: '', position: 'bottom-14 md:bottom-12 left-1 md:left-8' },
+  { text: 'Soul Healing Era', size: 'text-sm md:text-lg', rotation: '', position: 'bottom-8 md:bottom-4 left-1 md:left-8' },
+  { text: 'Self-honor Healing Empowerment', size: 'text-xs md:text-sm', rotation: '', position: 'bottom-2 md:bottom-4 left-1/2 -translate-x-1/2' },
+  { text: 'Stand Heal Elevate', size: 'text-base md:text-xl', rotation: '', position: 'bottom-8 md:bottom-4 right-1 md:right-8' }
 ];
 
 export default function SHEWordCollage() {
@@ -15,7 +15,7 @@ export default function SHEWordCollage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Word Collage */}
-        <div className="relative h-32 md:h-40 lg:h-48">
+        <div className="relative h-40 md:h-40 lg:h-48">
           {sheWords.map((word, index) => (
             <div
               key={index}
