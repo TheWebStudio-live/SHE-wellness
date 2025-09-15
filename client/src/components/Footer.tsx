@@ -14,9 +14,7 @@ const footerLinks = {
     { label: 'Speaking', href: '#speaking' }
   ],
   'Support': [
-    { label: 'Contact Us', href: '#contact' },
-    { label: 'FAQ', href: '#faq' },
-    { label: 'Privacy Policy', href: '#privacy' }
+    { label: 'Contact Us', href: '#contact' }
   ]
 };
 
