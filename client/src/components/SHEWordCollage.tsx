@@ -38,13 +38,6 @@ export default function SHEWordCollage() {
             </div>
           </div>
         </div>
-        
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground max-w-2xl mx-auto" data-testid="text-collage-footer">
-            Every woman's journey is unique, and S.H.E. encompasses all the ways you can embrace your power, 
-            heal your heart, and evolve into your most authentic self.
-          </p>
-        </div>
       </div>
     </section>
   );
