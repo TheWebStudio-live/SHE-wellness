@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import heroBackground from '@assets/generated_images/Clean_wellness_background_without_text_1c4d567b.png';
+import heroBackground from '@assets/generated_images/Wellness_background_woman_positioned_right_5624fb3f.png';
 
 export default function HeroSection() {
   return (
