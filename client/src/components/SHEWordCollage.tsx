@@ -15,7 +15,7 @@ export default function SHEWordCollage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Word Collage */}
-        <div className="relative h-40 md:h-40 lg:h-48">
+        <div className="relative h-52 md:h-40 lg:h-48">
           {sheWords.map((word, index) => (
             <div
               key={index}
