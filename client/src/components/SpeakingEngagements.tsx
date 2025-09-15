@@ -1,43 +1,10 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { Calendar, MapPin, Users, Clock, ArrowRight } from 'lucide-react';
 
-// todo: remove mock functionality - replace with real data
+import { Button } from '@/components/ui/button';
+
 const upcomingEvents = [
-  {
-    id: 1,
-    title: 'Women\'s Empowerment Summit',
-    description: 'Keynote on \'Reclaiming Your Power After Heartbreak\'',
-    date: '2025-10-15',
-    time: '2:00 PM EST',
-    location: 'Atlanta, GA',
-    venue: 'Georgia Convention Center',
-    attendees: '500+',
-    type: 'Keynote'
-  },
-  {
-    id: 2,
-    title: 'Healing & Wellness Retreat',
-    description: 'Interactive workshop on self-love and boundary setting',
-    date: '2025-11-08',
-    time: '10:00 AM EST',
-    location: 'Miami, FL',
-    venue: 'Wellness Resort & Spa',
-    attendees: '150',
-    type: 'Workshop'
-  },
-  {
-    id: 3,
-    title: 'Professional Development Conference',
-    description: 'Panel discussion on women leadership and authenticity',
-    date: '2025-12-03',
-    time: '3:30 PM EST',
-    location: 'Virtual Event',
-    venue: 'Online Platform',
-    attendees: '1000+',
-    type: 'Panel'
-  }
+  "October 15, 2025 - Women's Empowerment Summit, Atlanta, GA",
+  "November 8, 2025 - Healing & Wellness Retreat, Miami, FL", 
+  "December 3, 2025 - Professional Development Conference, Virtual Event"
 ];
 
 const speakingTopics = [
@@ -63,61 +30,15 @@ export default function SpeakingEngagements() {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {upcomingEvents.map((event) => (
-            <Card key={event.id} className="hover-elevate" data-testid={`card-event-${event.id}`}>
-              <CardHeader>
-                <div className="flex items-center justify-between mb-2">
-                  <Badge variant="outline" data-testid={`badge-event-type-${event.id}`}>
-                    {event.type}
-                  </Badge>
-                  <span className="text-sm text-muted-foreground">
-                    {new Date(event.date).toLocaleDateString('en-US', { 
-                      month: 'short', 
-                      day: 'numeric' 
-                    })}
-                  </span>
-                </div>
-                <CardTitle className="text-lg" data-testid={`text-event-title-${event.id}`}>
-                  {event.title}
-                </CardTitle>
-                <p className="text-muted-foreground text-sm" data-testid={`text-event-description-${event.id}`}>
-                  {event.description}
-                </p>
-              </CardHeader>
-              <CardContent className="space-y-3">
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <Calendar className="w-4 h-4 mr-2" />
-                  <span data-testid={`text-event-date-${event.id}`}>
-                    {new Date(event.date).toLocaleDateString('en-US', { 
-                      weekday: 'long',
-                      year: 'numeric', 
-                      month: 'long', 
-                      day: 'numeric' 
-                    })}
-                  </span>
-                </div>
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <Clock className="w-4 h-4 mr-2" />
-                  <span data-testid={`text-event-time-${event.id}`}>{event.time}</span>
-                </div>
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <MapPin className="w-4 h-4 mr-2" />
-                  <span data-testid={`text-event-location-${event.id}`}>
-                    {event.venue}, {event.location}
-                  </span>
-                </div>
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <Users className="w-4 h-4 mr-2" />
-                  <span data-testid={`text-event-attendees-${event.id}`}>{event.attendees} attendees</span>
-                </div>
-                <Button variant="outline" className="w-full mt-4" data-testid={`button-learn-more-${event.id}`}>
-                  Learn More
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
-              </CardContent>
-            </Card>
-          ))}
+        <div className="mb-16">
+          <ul className="space-y-4 max-w-2xl">
+            {upcomingEvents.map((event, index) => (
+              <li key={index} className="flex items-start" data-testid={`text-event-${index}`}>
+                <div className="w-2 h-2 bg-primary rounded-full mr-4 mt-2 flex-shrink-0"></div>
+                <span className="text-muted-foreground text-lg">{event}</span>
+              </li>
+            ))}
+          </ul>
         </div>
         
         <div className="bg-muted/20 rounded-lg p-8 md:p-12">
