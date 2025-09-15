@@ -25,12 +25,9 @@ export default function CenteringTools() {
             Discover evidence-based techniques and transformative practices designed to help you stay grounded, 
             connected to your authentic self, and empowered in every aspect of your life.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" data-testid="button-start-tools">
               Explore Tools
-            </Button>
-            <Button variant="outline" size="lg" data-testid="button-book-consultation">
-              Book Consultation
             </Button>
           </div>
         </div>
