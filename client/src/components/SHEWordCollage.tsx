@@ -15,11 +15,11 @@ export default function SHEWordCollage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Word Collage */}
-        <div className="relative h-52 md:h-40 lg:h-48">
+        <div className="relative h-56 md:h-40 lg:h-48">
           {sheWords.map((word, index) => (
             <div
               key={index}
-              className={`absolute ${word.position} ${word.rotation} ${word.size} font-serif font-light text-primary/60 hover:text-primary/80 transition-colors duration-300 cursor-default select-none`}
+              className={`absolute ${word.position} ${word.rotation} ${word.size} font-serif font-light text-primary/60 hover:text-primary/80 transition-colors duration-300 cursor-default select-none whitespace-nowrap leading-none`}
               data-testid={`text-collage-word-${index}`}
             >
               {word.text}
