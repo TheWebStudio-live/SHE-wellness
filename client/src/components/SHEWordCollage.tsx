@@ -1,12 +1,12 @@
 const sheWords = [
-  { text: 'Self-love Healing Evolution', size: 'text-3xl', rotation: 'rotate-2', position: 'top-4 left-8' },
-  { text: 'Sacred Healing Energy', size: 'text-2xl', rotation: '-rotate-3', position: 'top-16 right-12' },
-  { text: 'Shifting Her Energy', size: 'text-xl', rotation: 'rotate-6', position: 'top-32 left-1/4' },
-  { text: 'Self-centered Healthy Empowerment', size: 'text-lg', rotation: '-rotate-2', position: 'top-48 right-1/4' },
-  { text: 'Self Healing Empowerment', size: 'text-2xl', rotation: 'rotate-4', position: 'bottom-32 left-16' },
-  { text: 'Soul Healing Era', size: 'text-xl', rotation: '-rotate-5', position: 'bottom-48 right-16' },
-  { text: 'Self-honor Healing Empowerment', size: 'text-lg', rotation: 'rotate-3', position: 'bottom-16 left-1/3' },
-  { text: 'Stand Heal Elevate', size: 'text-4xl', rotation: '-rotate-1', position: 'bottom-8 right-1/3' }
+  { text: 'Self-love Healing Evolution', size: 'text-lg', rotation: 'rotate-1', position: 'top-4 left-2' },
+  { text: 'Sacred Healing Energy', size: 'text-base', rotation: '-rotate-2', position: 'top-12 left-1/4' },
+  { text: 'Shifting Her Energy', size: 'text-lg', rotation: 'rotate-3', position: 'top-4 left-1/2' },
+  { text: 'Self-centered Healthy Empowerment', size: 'text-sm', rotation: '-rotate-1', position: 'top-12 right-1/4' },
+  { text: 'Self Healing Empowerment', size: 'text-base', rotation: 'rotate-2', position: 'bottom-12 left-8' },
+  { text: 'Soul Healing Era', size: 'text-lg', rotation: '-rotate-3', position: 'bottom-4 left-1/3' },
+  { text: 'Self-honor Healing Empowerment', size: 'text-sm', rotation: 'rotate-1', position: 'bottom-12 right-1/3' },
+  { text: 'Stand Heal Elevate', size: 'text-xl', rotation: '-rotate-1', position: 'bottom-4 right-8' }
 ];
 
 export default function SHEWordCollage() {
@@ -23,7 +23,7 @@ export default function SHEWordCollage() {
         </div>
         
         {/* Word Collage */}
-        <div className="relative h-96 md:h-[500px] lg:h-[600px]">
+        <div className="relative h-32 md:h-40 lg:h-48">
           {sheWords.map((word, index) => (
             <div
               key={index}
@@ -37,10 +37,10 @@ export default function SHEWordCollage() {
           {/* Central S.H.E. */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
             <div className="text-center">
-              <h3 className="text-6xl md:text-8xl font-serif font-bold text-primary mb-2" data-testid="text-central-she">
+              <h3 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-1" data-testid="text-central-she">
                 S.H.E.
               </h3>
-              <p className="text-lg md:text-xl text-muted-foreground font-medium" data-testid="text-central-tagline">
+              <p className="text-sm md:text-base text-muted-foreground font-medium" data-testid="text-central-tagline">
                 Self-love • Healing • Evolution
               </p>
             </div>
