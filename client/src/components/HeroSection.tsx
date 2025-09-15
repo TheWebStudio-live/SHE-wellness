@@ -40,28 +40,6 @@ export default function HeroSection() {
           </Button>
         </div>
       </div>
-      
-      {/* Floating acronym meanings - positioned around main content */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-8 left-8 text-white/5 text-sm font-light rotate-12">
-          Sacred Healing Energy
-        </div>
-        <div className="absolute top-16 right-8 text-white/5 text-sm font-light -rotate-6">
-          Shifting Her Energy
-        </div>
-        <div className="absolute bottom-20 left-8 text-white/5 text-sm font-light rotate-6">
-          Stand Heal Elevate
-        </div>
-        <div className="absolute bottom-8 right-8 text-white/5 text-sm font-light -rotate-12">
-          Soul Healing Era
-        </div>
-        <div className="absolute top-32 left-2 text-white/[0.03] text-sm font-light rotate-3">
-          Self-centered Healthy Empowerment
-        </div>
-        <div className="absolute bottom-32 right-2 text-white/[0.03] text-sm font-light -rotate-3">
-          Self-honor Healing Empowerment
-        </div>
-      </div>
     </section>
   );
 }
