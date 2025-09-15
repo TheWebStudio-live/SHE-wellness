@@ -66,9 +66,18 @@ export default function SpeakingEngagements() {
                 </li>
               ))}
             </ul>
-            <p className="text-muted-foreground mt-6 max-w-2xl" data-testid="text-contact-email">
-              Email Petawilliams@yes2wellnessfl.com for more information
-            </p>
+            <div className="mt-6">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                asChild 
+                data-testid="button-email-info"
+              >
+                <a href="mailto:Petawilliams@yes2wellnessfl.com?subject=Speaking Engagement Inquiry">
+                  Email me for more information
+                </a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
