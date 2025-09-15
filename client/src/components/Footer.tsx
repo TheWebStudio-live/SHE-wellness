@@ -11,7 +11,8 @@ const footerLinks = {
     { label: 'About', href: '#about' },
     { label: 'Centering Tools', href: '/tools' },
     { label: 'The Breakthrough Experience', href: '#course' },
-    { label: 'Speaking', href: '#speaking' }
+    { label: 'Speaking', href: '#speaking' },
+    { label: 'TikTok', href: '#' }
   ],
   'Support': [
     { label: 'Contact Us', href: '#contact' }
