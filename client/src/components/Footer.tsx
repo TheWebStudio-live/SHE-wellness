@@ -2,20 +2,20 @@ import { Button } from '@/components/ui/button';
 import { Heart, Mail, Video } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Mail, href: '#', label: 'Email' },
+  { icon: Mail, href: 'mailto:Petawilliams@yes2wellnessfl.com', label: 'Email' },
   { icon: Video, href: '#', label: 'TikTok' }
 ];
 
 const footerLinks = {
   'Quick Links': [
-    { label: 'About', href: '#' },
-    { label: 'Centering Tools', href: '#' },
-    { label: 'The Breakthrough Experience', href: '#' },
-    { label: 'Speaking', href: '#' },
+    { label: 'About', href: '#about' },
+    { label: 'Centering Tools', href: '/tools' },
+    { label: 'The Breakthrough Experience', href: '#course' },
+    { label: 'Speaking', href: '#speaking' },
     { label: 'TikTok', href: '#' }
   ],
   'Support': [
-    { label: 'Contact Us', href: '#' }
+    { label: 'Contact Us', href: '#contact' }
   ]
 };
 
@@ -47,7 +47,6 @@ export default function Footer() {
                     variant="ghost"
                     size="icon"
                     className="hover-elevate"
-                    onClick={(e) => e.preventDefault()}
                     data-testid={`button-social-${social.label.toLowerCase()}`}
                   >
                     <IconComponent className="w-5 h-5" />
@@ -68,7 +67,6 @@ export default function Footer() {
                   <li key={index}>
                     <a
                       href={link.href}
-                      onClick={(e) => e.preventDefault()}
                       className="text-muted-foreground hover:text-primary transition-colors text-sm"
                       data-testid={`link-${link.label.toLowerCase().replace(' ', '-')}`}
                     >
