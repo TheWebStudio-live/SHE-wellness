@@ -4,12 +4,9 @@ import heroBackgroundUrl from '@/assets/images/hero-background.png';
 export default function HeroSection() {
   return (
     <section 
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-cover bg-no-repeat bg-right md:bg-center"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${heroBackgroundUrl})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(${heroBackgroundUrl})`
       }}
     >
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
