@@ -1,6 +1,5 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import coachImage from '@assets/Screenshot 2025-09-15 at 11.25.35_1757949943995.png';
 
 export default function AboutMe() {
   return (
@@ -24,7 +23,7 @@ export default function AboutMe() {
             <Card className="overflow-hidden border-none shadow-lg">
               <CardContent className="p-0">
                 <img
-                  src={coachImage}
+                  src="/assets/Screenshot 2025-09-15 at 11.25.35_1757949943995.png"
                   alt="Peta Williams - Your Transformation Coach"
                   className="w-full h-auto object-cover"
                   data-testid="img-coach"
