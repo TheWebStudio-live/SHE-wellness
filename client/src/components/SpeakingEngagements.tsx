@@ -66,6 +66,9 @@ export default function SpeakingEngagements() {
                 </li>
               ))}
             </ul>
+            <p className="text-muted-foreground mt-6 max-w-2xl" data-testid="text-contact-email">
+              Email Petawilliams@yes2wellnessfl.com for more information
+            </p>
           </div>
         </div>
       </section>
