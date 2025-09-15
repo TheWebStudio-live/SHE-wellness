@@ -1,12 +1,12 @@
 const sheWords = [
-  { text: 'Self-love Healing Evolution', size: 'text-xs md:text-lg', rotation: '', position: 'top-1 md:top-4 left-2 md:left-8' },
-  { text: 'Sacred Healing Energy', size: 'text-xs md:text-base', rotation: '', position: 'top-6 md:top-4 left-1/2 -translate-x-1/2' },
-  { text: 'Shifting Her Energy', size: 'text-xs md:text-lg', rotation: '', position: 'top-1 md:top-4 right-2 md:right-8' },
-  { text: 'Self-centered Healthy Empowerment', size: 'text-xs md:text-sm', rotation: '', position: 'top-12 md:top-12 right-2 md:right-8' },
-  { text: 'Self Healing Empowerment', size: 'text-xs md:text-base', rotation: '', position: 'bottom-12 md:bottom-12 left-2 md:left-8' },
-  { text: 'Soul Healing Era', size: 'text-xs md:text-lg', rotation: '', position: 'bottom-6 md:bottom-4 left-2 md:left-8' },
-  { text: 'Self-honor Healing Empowerment', size: 'text-xs md:text-sm', rotation: '', position: 'bottom-1 md:bottom-4 left-1/2 -translate-x-1/2' },
-  { text: 'Stand Heal Elevate', size: 'text-xs md:text-xl', rotation: '', position: 'bottom-6 md:bottom-4 right-2 md:right-8' }
+  { text: 'Self-love Healing Evolution', size: 'text-xs md:text-lg', rotation: '', position: 'top-2 md:top-4 left-1 md:left-8' },
+  { text: 'Sacred Healing Energy', size: 'text-xs md:text-base', rotation: '', position: 'top-8 md:top-4 left-1/2 -translate-x-1/2' },
+  { text: 'Shifting Her Energy', size: 'text-xs md:text-lg', rotation: '', position: 'top-2 md:top-4 right-1 md:right-8' },
+  { text: 'Self-centered Healthy Empowerment', size: 'text-xs md:text-sm', rotation: '', position: 'top-16 md:top-12 right-1 md:right-8' },
+  { text: 'Self Healing Empowerment', size: 'text-xs md:text-base', rotation: '', position: 'bottom-16 md:bottom-12 left-1 md:left-8' },
+  { text: 'Soul Healing Era', size: 'text-xs md:text-lg', rotation: '', position: 'bottom-8 md:bottom-4 left-1 md:left-8' },
+  { text: 'Self-honor Healing Empowerment', size: 'text-xs md:text-sm', rotation: '', position: 'bottom-2 md:bottom-4 left-1/2 -translate-x-1/2' },
+  { text: 'Stand Heal Elevate', size: 'text-xs md:text-xl', rotation: '', position: 'bottom-8 md:bottom-4 right-1 md:right-8' }
 ];
 
 export default function SHEWordCollage() {
