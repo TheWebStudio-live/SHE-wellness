@@ -2,7 +2,7 @@ import { Button } from '@/components/ui/button';
 import { Heart, Mail, Video } from 'lucide-react';
 
 const socialLinks = [
-  { icon: Mail, href: 'mailto:Petawilliams@yes2wellnessfl.com', label: 'Email' },
+  { icon: Mail, href: '#', label: 'Email' },
   { icon: Video, href: '#', label: 'TikTok' }
 ];
 

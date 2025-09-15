@@ -71,7 +71,7 @@ export default function SpeakingEngagements() {
               asChild 
               data-testid="button-email-info"
             >
-              <a href="mailto:Petawilliams@yes2wellnessfl.com?subject=Speaking Engagement Inquiry">
+              <a href="#">
                 Email me for more information
               </a>
             </Button>
