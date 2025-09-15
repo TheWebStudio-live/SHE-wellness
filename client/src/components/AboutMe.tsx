@@ -36,7 +36,6 @@ export default function AboutMe() {
                   src={coachImage}
                   alt="Peta Williams - Your Transformation Coach"
                   className="w-full h-auto object-cover"
-                  style={{ objectPosition: '70% center' }}
                   data-testid="img-coach"
                 />
               </CardContent>
