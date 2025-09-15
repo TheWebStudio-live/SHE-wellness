@@ -83,28 +83,6 @@ export default function Footer() {
           ))}
         </div>
         
-        {/* Newsletter Signup */}
-        <div className="mt-12 pt-8 border-t">
-          <div className="text-center">
-            <h4 className="text-lg font-semibold text-foreground mb-2" data-testid="text-newsletter-title">
-              Stay Connected
-            </h4>
-            <p className="text-muted-foreground mb-4" data-testid="text-newsletter-description">
-              Get empowering content, wellness tips, and updates delivered to your inbox.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2 border rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-primary"
-                data-testid="input-newsletter-email"
-              />
-              <Button data-testid="button-newsletter-subscribe">
-                Subscribe
-              </Button>
-            </div>
-          </div>
-        </div>
         
         {/* Copyright */}
         <div className="mt-8 pt-8 border-t text-center">
