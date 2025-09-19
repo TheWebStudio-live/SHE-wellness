@@ -8,8 +8,11 @@ export default function Navigation() {
   const [location] = useLocation();
 
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/tools', label: 'Centering Tools' },
+    { path: '/', label: 'Home', testId: 'home' },
+    { path: '/tools', label: 'Centering Tools', testId: 'centering-tools' },
+    { path: '/she-collection', label: 'S.H.E. Collection', testId: 'she-collection' },
+    { path: '/breakthrough-experience', label: 'The Breakthrough Experience', testId: 'breakthrough-experience' },
+    { path: '/speaking-engagements', label: 'Public Speaking Engagements', testId: 'speaking-engagements' },
   ];
 
   return (
@@ -30,7 +33,7 @@ export default function Navigation() {
                   className={`text-foreground hover:text-primary transition-colors cursor-pointer ${
                     location === item.path ? 'text-primary font-medium' : ''
                   }`}
-                  data-testid={`link-${item.label.toLowerCase().replace(' ', '-')}`}
+                  data-testid={`link-${item.testId}`}
                 >
                   {item.label}
                 </span>
@@ -65,7 +68,7 @@ export default function Navigation() {
                       location === item.path ? 'text-primary font-medium' : ''
                     }`}
                     onClick={() => setIsMenuOpen(false)}
-                    data-testid={`mobile-link-${item.label.toLowerCase().replace(' ', '-')}`}
+                    data-testid={`mobile-link-${item.testId}`}
                   >
                     {item.label}
                   </span>
