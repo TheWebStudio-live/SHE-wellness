@@ -1,5 +1,4 @@
 import Navigation from '@/components/Navigation';
-import CourseModules from '@/components/CourseModules';
 import SpeakingEngagements from '@/components/SpeakingEngagements';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
@@ -66,7 +65,6 @@ export default function CenteringTools() {
           </div>
         </div>
       </section>
-      <CourseModules />
       <SpeakingEngagements />
       <Footer />
     </div>
