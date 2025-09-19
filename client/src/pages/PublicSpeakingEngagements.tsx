@@ -3,7 +3,13 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Mic, Users, Star, Calendar, Clock, Quote } from 'lucide-react';
+import { Mic, Users, Star, Calendar, Clock, Quote, CheckCircle } from 'lucide-react';
+
+const upcomingEvents = [
+  "October 15, 2025 - Women's Empowerment Summit, Atlanta, GA",
+  "November 8, 2025 - Healing & Wellness Retreat, Miami, FL", 
+  "December 3, 2025 - Professional Development Conference, Virtual Event"
+];
 
 export default function PublicSpeakingEngagements() {
   return (
@@ -346,6 +352,78 @@ export default function PublicSpeakingEngagements() {
                 </div>
               </CardContent>
             </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Book Peta for Your Event */}
+      <section className="py-16 bg-muted/30">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-peta-title">
+              Book Peta for Your Event
+            </h3>
+            <p className="text-lg text-muted-foreground mb-6" data-testid="text-booking-peta-description">
+              Whether you're planning a corporate event, wellness retreat, conference, or workshop, 
+              Peta brings powerful, transformative content that resonates with audiences and creates 
+              lasting impact. Available for both virtual and in-person engagements.
+            </p>
+            <div className="space-y-3 mb-6">
+              <div className="flex items-center text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+                Keynote presentations (30-90 minutes)
+              </div>
+              <div className="flex items-center text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+                Interactive workshops (2-6 hours)
+              </div>
+              <div className="flex items-center text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+                Panel discussions and interviews
+              </div>
+              <div className="flex items-center text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+                Virtual and in-person availability
+              </div>
+            </div>
+            <Button size="lg" data-testid="button-book-peta">
+              Book Peta Williams
+            </Button>
+          </div>
+        </div>
+      </section>
+      
+      {/* Upcoming Speaking Engagements */}
+      <section className="py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-upcoming-speaking-title">
+              Upcoming Speaking Engagements
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8" data-testid="text-upcoming-speaking-description">
+              Join Peta Williams as she shares powerful insights on empowerment, healing, and transformation 
+              at conferences, retreats, and events across the country.
+            </p>
+            
+            <ul className="space-y-4 mb-8 text-left max-w-2xl mx-auto">
+              {upcomingEvents.map((event, index) => (
+                <li key={index} className="flex items-start" data-testid={`text-upcoming-event-${index}`}>
+                  <div className="w-2 h-2 bg-primary rounded-full mr-4 mt-2 flex-shrink-0"></div>
+                  <span className="text-muted-foreground text-lg">{event}</span>
+                </li>
+              ))}
+            </ul>
+            
+            <Button 
+              variant="outline" 
+              size="lg" 
+              asChild 
+              data-testid="button-email-upcoming-info"
+            >
+              <a href="#">
+                Email me for more information
+              </a>
+            </Button>
           </div>
         </div>
       </section>
