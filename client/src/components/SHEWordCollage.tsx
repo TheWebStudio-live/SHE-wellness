@@ -32,7 +32,7 @@ export default function SHEWordCollage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Static S.H.E. Title */}
-        <div className="text-center mb-8">
+        <div className="text-center mb-4">
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif font-bold text-primary" data-testid="text-static-she-title">
             S.H.E.
           </h2>
