@@ -179,10 +179,7 @@ export default function PublicSpeakingEngagements() {
                 <CheckCircle className="w-4 h-4 mr-2 text-primary" />
                 Keynote presentations (30-90 minutes)
               </div>
-              <div className="flex items-center text-sm text-muted-foreground">
-                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                Interactive workshops (2-6 hours)
-              </div>
+              
               <div className="flex items-center text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 text-primary" />
                 Panel discussions and interviews
