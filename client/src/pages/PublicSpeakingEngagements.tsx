@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Mic, Users, Star, Calendar, Clock, Quote, CheckCircle } from 'lucide-react';
+import AmbientLayer from '@/components/AmbientLayer';
 
 const upcomingEvents = [
   "October 15, 2025 - Women's Empowerment Summit, Atlanta, GA",
@@ -17,12 +18,17 @@ export default function PublicSpeakingEngagements() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-blue-50 via-teal-50 to-cyan-50 dark:from-blue-950/20 dark:via-teal-950/20 dark:to-cyan-950/20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
-        <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
-                           radial-gradient(circle at 75% 50%, rgba(20, 184, 166, 0.06) 0%, transparent 50%),
-                           radial-gradient(circle at 50% 75%, rgba(6, 182, 212, 0.04) 0%, transparent 50%)`
+      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-muted/30 via-background to-muted/20 dark:from-muted/10 dark:via-background dark:to-muted/5 overflow-hidden">
+        <AmbientLayer 
+          variant="teal-sage" 
+          intensity="subtle" 
+          pattern="radial"
+          positions={[{x: 25, y: 25}, {x: 75, y: 50}, {x: 50, y: 75}]}
+        />
+        {/* Subtle watermark text */}
+        <div className="absolute inset-0 pointer-events-none opacity-2" style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='50' y='100' font-family='serif' font-size='16' fill='%23000000' opacity='0.03'%3ESELF-LOVE • HEALING • EVOLUTION%3C/text%3E%3Ctext x='50' y='200' font-family='serif' font-size='16' fill='%23000000' opacity='0.03'%3ESELF-LOVE • HEALING • EVOLUTION%3C/text%3E%3Ctext x='50' y='300' font-family='serif' font-size='16' fill='%23000000' opacity='0.03'%3ESELF-LOVE • HEALING • EVOLUTION%3C/text%3E%3C/svg%3E")`,
+          backgroundRepeat: 'repeat'
         }}></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-speaking-engagements">
