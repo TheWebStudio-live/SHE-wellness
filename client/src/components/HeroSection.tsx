@@ -37,9 +37,7 @@ export default function HeroSection() {
             size="lg" 
             className="bg-destructive hover:bg-destructive/90 text-white px-8 py-3 text-lg"
             data-testid="button-start-journey"
-          >
-            Start Your Journey
-          </Button>
+          >Learn More</Button>
         </div>
       </div>
     </section>
