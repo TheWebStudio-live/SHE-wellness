@@ -76,6 +76,13 @@
   --chart-4: 140 35% 30%;
   --chart-5: 45 25% 65%;
 
+  /* Ambient graphics colors for Black empowerment theme */
+  --ambient-sage: 120 20% 45%;
+  --ambient-earth: 30 25% 40%;
+  --ambient-teal-sage: 160 20% 45%;
+  --ambient-amber-sage: 40 35% 50%;
+  --ambient-gold: 45 45% 60%;
+
   --font-sans: Inter, sans-serif;
   --font-serif: Playfair Display, serif;
   --font-mono: Menlo, monospace;
@@ -193,6 +200,13 @@
   --chart-3: 280 25% 75%;
   --chart-4: 140 35% 70%;
   --chart-5: 45 30% 75%;
+
+  /* Ambient graphics colors for Black empowerment theme - Dark mode */
+  --ambient-sage: 120 25% 60%;
+  --ambient-earth: 30 30% 55%;
+  --ambient-teal-sage: 160 25% 60%;
+  --ambient-amber-sage: 40 40% 65%;
+  --ambient-gold: 45 50% 75%;
 
   --shadow-2xs: 0px 2px 0px 0px hsl(0 0% 0% / 0.04);
   --shadow-xs: 0px 2px 0px 0px hsl(0 0% 0% / 0.06);
@@ -325,4 +339,31 @@
   .border.hover-elevate:not(.no-hover-interaction-elevate)::after {
     inset: -1px;
   }
+
+  /* Ambient graphics utilities for Black empowerment theme */
+  .bg-ambient-sage {
+    --ambient-color: hsl(var(--ambient-sage) / <alpha-value>);
+  }
+  
+  .bg-ambient-earth {
+    --ambient-color: hsl(var(--ambient-earth) / <alpha-value>);
+  }
+  
+  .bg-ambient-teal-sage {
+    --ambient-color: hsl(var(--ambient-teal-sage) / <alpha-value>);
+  }
+  
+  .bg-ambient-amber-sage {
+    --ambient-color: hsl(var(--ambient-amber-sage) / <alpha-value>);
+  }
+
+  /* Opacity utilities for ambient layers */
+  .opacity-3 { opacity: 0.03; }
+  .opacity-4 { opacity: 0.04; }
+  .opacity-8 { opacity: 0.08; }
+  .opacity-12 { opacity: 0.12; }
+  
+  /* Gold accent utilities */
+  .border-accent-gold { border-color: hsl(var(--ambient-gold) / 0.6); }
+  .text-accent-gold { color: hsl(var(--ambient-gold) / 0.8); }
 }
