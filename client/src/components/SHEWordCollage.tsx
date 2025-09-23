@@ -31,6 +31,13 @@ export default function SHEWordCollage() {
     <section className="pt-12 pb-20 bg-muted/20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
+        {/* Static S.H.E. Title */}
+        <div className="text-center mb-8">
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-primary" data-testid="text-static-she-title">
+            S.H.E.
+          </h2>
+        </div>
+        
         {/* Word Carousel */}
         <div className="relative h-80 md:h-96 lg:h-[28rem] xl:h-[32rem] flex items-center justify-center">
           
