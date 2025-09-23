@@ -231,26 +231,6 @@ export default function PublicSpeakingEngagements() {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-16 bg-primary/5">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-cta-title">
-            Ready to Inspire Your Audience?
-          </h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto" data-testid="text-cta-description">
-            Let's create a transformative experience that will leave your audience empowered, 
-            inspired, and ready to take action in their lives.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" data-testid="button-book-engagement">
-              Book a Speaking Engagement
-            </Button>
-            <Button variant="outline" size="lg" data-testid="button-download-speaker-kit">
-              Download Speaker Kit
-            </Button>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
