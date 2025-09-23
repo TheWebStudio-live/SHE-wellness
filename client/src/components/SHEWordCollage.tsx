@@ -33,7 +33,7 @@ export default function SHEWordCollage() {
         
         {/* Static S.H.E. Title */}
         <div className="text-center mb-8">
-          <h2 className="md:text-6xl lg:text-7xl font-serif font-bold text-primary text-[31px]" data-testid="text-static-she-title">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif font-bold text-primary" data-testid="text-static-she-title">
             S.H.E.
           </h2>
         </div>
