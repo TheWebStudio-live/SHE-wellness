@@ -32,12 +32,14 @@ export default function HeroSection() {
         <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed opacity-80" data-testid="text-hero-description">
           Empowering women to reclaim their power, heal from heartbreak, and create lives filled with purpose, confidence, and joy.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex justify-center">
           <Button 
             size="lg" 
             className="bg-destructive hover:bg-destructive/90 text-white px-8 py-3 text-lg"
-            data-testid="button-start-journey"
-          >Learn More</Button>
+            data-testid="button-learn-more"
+          >
+            Learn More
+          </Button>
         </div>
       </div>
     </section>

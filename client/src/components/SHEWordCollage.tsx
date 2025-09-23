@@ -1,34 +1,54 @@
+import { useState, useEffect } from 'react';
+
 const sheWords = [
-  { text: 'Self-love Healing Evolution', size: 'text-xs md:text-lg', rotation: '', position: 'top-2 md:top-4 left-1 md:left-8' },
-  { text: 'Sacred Healing Energy', size: 'text-xs md:text-base', rotation: '', position: 'top-8 md:top-4 left-1/2 -translate-x-1/2' },
-  { text: 'Shifting Her Energy', size: 'text-xs md:text-lg', rotation: '', position: 'top-2 md:top-4 right-1 md:right-8' },
-  { text: 'Self-centered Healthy Empowerment', size: 'text-xs md:text-sm', rotation: '', position: 'top-16 md:top-12 right-1 md:right-8' },
-  { text: 'Self Healing Empowerment', size: 'text-xs md:text-base', rotation: '', position: 'bottom-16 md:bottom-12 left-1 md:left-8' },
-  { text: 'Soul Healing Era', size: 'text-xs md:text-lg', rotation: '', position: 'bottom-8 md:bottom-4 left-1 md:left-8' },
-  { text: 'Self-honor Healing Empowerment', size: 'text-xs md:text-sm', rotation: '', position: 'bottom-2 md:bottom-4 left-1/2 -translate-x-1/2' },
-  { text: 'Stand Heal Elevate', size: 'text-xs md:text-xl', rotation: '', position: 'bottom-8 md:bottom-4 right-1 md:right-8' }
+  'Self-love Healing Evolution',
+  'Sacred Healing Energy', 
+  'Shifting Her Energy',
+  'Self-centered Healthy Empowerment',
+  'Self Healing Empowerment',
+  'Soul Healing Era',
+  'Self-honor Healing Empowerment',
+  'Stand Heal Elevate'
 ];
 
 export default function SHEWordCollage() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsVisible(false);
+      setTimeout(() => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % sheWords.length);
+        setIsVisible(true);
+      }, 300);
+    }, 2500);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="pt-12 pb-20 bg-muted/20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Word Collage */}
-        <div className="relative h-56 md:h-40 lg:h-48">
-          {sheWords.map((word, index) => (
-            <div
-              key={index}
-              className={`absolute ${word.position} ${word.rotation} ${word.size} font-serif font-light text-primary/60 hover:text-primary/80 transition-colors duration-300 cursor-default select-none whitespace-nowrap leading-none`}
-              data-testid={`text-collage-word-${index}`}
+        {/* Word Carousel */}
+        <div className="relative h-56 md:h-40 lg:h-48 flex items-center justify-center">
+          
+          {/* Rotating Words */}
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div 
+              className={`text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/70 text-center transition-all duration-300 transform ${
+                isVisible ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-2'
+              }`}
+              data-testid={`text-carousel-word-${currentIndex}`}
             >
-              {word.text}
+              {sheWords[currentIndex]}
             </div>
-          ))}
+          </div>
           
           {/* Central S.H.E. */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <div className="text-center">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+            <div className="text-center bg-background/80 backdrop-blur-sm rounded-lg px-6 py-4 border border-primary/20">
               <h3 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-1" data-testid="text-central-she">
                 S.H.E.
               </h3>
@@ -36,6 +56,21 @@ export default function SHEWordCollage() {
                 Self-love • Healing • Evolution
               </p>
             </div>
+          </div>
+          
+          {/* Carousel Indicators */}
+          <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+            {sheWords.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => setCurrentIndex(index)}
+                className={`w-2 h-2 rounded-full transition-colors duration-200 ${
+                  index === currentIndex ? 'bg-primary' : 'bg-primary/30'
+                }`}
+                data-testid={`button-carousel-indicator-${index}`}
+                aria-label={`Go to word ${index + 1}`}
+              />
+            ))}
           </div>
         </div>
       </div>
