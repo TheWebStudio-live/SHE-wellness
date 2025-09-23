@@ -93,75 +93,6 @@ export default function SHECollection() {
         </div>
       </section>
 
-      {/* Featured Products */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-products-title">
-              Featured Collection
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-products-description">
-              Discover our most popular pieces designed to inspire and empower your daily journey.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="overflow-hidden hover-elevate" data-testid="card-product-tshirt">
-              <CardContent className="p-0">
-                <div className="h-64 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
-                  <Sparkles className="w-16 h-16 text-primary" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-serif font-bold mb-2">Empowerment Tee</h3>
-                  <p className="text-muted-foreground mb-4">
-                    Soft, comfortable tee with inspiring affirmations to carry you through your day.
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-primary">$35</span>
-                    <Button size="sm" data-testid="button-add-to-cart-tee">Add to Cart</Button>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden hover-elevate" data-testid="card-product-hoodie">
-              <CardContent className="p-0">
-                <div className="h-64 bg-gradient-to-br from-accent/10 to-primary/10 flex items-center justify-center">
-                  <Heart className="w-16 h-16 text-primary" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-serif font-bold mb-2">Healing Hoodie</h3>
-                  <p className="text-muted-foreground mb-4">
-                    Cozy hoodie designed to embrace you during your healing journey.
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-primary">$65</span>
-                    <Button size="sm" data-testid="button-add-to-cart-hoodie">Add to Cart</Button>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="overflow-hidden hover-elevate" data-testid="card-product-tank">
-              <CardContent className="p-0">
-                <div className="h-64 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                  <Star className="w-16 h-16 text-primary" />
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-serif font-bold mb-2">Elevation Tank</h3>
-                  <p className="text-muted-foreground mb-4">
-                    Lightweight tank top perfect for workouts and daily motivation.
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-primary">$28</span>
-                    <Button size="sm" data-testid="button-add-to-cart-tank">Add to Cart</Button>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* Collection Philosophy */}
       <section className="py-16 bg-muted/30">
@@ -193,26 +124,6 @@ export default function SHECollection() {
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-16 bg-primary/5">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-cta-title">
-            Join the S.H.E. Movement
-          </h2>
-          <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto" data-testid="text-cta-description">
-            Be part of a community of women who choose to stand in their power, heal with intention, 
-            and elevate their lives every day.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" data-testid="button-explore-collection">
-              Explore Full Collection
-            </Button>
-            <Button variant="outline" size="lg" data-testid="button-join-community">
-              Join Our Community
-            </Button>
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
