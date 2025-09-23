@@ -4,6 +4,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Lightbulb, Target, Zap, Clock, Users, CheckCircle } from 'lucide-react';
+import breakthroughHeroBackground from '@assets/generated_images/Breakthrough_Experience_hero_background_143c7480.png';
+import organicBackground from '@assets/generated_images/Organic_section_background_4db130bf.png';
 
 const modules = [
   {
@@ -64,21 +66,20 @@ export default function BreakthroughExperience() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-orange-50 via-yellow-50 to-amber-50 dark:from-orange-950/20 dark:via-yellow-950/20 dark:to-amber-950/20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
-        <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 15% 40%, rgba(255, 165, 0, 0.08) 0%, transparent 50%),
-                           radial-gradient(circle at 85% 30%, rgba(255, 215, 0, 0.06) 0%, transparent 50%),
-                           radial-gradient(circle at 50% 80%, rgba(255, 140, 0, 0.04) 0%, transparent 50%)`
-        }}></div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-breakthrough-experience">
+      <section 
+        className="relative py-20 min-h-[70vh] flex items-center bg-cover bg-center overflow-hidden"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${breakthroughHeroBackground})`
+        }}
+      >
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+          <Badge className="mb-4 bg-white/20 text-white border-white/30" data-testid="badge-breakthrough-experience">
             The Breakthrough Experience
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-6" data-testid="text-breakthrough-title">
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6" data-testid="text-breakthrough-title">
             Transform Your Life in 90 Days
           </h1>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-breakthrough-description">
+          <p className="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-breakthrough-description">
             An intensive, life-changing program designed to help you break through limitations, 
             discover your authentic self, and create lasting transformation in every area of your life.
           </p>
@@ -91,7 +92,15 @@ export default function BreakthroughExperience() {
       </section>
 
       {/* Program Overview */}
-      <section className="py-16">
+      <section 
+        className="py-16 relative"
+        style={{
+          backgroundImage: `url(${organicBackground})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundBlendMode: 'soft-light'
+        }}
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-overview-title">
