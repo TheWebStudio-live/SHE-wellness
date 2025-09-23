@@ -34,6 +34,20 @@ export default function SHECollection() {
               Shop Now
             </Button>
           </div>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+            <div className="flex items-center text-sm text-muted-foreground">
+              <BookOpen className="w-4 h-4 mr-2" />
+              Premium quality materials
+            </div>
+            <div className="flex items-center text-sm text-muted-foreground">
+              <Heart className="w-4 h-4 mr-2" />
+              Empowering designs
+            </div>
+            <div className="flex items-center text-sm text-muted-foreground">
+              <Users className="w-4 h-4 mr-2" />
+              Supporting women's growth
+            </div>
+          </div>
         </div>
       </section>
 
