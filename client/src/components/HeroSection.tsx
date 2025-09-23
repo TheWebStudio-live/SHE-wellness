@@ -40,14 +40,6 @@ export default function HeroSection() {
           >
             Start Your Journey
           </Button>
-          <Button 
-            variant="outline" 
-            size="lg" 
-            className="bg-white/20 backdrop-blur border-white/30 text-white hover:bg-white/30 px-8 py-3 text-lg"
-            data-testid="button-learn-more"
-          >
-            Learn More
-          </Button>
         </div>
       </div>
     </section>
