@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import AmbientLayer from '@/components/AmbientLayer';
 
 const sheWords = [
   'Self-love Healing Evolution',
@@ -30,12 +29,6 @@ export default function SHEWordCollage() {
 
   return (
     <section className="pt-4 pb-16 bg-muted/20 relative overflow-hidden">
-      <AmbientLayer 
-        variant="sage" 
-        intensity="subtle" 
-        pattern="vignette"
-        positions={[{x: 50, y: 50}]}
-      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Static S.H.E. Title */}

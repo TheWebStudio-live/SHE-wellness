@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Heart, Shield, Star, Sparkles, BookOpen, Users } from 'lucide-react';
-import AmbientLayer from '@/components/AmbientLayer';
 
 export default function SHECollection() {
   return (
@@ -12,13 +11,13 @@ export default function SHECollection() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-muted/30 via-background to-muted/20 dark:from-muted/10 dark:via-background dark:to-muted/5 overflow-hidden">
-        <AmbientLayer 
-          variant="sage" 
-          intensity="subtle" 
-          pattern="weave"
-          positions={[{x: 20, y: 30}, {x: 80, y: 40}, {x: 50, y: 80}]}
-        />
+      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50 dark:from-pink-950/20 dark:via-purple-950/20 dark:to-indigo-950/20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(circle at 20% 30%, rgba(186, 85, 211, 0.08) 0%, transparent 50%),
+                           radial-gradient(circle at 80% 40%, rgba(138, 43, 226, 0.06) 0%, transparent 50%),
+                           radial-gradient(circle at 40% 70%, rgba(255, 20, 147, 0.04) 0%, transparent 50%)`
+        }}></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
@@ -53,20 +52,8 @@ export default function SHECollection() {
       </section>
 
       {/* Collection Features */}
-      <section className="relative py-16 bg-muted/30 overflow-hidden">
-        <AmbientLayer 
-          variant="earth" 
-          intensity="subtle" 
-          pattern="radial"
-          positions={[{x: 50, y: 40}]}
-        />
+      <section className="py-16 bg-muted/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Gold divider */}
-          <div className="flex items-center justify-center mb-8">
-            <div className="h-px bg-accent-gold flex-1 max-w-32"></div>
-            <div className="w-2 h-2 bg-accent-gold rounded-full mx-4"></div>
-            <div className="h-px bg-accent-gold flex-1 max-w-32"></div>
-          </div>
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">
               Empowerment Through Design
