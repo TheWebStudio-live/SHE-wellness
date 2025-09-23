@@ -32,29 +32,17 @@ export default function SHEWordCollage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Word Carousel */}
-        <div className="relative h-56 md:h-40 lg:h-48 flex items-center justify-center">
+        <div className="relative h-80 md:h-96 lg:h-[28rem] xl:h-[32rem] flex items-center justify-center">
           
           {/* Rotating Words */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div 
-              className={`text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/70 text-center transition-all duration-300 transform ${
+              className={`text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-serif font-light text-primary/80 text-center transition-all duration-300 transform px-4 leading-tight ${
                 isVisible ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-2'
               }`}
               data-testid={`text-carousel-word-${currentIndex}`}
             >
               {sheWords[currentIndex]}
-            </div>
-          </div>
-          
-          {/* Central S.H.E. */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
-            <div className="text-center bg-background/80 backdrop-blur-sm rounded-lg px-6 py-4 border border-primary/20">
-              <h3 className="text-3xl md:text-4xl font-serif font-bold text-primary mb-1" data-testid="text-central-she">
-                S.H.E.
-              </h3>
-              <p className="text-sm md:text-base text-muted-foreground font-medium" data-testid="text-central-tagline">
-                Self-love • Healing • Evolution
-              </p>
             </div>
           </div>
           
