@@ -177,7 +177,7 @@ export default function PublicSpeakingEngagements() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                Keynote presentations (30-90 minutes)
+                Keynote presentations
               </div>
               
               <div className="flex items-center text-sm text-muted-foreground">
