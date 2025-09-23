@@ -28,7 +28,7 @@ export default function SHEWordCollage() {
   }, []);
 
   return (
-    <section className="pt-12 pb-20 bg-muted/20 relative overflow-hidden">
+    <section className="pt-6 pb-20 bg-muted/20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Static S.H.E. Title */}
