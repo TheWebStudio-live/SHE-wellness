@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Lightbulb, Target, Zap, Clock, Users, CheckCircle } from 'lucide-react';
+import AmbientLayer from '@/components/AmbientLayer';
 
 const modules = [
   {
@@ -64,13 +65,13 @@ export default function BreakthroughExperience() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-orange-50 via-yellow-50 to-amber-50 dark:from-orange-950/20 dark:via-yellow-950/20 dark:to-amber-950/20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
-        <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 15% 40%, rgba(255, 165, 0, 0.08) 0%, transparent 50%),
-                           radial-gradient(circle at 85% 30%, rgba(255, 215, 0, 0.06) 0%, transparent 50%),
-                           radial-gradient(circle at 50% 80%, rgba(255, 140, 0, 0.04) 0%, transparent 50%)`
-        }}></div>
+      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-muted/30 via-background to-muted/20 dark:from-muted/10 dark:via-background dark:to-muted/5 overflow-hidden">
+        <AmbientLayer 
+          variant="amber-sage" 
+          intensity="subtle" 
+          pattern="radial"
+          positions={[{x: 15, y: 40}, {x: 85, y: 30}, {x: 50, y: 80}]}
+        />
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-breakthrough-experience">
             The Breakthrough Experience

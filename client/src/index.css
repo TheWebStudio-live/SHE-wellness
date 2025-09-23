@@ -342,19 +342,19 @@
 
   /* Ambient graphics utilities for Black empowerment theme */
   .bg-ambient-sage {
-    --ambient-color: hsl(var(--ambient-sage) / <alpha-value>);
+    --ambient-color: hsl(var(--ambient-sage));
   }
   
   .bg-ambient-earth {
-    --ambient-color: hsl(var(--ambient-earth) / <alpha-value>);
+    --ambient-color: hsl(var(--ambient-earth));
   }
   
   .bg-ambient-teal-sage {
-    --ambient-color: hsl(var(--ambient-teal-sage) / <alpha-value>);
+    --ambient-color: hsl(var(--ambient-teal-sage));
   }
   
   .bg-ambient-amber-sage {
-    --ambient-color: hsl(var(--ambient-amber-sage) / <alpha-value>);
+    --ambient-color: hsl(var(--ambient-amber-sage));
   }
 
   /* Opacity utilities for ambient layers */
@@ -364,6 +364,8 @@
   .opacity-12 { opacity: 0.12; }
   
   /* Gold accent utilities */
+  .bg-accent-gold { background-color: hsl(var(--ambient-gold) / 0.7); }
   .border-accent-gold { border-color: hsl(var(--ambient-gold) / 0.6); }
   .text-accent-gold { color: hsl(var(--ambient-gold) / 0.8); }
+  .ring-accent-gold { ring-color: hsl(var(--ambient-gold) / 0.6); }
 }
