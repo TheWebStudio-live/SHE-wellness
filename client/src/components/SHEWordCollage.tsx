@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import sectionBackground from '@assets/generated_images/Section_decorative_background_07e7693b.png';
 
 const sheWords = [
   'Self-love Healing Evolution',
@@ -29,15 +28,7 @@ export default function SHEWordCollage() {
   }, []);
 
   return (
-    <section 
-      className="pt-4 pb-16 bg-muted/20 relative overflow-hidden"
-      style={{
-        backgroundImage: `url(${sectionBackground})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundBlendMode: 'soft-light'
-      }}
-    >
+    <section className="pt-4 pb-16 bg-muted/20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Static S.H.E. Title */}

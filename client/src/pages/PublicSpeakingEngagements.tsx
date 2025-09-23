@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Mic, Users, Star, Calendar, Clock, Quote, CheckCircle } from 'lucide-react';
-import speakingHeroBackground from '@assets/generated_images/Speaking_Engagements_hero_background_9aca59b5.png';
 
 const upcomingEvents = [
   "October 15, 2025 - Women's Empowerment Summit, Atlanta, GA",
@@ -18,20 +17,21 @@ export default function PublicSpeakingEngagements() {
       <Navigation />
       
       {/* Hero Section */}
-      <section 
-        className="relative py-20 min-h-[70vh] flex items-center bg-cover bg-center overflow-hidden"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${speakingHeroBackground})`
-        }}
-      >
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <Badge className="mb-4 bg-white/20 text-white border-white/30" data-testid="badge-speaking-engagements">
+      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-blue-50 via-teal-50 to-cyan-50 dark:from-blue-950/20 dark:via-teal-950/20 dark:to-cyan-950/20 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
+        <div className="absolute inset-0" style={{
+          backgroundImage: `radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
+                           radial-gradient(circle at 75% 50%, rgba(20, 184, 166, 0.06) 0%, transparent 50%),
+                           radial-gradient(circle at 50% 75%, rgba(6, 182, 212, 0.04) 0%, transparent 50%)`
+        }}></div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-speaking-engagements">
             Public Speaking Engagements
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6" data-testid="text-speaking-title">
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-6" data-testid="text-speaking-title">
             Inspire. Empower. Transform.
           </h1>
-          <p className="text-lg text-white/90 max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-speaking-description">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-speaking-description">
             Powerful keynotes and workshops that inspire audiences to embrace their authentic selves, 
             break through limitations, and create meaningful change in their lives and communities.
           </p>
