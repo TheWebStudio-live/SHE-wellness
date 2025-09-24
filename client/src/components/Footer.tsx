@@ -1,10 +1,4 @@
-import { Button } from '@/components/ui/button';
-import { Heart, Mail, Video } from 'lucide-react';
-
-const socialLinks = [
-  { icon: Mail, href: '#', label: 'Email' },
-  { icon: Video, href: '#', label: 'TikTok' }
-];
+import { Heart } from 'lucide-react';
 
 const footerLinks = {
   'Quick Links': [
@@ -36,22 +30,6 @@ export default function Footer() {
               Empowering women to reclaim their power, heal from heartbreak, and create lives filled 
               with purpose, confidence, and joy. Your journey to self-love and empowerment starts here.
             </p>
-            <div className="flex space-x-4">
-              {socialLinks.map((social, index) => {
-                const IconComponent = social.icon;
-                return (
-                  <Button
-                    key={index}
-                    variant="ghost"
-                    size="icon"
-                    className="hover-elevate"
-                    data-testid={`button-social-${social.label.toLowerCase()}`}
-                  >
-                    <IconComponent className="w-5 h-5" />
-                  </Button>
-                );
-              })}
-            </div>
           </div>
           
           {/* Links Sections */}
