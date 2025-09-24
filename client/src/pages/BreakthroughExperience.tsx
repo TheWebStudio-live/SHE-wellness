@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Lightbulb, Target, Zap, Clock, Users, CheckCircle } from 'lucide-react';
+import transformationImage from '@assets/generated_images/Transformation_journey_botanical_background_design_bc9764b3.png';
 
 const modules = [
   {
@@ -91,8 +92,18 @@ export default function BreakthroughExperience() {
       </section>
 
       {/* Program Overview */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 relative overflow-hidden">
+        {/* Transformation Background Image */}
+        <div className="absolute inset-0 flex justify-center items-center">
+          <img 
+            src={transformationImage} 
+            alt="Transformation journey with botanical elements representing 90-day growth" 
+            className="w-full h-full object-cover opacity-20"
+            data-testid="img-transformation-background"
+          />
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-overview-title">
               What You'll Experience
