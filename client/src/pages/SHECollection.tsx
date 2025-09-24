@@ -55,26 +55,25 @@ export default function SHECollection() {
 
       {/* Collection Features */}
       <section className="py-16 bg-muted/30 relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Diverse Women Empowerment Image */}
-          <div className="relative mb-16">
-            <div className="absolute inset-0 flex justify-center items-center">
-              <img 
-                src={diverseWomenImage} 
-                alt="Diverse women celebrating empowerment and unity" 
-                className="w-full max-w-4xl h-auto object-contain opacity-20"
-                data-testid="img-diverse-women-empowerment"
-              />
-            </div>
-            <div className="relative z-10 text-center mb-12">
-              <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">
-                Empowerment Through Design
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-features-description">
-                Every piece in the S.H.E. Collection is thoughtfully designed to remind you of your power, 
-                your journey, and your limitless potential.
-              </p>
-            </div>
+        {/* Diverse Women Empowerment Image - Full Background */}
+        <div className="absolute inset-0 flex justify-center items-center">
+          <img 
+            src={diverseWomenImage} 
+            alt="Diverse women celebrating empowerment and unity" 
+            className="w-full h-full object-cover opacity-20"
+            data-testid="img-diverse-women-empowerment"
+          />
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">
+              Empowerment Through Design
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-features-description">
+              Every piece in the S.H.E. Collection is thoughtfully designed to remind you of your power, 
+              your journey, and your limitless potential.
+            </p>
           </div>
           
           <div className="relative">
