@@ -13,30 +13,30 @@ export default function SHECollection() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-12 min-h-[50vh] flex items-center bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50 dark:from-pink-950/20 dark:via-purple-950/20 dark:to-indigo-950/20 overflow-hidden">
+      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50 dark:from-pink-950/20 dark:via-purple-950/20 dark:to-indigo-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 20% 30%, rgba(186, 85, 211, 0.08) 0%, transparent 50%),
                            radial-gradient(circle at 80% 40%, rgba(138, 43, 226, 0.06) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(255, 20, 147, 0.04) 0%, transparent 50%)`
         }}></div>
-        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Badge className="mb-3 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
           </Badge>
-          <h1 className="text-3xl md:text-5xl font-serif font-bold text-foreground mb-4" data-testid="text-collection-title">
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-6" data-testid="text-collection-title">
             Stand. Heal. Elevate.
           </h1>
-          <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed mb-6" data-testid="text-collection-description">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-collection-description">
             Wear your strength with empowering apparel designed to remind you of your journey and inspire 
             confidence every day. Each piece is crafted with intention and love for your healing process.
           </p>
-          <div className="flex justify-center mb-6">
+          <div className="flex justify-center">
             <Button size="lg" data-testid="button-shop-now">
               Shop Now
             </Button>
           </div>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <div className="flex items-center text-sm text-muted-foreground">
               <BookOpen className="w-4 h-4 mr-2" />
               Premium quality materials
