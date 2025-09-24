@@ -41,29 +41,27 @@ export default function PublicSpeakingEngagements() {
         </div>
       </section>
       {/* Upcoming Speaking Engagements */}
-      <section className="py-16">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
-            <h2 className="md:text-4xl font-serif font-bold text-foreground mb-4 text-[32px]" data-testid="text-upcoming-speaking-title">
+      <section className="py-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-card border rounded-2xl p-6 md:p-8 text-center">
+            <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-3" data-testid="text-upcoming-speaking-title">
               Upcoming Speaking Engagements
             </h2>
-            <p className="text-lg text-muted-foreground mb-8" data-testid="text-upcoming-speaking-description">
-              Join Peta Williams as she shares powerful insights on empowerment, healing, and transformation 
-              at conferences, retreats, and events across the country.
+            <p className="text-base text-muted-foreground mb-6" data-testid="text-upcoming-speaking-description">
+              Join Peta Williams as she shares powerful insights on empowerment, healing, and transformation.
             </p>
             
-            <ul className="space-y-4 mb-8 text-left max-w-2xl mx-auto">
+            <ul className="space-y-3 mb-6 text-left max-w-xl mx-auto">
               {upcomingEvents.map((event, index) => (
                 <li key={index} className="flex items-start" data-testid={`text-upcoming-event-${index}`}>
-                  <div className="w-2 h-2 bg-primary rounded-full mr-4 mt-2 flex-shrink-0"></div>
-                  <span className="text-muted-foreground text-lg">{event}</span>
+                  <div className="w-2 h-2 bg-primary rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                  <span className="text-muted-foreground">{event}</span>
                 </li>
               ))}
             </ul>
             
             <Button 
               variant="outline" 
-              size="lg" 
               asChild 
               data-testid="button-email-upcoming-info"
             >
