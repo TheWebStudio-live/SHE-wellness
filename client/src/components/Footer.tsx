@@ -13,7 +13,7 @@ const footerLinks = {
     { label: 'Public Speaking Engagements', href: '/speaking-engagements' }
   ],
   'Support': [
-    { label: 'Contact Us', href: '#contact' }
+    { label: 'Contact Us', href: 'mailto:petawilliams@yes2wellnessfl.com' }
   ]
 };
 
