@@ -37,8 +37,9 @@ export default function HeroSection() {
             size="lg" 
             className="bg-destructive hover:bg-destructive/90 text-white px-8 py-3 text-lg"
             data-testid="button-learn-more"
+            asChild
           >
-            Learn More
+            <a href="#about-she">Learn More</a>
           </Button>
         </div>
       </div>
