@@ -16,7 +16,6 @@ export default function PublicSpeakingEngagements() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
       {/* Hero Section */}
       <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-blue-50 via-teal-50 to-cyan-50 dark:from-blue-950/20 dark:via-teal-950/20 dark:to-cyan-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
@@ -43,12 +42,11 @@ export default function PublicSpeakingEngagements() {
           </div>
         </div>
       </section>
-
       {/* Upcoming Speaking Engagements */}
       <section className="py-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-upcoming-speaking-title">
+            <h2 className="md:text-4xl font-serif font-bold text-foreground mb-4 text-[32px]" data-testid="text-upcoming-speaking-title">
               Upcoming Speaking Engagements
             </h2>
             <p className="text-lg text-muted-foreground mb-8" data-testid="text-upcoming-speaking-description">
@@ -78,7 +76,6 @@ export default function PublicSpeakingEngagements() {
           </div>
         </div>
       </section>
-
       {/* Speaking Topics */}
       <section className="py-16 relative overflow-hidden">
         {/* Public Speaking Empowerment Background Image */}
@@ -207,7 +204,6 @@ export default function PublicSpeakingEngagements() {
           </div>
         </div>
       </section>
-
       {/* Book Peta for Your Event */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -241,8 +237,6 @@ export default function PublicSpeakingEngagements() {
           </div>
         </div>
       </section>
-
-
       <Footer />
     </div>
   );
