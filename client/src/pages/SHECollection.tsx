@@ -4,6 +4,8 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Heart, Shield, Star, Sparkles, BookOpen, Users } from 'lucide-react';
+import diverseWomenImage from '@assets/generated_images/Diverse_women_empowerment_botanical_design_8108153e.png';
+import activismImage from '@assets/generated_images/Abstract_activism_botanical_empowerment_design_e8b28187.png';
 
 export default function SHECollection() {
   return (
@@ -52,57 +54,80 @@ export default function SHECollection() {
       </section>
 
       {/* Collection Features */}
-      <section className="py-16 bg-muted/30">
+      <section className="py-16 bg-muted/30 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">
-              Empowerment Through Design
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-features-description">
-              Every piece in the S.H.E. Collection is thoughtfully designed to remind you of your power, 
-              your journey, and your limitless potential.
-            </p>
+          {/* Diverse Women Empowerment Image */}
+          <div className="relative mb-16">
+            <div className="absolute inset-0 flex justify-center items-center">
+              <img 
+                src={diverseWomenImage} 
+                alt="Diverse women celebrating empowerment and unity" 
+                className="w-full max-w-4xl h-auto object-contain opacity-20"
+                data-testid="img-diverse-women-empowerment"
+              />
+            </div>
+            <div className="relative z-10 text-center mb-12">
+              <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">
+                Empowerment Through Design
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-features-description">
+                Every piece in the S.H.E. Collection is thoughtfully designed to remind you of your power, 
+                your journey, and your limitless potential.
+              </p>
+            </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Card className="text-center hover-elevate" data-testid="card-stand">
-              <CardHeader>
-                <Shield className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Stand</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Stand tall in your truth. Our designs remind you to maintain your ground 
-                  and embrace your authentic self with confidence.
-                </p>
-              </CardContent>
-            </Card>
+          <div className="relative">
+            {/* Activism Empowerment Image */}
+            <div className="absolute right-0 top-1/2 transform -translate-y-1/2 pointer-events-none hidden lg:block">
+              <img 
+                src={activismImage} 
+                alt="Abstract symbols of activism and empowerment" 
+                className="w-64 h-auto object-contain opacity-15"
+                data-testid="img-activism-empowerment"
+              />
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+              <Card className="text-center hover-elevate" data-testid="card-stand">
+                <CardHeader>
+                  <Shield className="w-12 h-12 mx-auto text-primary mb-4" />
+                  <CardTitle className="text-xl font-serif">Stand</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Stand tall in your truth. Our designs remind you to maintain your ground 
+                    and embrace your authentic self with confidence.
+                  </p>
+                </CardContent>
+              </Card>
 
-            <Card className="text-center hover-elevate" data-testid="card-heal">
-              <CardHeader>
-                <Heart className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Heal</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Honor your healing journey. Each piece carries the energy of transformation 
-                  and self-compassion to support your growth.
-                </p>
-              </CardContent>
-            </Card>
+              <Card className="text-center hover-elevate" data-testid="card-heal">
+                <CardHeader>
+                  <Heart className="w-12 h-12 mx-auto text-primary mb-4" />
+                  <CardTitle className="text-xl font-serif">Heal</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Honor your healing journey. Each piece carries the energy of transformation 
+                    and self-compassion to support your growth.
+                  </p>
+                </CardContent>
+                </Card>
 
-            <Card className="text-center hover-elevate" data-testid="card-elevate">
-              <CardHeader>
-                <Star className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Elevate</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Rise to your highest potential. Our collection inspires you to reach 
-                  new heights and embrace your limitless possibilities.
-                </p>
-              </CardContent>
-            </Card>
+              <Card className="text-center hover-elevate" data-testid="card-elevate">
+                <CardHeader>
+                  <Star className="w-12 h-12 mx-auto text-primary mb-4" />
+                  <CardTitle className="text-xl font-serif">Elevate</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">
+                    Rise to your highest potential. Our collection inspires you to reach 
+                    new heights and embrace your limitless possibilities.
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
