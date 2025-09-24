@@ -7,7 +7,7 @@ import { Mic, Users, Star, Calendar, Clock, Quote, CheckCircle } from 'lucide-re
 import speakingImage from '@assets/generated_images/Public_speaking_empowerment_botanical_background_a956513f.png';
 
 const upcomingEvents = [
-  "October 15, 2025 - Women's Empowerment Summit, Atlanta, GA"
+  "March 1st-3rd, 2026 - Women's Leadership and Empowerment Conference, Bangkok, Thailand"
 ];
 
 export default function PublicSpeakingEngagements() {
