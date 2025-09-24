@@ -13,12 +13,12 @@ export default function SHECollection() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-12 min-h-[50vh] flex items-center bg-gradient-to-br from-pink-50 via-purple-50 to-indigo-50 dark:from-pink-950/20 dark:via-purple-950/20 dark:to-indigo-950/20 overflow-hidden">
+      <section className="relative py-12 min-h-[50vh] flex items-center bg-gradient-to-br from-stone-50 via-green-50 to-emerald-50 dark:from-stone-950/20 dark:via-green-950/20 dark:to-emerald-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
         <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 20% 30%, rgba(186, 85, 211, 0.08) 0%, transparent 50%),
-                           radial-gradient(circle at 80% 40%, rgba(138, 43, 226, 0.06) 0%, transparent 50%),
-                           radial-gradient(circle at 40% 70%, rgba(255, 20, 147, 0.04) 0%, transparent 50%)`
+          backgroundImage: `radial-gradient(circle at 20% 30%, rgba(132, 154, 129, 0.08) 0%, transparent 50%),
+                           radial-gradient(circle at 80% 40%, rgba(107, 142, 104, 0.06) 0%, transparent 50%),
+                           radial-gradient(circle at 40% 70%, rgba(159, 168, 146, 0.04) 0%, transparent 50%)`
         }}></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
