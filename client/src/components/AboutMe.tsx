@@ -1,5 +1,6 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
+import { Link } from 'wouter';
 import coachImageUrl from '@/assets/images/coach-peta.png';
 
 export default function AboutMe() {
@@ -44,7 +45,9 @@ export default function AboutMe() {
           <p className="text-muted-foreground leading-relaxed text-base mb-6" data-testid="text-coach-bio-3">
             With compassion and excitement, Peta is here to guide you every step of the way. This experience isn't just about learning—it's about stepping into your best self, reclaiming your power, and creating the life you deserve. Let's begin this journey together and unlock the greatness within you.
           </p>
-          <Button size="lg" data-testid="button-work-with-peta">Start Your Journey</Button>
+          <Button size="lg" data-testid="button-work-with-peta" asChild>
+            <Link href="/breakthrough-experience">Start Your Journey</Link>
+          </Button>
         </div>
       </div>
     </section>
