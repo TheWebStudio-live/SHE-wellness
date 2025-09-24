@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Mic, Users, Star, Calendar, Clock, Quote, CheckCircle } from 'lucide-react';
+import speakingImage from '@assets/generated_images/Public_speaking_empowerment_botanical_background_a956513f.png';
 
 const upcomingEvents = [
   "October 15, 2025 - Women's Empowerment Summit, Atlanta, GA",
@@ -44,8 +45,18 @@ export default function PublicSpeakingEngagements() {
       </section>
 
       {/* Speaking Topics */}
-      <section className="py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="py-16 relative overflow-hidden">
+        {/* Public Speaking Empowerment Background Image */}
+        <div className="absolute inset-0 flex justify-center items-center">
+          <img 
+            src={speakingImage} 
+            alt="Inspiring public speaking empowerment with botanical elements" 
+            className="w-full h-full object-cover opacity-20"
+            data-testid="img-speaking-background"
+          />
+        </div>
+        
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-topics-title">
               Signature Speaking Topics
