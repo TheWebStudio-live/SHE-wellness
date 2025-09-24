@@ -65,7 +65,7 @@ export default function PublicSpeakingEngagements() {
               asChild 
               data-testid="button-email-upcoming-info"
             >
-              <a href="#">
+              <a href="mailto:petawilliams@yes2wellnessfl.com">
                 Email me for more information
               </a>
             </Button>
