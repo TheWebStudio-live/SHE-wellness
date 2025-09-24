@@ -15,7 +15,7 @@ export default function PublicSpeakingEngagements() {
     <div className="min-h-screen">
       <Navigation />
       {/* Hero Section */}
-      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-blue-50 via-teal-50 to-cyan-50 dark:from-blue-950/20 dark:via-teal-950/20 dark:to-cyan-950/20 overflow-hidden">
+      <section className="relative py-12 min-h-[50vh] flex items-center bg-gradient-to-br from-blue-50 via-teal-50 to-cyan-50 dark:from-blue-950/20 dark:via-teal-950/20 dark:to-cyan-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
@@ -26,10 +26,10 @@ export default function PublicSpeakingEngagements() {
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-speaking-engagements">
             Public Speaking Engagements
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-6" data-testid="text-speaking-title">
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-speaking-title">
             Inspire. Empower. Transform.
           </h1>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-speaking-description">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-speaking-description">
             Powerful keynotes and workshops that inspire audiences to embrace their authentic selves, 
             break through limitations, and create meaningful change in their lives and communities.
           </p>

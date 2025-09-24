@@ -65,7 +65,7 @@ export default function BreakthroughExperience() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-20 min-h-[70vh] flex items-center bg-gradient-to-br from-orange-50 via-yellow-50 to-amber-50 dark:from-orange-950/20 dark:via-yellow-950/20 dark:to-amber-950/20 overflow-hidden">
+      <section className="relative py-12 min-h-[50vh] flex items-center bg-gradient-to-br from-orange-50 via-yellow-50 to-amber-50 dark:from-orange-950/20 dark:via-yellow-950/20 dark:to-amber-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/10 via-transparent to-accent/10"></div>
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 15% 40%, rgba(255, 165, 0, 0.08) 0%, transparent 50%),
@@ -76,10 +76,10 @@ export default function BreakthroughExperience() {
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-breakthrough-experience">
             The Breakthrough Experience
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-6" data-testid="text-breakthrough-title">
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-breakthrough-title">
             Transform Your Life in 90 Days
           </h1>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-breakthrough-description">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-breakthrough-description">
             An intensive, life-changing program designed to help you break through limitations, 
             discover your authentic self, and create lasting transformation in every area of your life.
           </p>
