@@ -8,11 +8,9 @@ const socialLinks = [
 
 const footerLinks = {
   'Quick Links': [
-    { label: 'About', href: '#about' },
-    { label: 'Centering Tools', href: '/tools' },
-    { label: 'The Breakthrough Experience', href: '#course' },
-    { label: 'Speaking', href: '#speaking' },
-    { label: 'TikTok', href: '#' }
+    { label: 'S.H.E. Collection', href: '/she-collection' },
+    { label: 'The Breakthrough Experience', href: '/breakthrough-experience' },
+    { label: 'Public Speaking Engagements', href: '/speaking-engagements' }
   ],
   'Support': [
     { label: 'Contact Us', href: '#contact' }
