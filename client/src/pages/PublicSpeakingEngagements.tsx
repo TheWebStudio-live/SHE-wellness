@@ -44,6 +44,41 @@ export default function PublicSpeakingEngagements() {
         </div>
       </section>
 
+      {/* Upcoming Speaking Engagements */}
+      <section className="py-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-upcoming-speaking-title">
+              Upcoming Speaking Engagements
+            </h2>
+            <p className="text-lg text-muted-foreground mb-8" data-testid="text-upcoming-speaking-description">
+              Join Peta Williams as she shares powerful insights on empowerment, healing, and transformation 
+              at conferences, retreats, and events across the country.
+            </p>
+            
+            <ul className="space-y-4 mb-8 text-left max-w-2xl mx-auto">
+              {upcomingEvents.map((event, index) => (
+                <li key={index} className="flex items-start" data-testid={`text-upcoming-event-${index}`}>
+                  <div className="w-2 h-2 bg-primary rounded-full mr-4 mt-2 flex-shrink-0"></div>
+                  <span className="text-muted-foreground text-lg">{event}</span>
+                </li>
+              ))}
+            </ul>
+            
+            <Button 
+              variant="outline" 
+              size="lg" 
+              asChild 
+              data-testid="button-email-upcoming-info"
+            >
+              <a href="#">
+                Email me for more information
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Speaking Topics */}
       <section className="py-16 relative overflow-hidden">
         {/* Public Speaking Empowerment Background Image */}
@@ -202,41 +237,6 @@ export default function PublicSpeakingEngagements() {
             </div>
             <Button size="lg" data-testid="button-book-peta">
               Book Peta Williams
-            </Button>
-          </div>
-        </div>
-      </section>
-      
-      {/* Upcoming Speaking Engagements */}
-      <section className="py-16">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-upcoming-speaking-title">
-              Upcoming Speaking Engagements
-            </h2>
-            <p className="text-lg text-muted-foreground mb-8" data-testid="text-upcoming-speaking-description">
-              Join Peta Williams as she shares powerful insights on empowerment, healing, and transformation 
-              at conferences, retreats, and events across the country.
-            </p>
-            
-            <ul className="space-y-4 mb-8 text-left max-w-2xl mx-auto">
-              {upcomingEvents.map((event, index) => (
-                <li key={index} className="flex items-start" data-testid={`text-upcoming-event-${index}`}>
-                  <div className="w-2 h-2 bg-primary rounded-full mr-4 mt-2 flex-shrink-0"></div>
-                  <span className="text-muted-foreground text-lg">{event}</span>
-                </li>
-              ))}
-            </ul>
-            
-            <Button 
-              variant="outline" 
-              size="lg" 
-              asChild 
-              data-testid="button-email-upcoming-info"
-            >
-              <a href="#">
-                Email me for more information
-              </a>
             </Button>
           </div>
         </div>
