@@ -7,9 +7,8 @@ import { Mic, Users, Star, Calendar, Clock, Quote, CheckCircle } from 'lucide-re
 import speakingImage from '@assets/generated_images/Public_speaking_empowerment_botanical_background_a956513f.png';
 
 const upcomingEvents = [
-  "March 1st-3rd, 2026 - Women's Leadership and Empowerment Conference, Bangkok, Thailand",
-  // Add more events below (up to 5 total):
-  // "Test additional event1",
+  "March 1st-3rd, 2026 - Women's Leadership and Empowerment Conference, Bangkok, Thailand", 
+  "Test additional event1"
   // "Date - Event Name, Location",
   // "Date - Event Name, Location",
   // "Date - Event Name, Location"
