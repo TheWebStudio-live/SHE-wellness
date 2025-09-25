@@ -8,7 +8,7 @@ import speakingImage from '@assets/generated_images/Public_speaking_empowerment_
 
 const upcomingEvents = [
   "March 1st-3rd, 2026 - Women's Leadership and Empowerment Conference, Bangkok, Thailand", 
-  // "Test additional event",
+  // "Date - Event Name, Location",
   // "Date - Event Name, Location",
   // "Date - Event Name, Location",
   // "Date - Event Name, Location"
