@@ -45,9 +45,17 @@ export default function AboutMe() {
           <p className="text-muted-foreground leading-relaxed text-base mb-6" data-testid="text-coach-bio-3">
             With compassion and excitement, Peta is here to guide you every step of the way. This experience isn't just about learning—it's about stepping into your best self, reclaiming your power, and creating the life you deserve. Let's begin this journey together and unlock the greatness within you.
           </p>
-          <Button size="lg" data-testid="button-work-with-peta" asChild>
-            <Link href="/breakthrough-experience">Start Your Journey</Link>
-          </Button>
+          <p className="text-foreground font-medium mb-4 text-center" data-testid="text-booking-instruction">
+            Book your 1:1 coaching session below
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" data-testid="button-book-accessible" className="flex-1 sm:flex-none">
+              🌱 Book with Accessible Rate
+            </Button>
+            <Button size="lg" data-testid="button-book-standard" className="flex-1 sm:flex-none">
+              🌟 Book with Standard Rate
+            </Button>
+          </div>
         </div>
       </div>
     </section>
