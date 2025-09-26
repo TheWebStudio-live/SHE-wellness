@@ -28,7 +28,7 @@ export default function SHEWordCollage() {
   }, []);
 
   return (
-    <section className="pt-4 pb-2 bg-muted/20 relative">
+    <section className="pt-4 pb-6 bg-muted/20 relative">
       <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* S.H.E. Title above Word Carousel */}
