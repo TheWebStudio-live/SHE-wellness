@@ -326,3 +326,14 @@
     inset: -1px;
   }
 }
+
+/* Hero background positioning for mobile/desktop responsiveness */
+.hero-background {
+  background-position: 45% center !important;
+}
+
+@media (min-width: 768px) {
+  .hero-background {
+    background-position: center !important;
+  }
+}

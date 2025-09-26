@@ -4,18 +4,6 @@ import heroBackgroundUrl from '@/assets/images/hero-background.png';
 export default function HeroSection() {
   return (
     <>
-      <style>
-        {`
-          .hero-background {
-            background-position: 65% center;
-          }
-          @media (min-width: 768px) {
-            .hero-background {
-              background-position: center;
-            }
-          }
-        `}
-      </style>
       <section 
         className="hero-background relative h-screen w-full flex items-center justify-center overflow-hidden bg-cover bg-no-repeat -mt-0 -mx-0"
         style={{
