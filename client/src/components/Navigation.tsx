@@ -38,9 +38,6 @@ export default function Navigation() {
                 </span>
               </Link>
             ))}
-            <Button variant="default" data-testid="button-book-session">
-              Book a Session
-            </Button>
           </div>
 
           {/* Mobile menu button */}
@@ -73,11 +70,6 @@ export default function Navigation() {
                   </span>
                 </Link>
               ))}
-              <div className="px-4">
-                <Button variant="default" className="w-full" data-testid="mobile-button-book-session">
-                  Book a Session
-                </Button>
-              </div>
             </div>
           </div>
         )}
