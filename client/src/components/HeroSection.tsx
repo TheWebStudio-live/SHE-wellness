@@ -7,16 +7,11 @@ export default function HeroSection() {
       <style>
         {`
           .hero-background {
-            background-size: contain;
-            background-position: right center;
-            background-repeat: no-repeat;
-            background-color: #E5EFE6;
+            background-position: 75% center;
           }
           @media (min-width: 768px) {
             .hero-background {
-              background-size: cover;
               background-position: center;
-              background-color: transparent;
             }
           }
         `}
