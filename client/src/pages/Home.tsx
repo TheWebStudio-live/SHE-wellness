@@ -2,7 +2,6 @@ import Navigation from '@/components/Navigation';
 import HeroSection from '@/components/HeroSection';
 import AboutMe from '@/components/AboutMe';
 import AboutBrand from '@/components/AboutBrand';
-import SHEWordCollage from '@/components/SHEWordCollage';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -12,7 +11,6 @@ export default function Home() {
       <HeroSection />
       <AboutMe />
       <AboutBrand />
-      <SHEWordCollage />
       <Footer />
     </div>
   );
