@@ -4,10 +4,8 @@ const sheWords = [
   'Self-love Healing Evolution',
   'Sacred Healing Energy', 
   'Shifting Her Energy',
-  'Self-centered Healthy Empowerment',
   'Self Healing Empowerment',
   'Soul Healing Era',
-  'Self-honor Healing Empowerment',
   'Stand Heal Elevate'
 ];
 
@@ -49,7 +47,7 @@ export default function SHEWordCollage() {
               }`}
               data-testid={`text-carousel-word-${currentIndex}`}
             >
-              {sheWords[currentIndex].split(' ').map((word, wordIndex) => (
+              {sheWords[currentIndex]?.split(' ').map((word, wordIndex) => (
                 <span key={wordIndex} className="whitespace-nowrap">
                   {word}
                 </span>
