@@ -31,20 +31,16 @@ export default function SHEWordCollage() {
     <section className="pt-4 pb-24 bg-muted/20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Static S.H.E. Title */}
-        <div className="text-center mb-4">
-          <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif font-bold text-primary" data-testid="text-static-she-title">
-            S.H.E.
-          </h2>
-        </div>
-        
-        {/* Word Carousel */}
+        {/* Combined S.H.E. Title and Word Carousel */}
         <div className="relative h-16 md:h-20 lg:h-24 flex items-center justify-center">
           
-          {/* Rotating Words */}
-          <div className="absolute inset-0 flex items-center justify-center">
+          {/* S.H.E. Title and Rotating Words - Horizontal Layout */}
+          <div className="flex items-center justify-center gap-4 md:gap-6">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif font-bold text-primary" data-testid="text-static-she-title">
+              S.H.E.
+            </h2>
             <div 
-              className={`text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/80 text-center transition-all duration-300 transform px-4 leading-tight ${
+              className={`text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/80 transition-all duration-300 transform ${
                 isVisible ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-2'
               }`}
               data-testid={`text-carousel-word-${currentIndex}`}
