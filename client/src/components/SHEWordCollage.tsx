@@ -41,15 +41,19 @@ export default function SHEWordCollage() {
         {/* Word Carousel */}
         <div className="relative h-16 md:h-20 lg:h-24 flex items-center justify-center">
           
-          {/* Rotating Words */}
+          {/* Rotating Words - Horizontal Layout */}
           <div className="absolute inset-0 flex items-center justify-center">
             <div 
-              className={`text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/80 text-center transition-all duration-300 transform px-4 leading-tight ${
+              className={`flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-6 text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/80 transition-all duration-300 transform ${
                 isVisible ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-2'
               }`}
               data-testid={`text-carousel-word-${currentIndex}`}
             >
-              {sheWords[currentIndex]}
+              {sheWords[currentIndex].split(' ').map((word, wordIndex) => (
+                <span key={wordIndex} className="whitespace-nowrap">
+                  {word}
+                </span>
+              ))}
             </div>
           </div>
           
