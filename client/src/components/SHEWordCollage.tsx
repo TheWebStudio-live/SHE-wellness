@@ -28,8 +28,8 @@ export default function SHEWordCollage() {
   }, []);
 
   return (
-    <section className="pt-4 pb-24 bg-muted/20 relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="pt-4 pb-24 bg-muted/20 relative">
+      <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* S.H.E. Title above Word Carousel */}
         <div className="text-center mb-4">
@@ -39,12 +39,12 @@ export default function SHEWordCollage() {
         </div>
         
         {/* Word Carousel */}
-        <div className="relative h-16 md:h-20 lg:h-24 flex items-center justify-center">
+        <div className="relative h-16 md:h-20 lg:h-24 flex items-center justify-center w-full overflow-visible min-w-full">
           
           {/* Rotating Words - Horizontal Layout */}
-          <div className="absolute inset-0 flex items-center justify-center">
+          <div className="flex items-center justify-center w-auto min-w-max overflow-visible">
             <div 
-              className={`flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-6 text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/80 transition-all duration-300 transform ${
+              className={`flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-6 text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/80 transition-all duration-300 transform whitespace-nowrap ${
                 isVisible ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-2'
               }`}
               data-testid={`text-carousel-word-${currentIndex}`}
