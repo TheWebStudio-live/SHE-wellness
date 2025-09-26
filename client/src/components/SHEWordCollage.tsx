@@ -33,7 +33,7 @@ export default function SHEWordCollage() {
         
         {/* S.H.E. Title above Word Carousel */}
         <div className="text-center mb-4">
-          <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif font-bold text-black dark:text-white" data-testid="text-static-she-title">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-serif font-bold text-primary" data-testid="text-static-she-title">
             S.H.E.
           </h2>
         </div>
@@ -44,7 +44,7 @@ export default function SHEWordCollage() {
           {/* Rotating Words - Horizontal Layout */}
           <div className="flex items-center justify-center w-auto min-w-max overflow-visible">
             <div 
-              className={`flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-6 text-2xl md:text-4xl lg:text-5xl font-serif font-light text-black/80 dark:text-white/80 transition-all duration-300 transform whitespace-nowrap ${
+              className={`flex items-center justify-center space-x-2 md:space-x-4 lg:space-x-6 text-2xl md:text-4xl lg:text-5xl font-serif font-light text-primary/80 transition-all duration-300 transform whitespace-nowrap ${
                 isVisible ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-95 translate-y-2'
               }`}
               data-testid={`text-carousel-word-${currentIndex}`}
