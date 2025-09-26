@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Heart, Shield, Star, Sparkles, BookOpen, Users } from 'lucide-react';
+import SHEWordCollage from '@/components/SHEWordCollage';
 import diverseWomenImage from '@assets/generated_images/Diverse_women_empowerment_botanical_design_8108153e.png';
 import activismImage from '@assets/generated_images/Abstract_activism_botanical_empowerment_design_e8b28187.png';
 
@@ -13,7 +14,7 @@ export default function SHECollection() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative py-12 min-h-[50vh] flex items-center bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20 overflow-hidden">
+      <section className="relative py-12 min-h-[60vh] flex items-center bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5"></div>
         <div className="absolute inset-0" style={{
           backgroundImage: `radial-gradient(circle at 20% 30%, rgba(180, 150, 120, 0.06) 0%, transparent 50%),
@@ -24,13 +25,9 @@ export default function SHECollection() {
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-collection-title">
-            Stand. Heal. Elevate.
-          </h1>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-collection-description">
-            Wear your strength with empowering apparel designed to remind you of your journey and inspire 
-            confidence every day. Each piece is crafted with intention and love for your healing process.
-          </p>
+          <div className="mb-6">
+            <SHEWordCollage />
+          </div>
           <div className="flex justify-center">
             <Button size="lg" data-testid="button-shop-now">
               Shop Now
