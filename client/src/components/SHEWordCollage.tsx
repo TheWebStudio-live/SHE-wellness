@@ -57,20 +57,6 @@ export default function SHEWordCollage() {
             </div>
           </div>
           
-          {/* Carousel Indicators */}
-          <div className="absolute -bottom-10 left-1/2 transform -translate-x-1/2 flex space-x-2">
-            {sheWords.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => setCurrentIndex(index)}
-                className={`w-2 h-2 rounded-full transition-colors duration-200 ${
-                  index === currentIndex ? 'bg-primary' : 'bg-primary/30'
-                }`}
-                data-testid={`button-carousel-indicator-${index}`}
-                aria-label={`Go to word ${index + 1}`}
-              />
-            ))}
-          </div>
         </div>
       </div>
     </section>
