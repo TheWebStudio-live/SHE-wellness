@@ -38,8 +38,8 @@ export default function PublicSpeakingEngagements() {
             break through limitations, and create meaningful change in their lives and communities.
           </p>
           <div className="flex justify-center">
-            <Button size="lg" data-testid="button-book-speaking">
-              Book a Speaking Engagement
+            <Button size="lg" asChild data-testid="button-book-speaking">
+              <a href="mailto:petawilliams@yes2wellnessfl.com">Book a Speaking Engagement</a>
             </Button>
           </div>
         </div>
@@ -231,8 +231,8 @@ export default function PublicSpeakingEngagements() {
                 Virtual and in-person availability
               </div>
             </div>
-            <Button size="lg" data-testid="button-book-peta">
-              Book Peta Williams
+            <Button size="lg" asChild data-testid="button-book-peta">
+              <a href="mailto:petawilliams@yes2wellnessfl.com">Book Peta Williams</a>
             </Button>
           </div>
         </div>
