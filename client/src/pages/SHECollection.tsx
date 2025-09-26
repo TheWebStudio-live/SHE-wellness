@@ -25,7 +25,7 @@ export default function SHECollection() {
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
           </Badge>
-          <div className="mb-6">
+          <div>
             <SHEWordCollage />
           </div>
           <div className="flex justify-center">
