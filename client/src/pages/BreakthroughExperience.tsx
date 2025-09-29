@@ -78,9 +78,7 @@ export default function BreakthroughExperience() {
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-breakthrough-title">Step Into Your Unbothered Era—One module at a time</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-breakthrough-description">A self-paced 10-module experience designed to help you heal heartbreak, master your emotions, set healthier boundaries, and step fully into your unbothered era—results you’ll feel from the very first module.</p>
           <div className="flex justify-center">
-            <Button size="lg" data-testid="button-enroll-now">
-              Enroll Now
-            </Button>
+            <Button size="lg" data-testid="button-enroll-now">Coming soon</Button>
           </div>
         </div>
       </section>
