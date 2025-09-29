@@ -179,9 +179,7 @@ export default function PublicSpeakingEngagements() {
       <section className="py-16 bg-muted/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
-            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-peta-title">
-              Book Peta for Your Event
-            </h3>
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-peta-title">Why Book Peta For Your Event?</h3>
             
             <div className="space-y-3 mb-6">
               <div className="flex items-center text-sm text-muted-foreground">
