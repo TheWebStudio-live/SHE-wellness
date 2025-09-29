@@ -63,7 +63,6 @@ export default function BreakthroughExperience() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
       {/* Hero Section */}
       <section className="relative py-12 min-h-[50vh] flex items-center bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5"></div>
@@ -76,9 +75,7 @@ export default function BreakthroughExperience() {
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-breakthrough-experience">
             The Breakthrough Experience
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-breakthrough-title">
-            Transform Your Life in 90 Days
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-breakthrough-title">Step Into Your Unbothered Era—One module at a time</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-breakthrough-description">
             An intensive, life-changing program designed to help you break through limitations, 
             discover your authentic self, and create lasting transformation in every area of your life.
@@ -90,7 +87,6 @@ export default function BreakthroughExperience() {
           </div>
         </div>
       </section>
-
       {/* Program Overview */}
       <section className="py-16 relative overflow-hidden">
         {/* Transformation Background Image */}
@@ -156,7 +152,6 @@ export default function BreakthroughExperience() {
           </div>
         </div>
       </section>
-
       {/* Your 10-Module Journey */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -228,8 +223,6 @@ export default function BreakthroughExperience() {
           </div>
         </div>
       </section>
-
-
       <Footer />
     </div>
   );
