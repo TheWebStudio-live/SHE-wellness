@@ -91,7 +91,7 @@ export default function PublicSpeakingEngagements() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-topics-title">Peta Williams - International Speaker</h2>
-            <p className="text-base text-muted-foreground/80 max-w-3xl mx-auto mb-8 italic font-medium" data-testid="text-credentials">
+            <p className="text-muted-foreground/80 max-w-3xl mx-auto mb-8 italic font-medium text-[13px]" data-testid="text-credentials">
               Licensed mental health counselor, certified sex & intimacy coach, and transformational speaker with international experience inspiring women, students, and professionals.
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-topics-description">Your audience is struggling with heartbreak, self-doubt, or burnout. Peta delivers actionable strategies they can use immediately — leaving them empowered, confident, and ready to take control of their lives and careers.</p>
