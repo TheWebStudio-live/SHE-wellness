@@ -142,6 +142,10 @@ export default function BreakthroughExperience() {
               </CardContent>
             </Card>
           </div>
+          
+          <div className="text-center mt-12">
+            <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
+          </div>
         </div>
       </section>
       {/* Your 10-Module Journey */}
