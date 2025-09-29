@@ -211,9 +211,7 @@ export default function BreakthroughExperience() {
                   14-day guarantee
                 </div>
               </div>
-              <Button size="lg" className="px-8" data-testid="button-enroll-course">
-                Enroll in The Breakthrough Experience
-              </Button>
+              <Button size="lg" className="px-8" data-testid="button-enroll-course">I’m Ready to Heal & Thrive</Button>
             </div>
           </div>
         </div>
