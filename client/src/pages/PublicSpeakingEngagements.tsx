@@ -182,11 +182,7 @@ export default function PublicSpeakingEngagements() {
             <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-peta-title">
               Book Peta for Your Event
             </h3>
-            <p className="text-lg text-muted-foreground mb-6" data-testid="text-booking-peta-description">
-              Whether you're planning a corporate event, wellness retreat, conference, or workshop, 
-              Peta brings powerful, transformative content that resonates with audiences and creates 
-              lasting impact. Available for both virtual and in-person engagements.
-            </p>
+            
             <div className="space-y-3 mb-6">
               <div className="flex items-center text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 text-primary" />
