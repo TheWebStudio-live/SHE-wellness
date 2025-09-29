@@ -94,105 +94,81 @@ export default function PublicSpeakingEngagements() {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-topics-description">Your audience is struggling with heartbreak, self-doubt, or burnout. Peta delivers actionable strategies they can use immediately — leaving them empowered, confident, and ready to take control of their lives and careers.</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="hover-elevate" data-testid="card-topic-authentic-self">
-              <CardHeader>
-                <Star className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif">Finding Your Authentic Self</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  A journey of self-discovery that helps participants uncover their true identity, 
-                  embrace their uniqueness, and live authentically.
-                </p>
-                <div className="text-sm text-muted-foreground">
-                  <Clock className="w-4 h-4 inline mr-1" />
-                  45-90 minutes
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hover-elevate" data-testid="card-topic-breakthrough">
-              <CardHeader>
-                <Mic className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif">Breaking Through Limitations</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Practical strategies for identifying and overcoming the barriers that hold us back 
-                  from achieving our full potential.
-                </p>
-                <div className="text-sm text-muted-foreground">
-                  <Clock className="w-4 h-4 inline mr-1" />
-                  60-120 minutes
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hover-elevate" data-testid="card-topic-empowerment">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <Card className="hover-elevate" data-testid="card-topic-women-heal-rise">
               <CardHeader>
                 <Users className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif">Women's Empowerment</CardTitle>
+                <CardTitle className="text-xl font-serif">Empowering Women to Heal & Rise</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Inspiring women to stand in their power, heal from past wounds, 
-                  and elevate their lives and communities.
-                </p>
+                <div className="mb-4">
+                  <p className="text-sm text-muted-foreground mb-2">
+                    <strong>Audience:</strong> Domestic violence organizations, women's shelters, women's empowerment groups
+                  </p>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    <strong>Keynote/Workshop:</strong> "The Breakthrough Experience – I Choose Me to Break Free"
+                  </p>
+                </div>
+                <ul className="text-sm text-muted-foreground space-y-1 mb-4">
+                  <li>• Reclaim personal power</li>
+                  <li>• Feel seen, supported, and understood</li>
+                  <li>• Gain tools to step into joy, clarity, and self-love</li>
+                </ul>
                 <div className="text-sm text-muted-foreground">
                   <Clock className="w-4 h-4 inline mr-1" />
-                  45-90 minutes
+                  60–120 minutes
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="hover-elevate" data-testid="card-topic-leadership">
+            <Card className="hover-elevate" data-testid="card-topic-next-generation-leaders">
               <CardHeader>
                 <Star className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif">Authentic Leadership</CardTitle>
+                <CardTitle className="text-xl font-serif">Inspiring the Next Generation of Leaders</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Developing leadership skills rooted in authenticity, empathy, 
-                  and genuine connection with others.
-                </p>
+                <div className="mb-4">
+                  <p className="text-sm text-muted-foreground mb-2">
+                    <strong>Audience:</strong> HBCUs, colleges, universities, student leadership groups
+                  </p>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    <strong>Keynote/Workshop:</strong> "Finding Your Authentic Self: Lead, Thrive, and Rise"
+                  </p>
+                </div>
+                <ul className="text-sm text-muted-foreground space-y-1 mb-4">
+                  <li>• Walk away with clarity and courage</li>
+                  <li>• Build confidence to create healthy relationships</li>
+                  <li>• Gain actionable steps to lead with authenticity and purpose</li>
+                </ul>
                 <div className="text-sm text-muted-foreground">
                   <Clock className="w-4 h-4 inline mr-1" />
-                  90-180 minutes
+                  60–120 minutes
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="hover-elevate" data-testid="card-topic-resilience">
+            <Card className="hover-elevate" data-testid="card-topic-resilience-wellbeing">
               <CardHeader>
                 <Mic className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif">Building Resilience</CardTitle>
+                <CardTitle className="text-xl font-serif">Resilience & Well-Being for Staff & Professionals</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Tools and techniques for developing emotional resilience and 
-                  bouncing back stronger from life's challenges.
-                </p>
-                <div className="text-sm text-muted-foreground">
-                  <Clock className="w-4 h-4 inline mr-1" />
-                  60-90 minutes
+                <div className="mb-4">
+                  <p className="text-sm text-muted-foreground mb-2">
+                    <strong>Audience:</strong> Healthcare providers, addiction treatment staff, mental health professionals, nonprofit care teams
+                  </p>
+                  <p className="text-sm text-muted-foreground mb-3">
+                    <strong>Keynote/Workshop:</strong> "Resilience as Resistance: Thriving in High-Stress Roles"
+                  </p>
                 </div>
-              </CardContent>
-            </Card>
-
-            <Card className="hover-elevate" data-testid="card-topic-transformation">
-              <CardHeader>
-                <Users className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif">Personal Transformation</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  A comprehensive approach to creating lasting change and 
-                  transformation in all areas of life.
-                </p>
+                <ul className="text-sm text-muted-foreground space-y-1 mb-4">
+                  <li>• Reduce stress and prevent professional burnout</li>
+                  <li>• Strengthen emotional resilience for sustainable success</li>
+                  <li>• Leave equipped to provide high-quality care with confidence</li>
+                </ul>
                 <div className="text-sm text-muted-foreground">
                   <Clock className="w-4 h-4 inline mr-1" />
-                  120-240 minutes
+                  60–120 minutes
                 </div>
               </CardContent>
             </Card>
