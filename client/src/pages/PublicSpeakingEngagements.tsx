@@ -178,6 +178,40 @@ export default function PublicSpeakingEngagements() {
           </div>
         </div>
       </section>
+      {/* About the Talk - The Breakthrough Experience */}
+      <section className="py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-about-talk-title">
+              About the Talk
+            </h2>
+          </div>
+          
+          <div className="bg-card border rounded-2xl p-8 md:p-10">
+            <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-4 text-center" data-testid="text-breakthrough-talk-title">
+              The Breakthrough Experience: I Choose Me to Break Free
+            </h3>
+            
+            <p className="text-lg text-primary font-medium mb-6 text-center italic" data-testid="text-breakthrough-subtitle">
+              A keynote that turns heartbreak, burnout, and impossible expectations into a revolution of healing, resilience, and unstoppable joy.
+            </p>
+            
+            <div className="space-y-4 text-muted-foreground leading-relaxed">
+              <p data-testid="text-breakthrough-intro">
+                Once upon a time, women were told to be everything to everyone—perfect at work, flawless at home, and unbothered in love. The truth is, these impossible expectations are breaking us.
+              </p>
+              
+              <p data-testid="text-breakthrough-problem">
+                Burnout is rising, heartbreak is silencing women, and cycles of invisibility are stealing our joy. This keynote blends raw storytelling, practical tools, and hard-hitting truths to show what happens when women stop centering unhealthy love and start choosing themselves. With humor, honesty, and hope, Peta guides audiences to declare the five most revolutionary words:
+              </p>
+              
+              <p className="text-xl font-bold text-primary text-center py-4" data-testid="text-breakthrough-quote">
+                "I choose me to break free."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Book Peta for Your Event */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
