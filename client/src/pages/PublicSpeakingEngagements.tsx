@@ -186,16 +186,22 @@ export default function PublicSpeakingEngagements() {
             <div className="space-y-3 mb-6">
               <div className="flex items-center text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                Keynote presentations
+                Practical, research-backed strategies for real-world impact
               </div>
               
               <div className="flex items-center text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                Panel discussions and interviews
+                Expertise across women's empowerment, student development, and professional resilience
               </div>
+              
               <div className="flex items-center text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 text-primary" />
-                Virtual and in-person availability
+                Deeply personal storytelling combined with actionable tools
+              </div>
+              
+              <div className="flex items-center text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+                Engages audiences with clarity, energy, and inspiration
               </div>
             </div>
             <Button size="lg" asChild data-testid="button-book-peta">
