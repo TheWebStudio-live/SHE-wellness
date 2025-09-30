@@ -219,23 +219,23 @@ export default function PublicSpeakingEngagements() {
             <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-peta-title">Why Book Peta For Your Event?</h3>
             
             <div className="space-y-3 mb-6">
-              <div className="flex items-center text-sm text-muted-foreground">
-                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+              <div className="flex items-start text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 Practical, research-backed strategies for real-world impact
               </div>
               
-              <div className="flex items-center text-sm text-muted-foreground">
-                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+              <div className="flex items-start text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 Expertise across women's empowerment, student development, and professional resilience
               </div>
               
-              <div className="flex items-center text-sm text-muted-foreground">
-                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+              <div className="flex items-start text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 Deeply personal storytelling combined with actionable tools
               </div>
               
-              <div className="flex items-center text-sm text-muted-foreground">
-                <CheckCircle className="w-4 h-4 mr-2 text-primary" />
+              <div className="flex items-start text-sm text-muted-foreground">
+                <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 Engages audiences with clarity, energy, and inspiration
               </div>
             </div>
