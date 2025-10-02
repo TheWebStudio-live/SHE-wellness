@@ -127,7 +127,7 @@ export default function PublicSpeakingEngagements() {
             <Card className="hover-elevate" data-testid="card-topic-next-generation-leaders">
               <CardHeader>
                 <Star className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif">Inspiring the Next Generation of Leaders</CardTitle>
+                <CardTitle className="text-xl font-serif">Inspiring the Next Gen of Leaders</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="mb-4">
