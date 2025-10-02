@@ -101,7 +101,7 @@ export default function PublicSpeakingEngagements() {
             <Card className="hover-elevate" data-testid="card-topic-women-heal-rise">
               <CardHeader>
                 <Users className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif whitespace-nowrap">Empowering Women to Heal & Rise</CardTitle>
+                <CardTitle className="text-base sm:text-lg md:text-xl font-serif whitespace-nowrap">Empowering Women to Heal & Rise</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="mb-4">
@@ -127,7 +127,7 @@ export default function PublicSpeakingEngagements() {
             <Card className="hover-elevate" data-testid="card-topic-next-generation-leaders">
               <CardHeader>
                 <Star className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif whitespace-nowrap">Inspiring the Next Gen of Leaders</CardTitle>
+                <CardTitle className="text-base sm:text-lg md:text-xl font-serif whitespace-nowrap">Inspiring the Next Gen of Leaders</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="mb-4">
@@ -153,7 +153,7 @@ export default function PublicSpeakingEngagements() {
             <Card className="hover-elevate" data-testid="card-topic-resilience-wellbeing">
               <CardHeader>
                 <Mic className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-xl font-serif whitespace-nowrap">Resilience & Well-Being for Professionals</CardTitle>
+                <CardTitle className="text-base sm:text-lg md:text-xl font-serif whitespace-nowrap">Resilience & Well-Being for Professionals</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="mb-4">
