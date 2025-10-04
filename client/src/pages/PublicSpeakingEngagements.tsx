@@ -174,10 +174,10 @@ export default function PublicSpeakingEngagements() {
       {/* Book Peta for Your Event */}
       <section className="py-16 bg-muted/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
-            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-peta-title">Why Peta? A Transformational Investment.</h3>
+          <div className="bg-card border rounded-2xl p-8 md:p-12">
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 text-center" data-testid="text-booking-peta-title">Why Peta? A Transformational Investment.</h3>
             
-            <div className="space-y-3 mb-6">
+            <div className="space-y-3 mb-6 max-w-3xl mx-auto">
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 Booking Peta is investing in your audience's success—delivering emotional depth and tangible results.
@@ -198,9 +198,11 @@ export default function PublicSpeakingEngagements() {
                 <strong>The Flawless Partnership:</strong> You get a professional speaker who guarantees an engaging, organized, and impactful session that elevates the quality and satisfaction of your entire event.
               </div>
             </div>
-            <Button size="lg" asChild data-testid="button-book-peta">
-              <a href="mailto:petawilliams@yes2wellnessfl.com">Book Peta Williams</a>
-            </Button>
+            <div className="text-center">
+              <Button size="lg" asChild data-testid="button-book-peta">
+                <a href="mailto:petawilliams@yes2wellnessfl.com">Book Peta Williams</a>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
