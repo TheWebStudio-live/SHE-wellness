@@ -31,7 +31,7 @@ export default function PublicSpeakingEngagements() {
             Public Speaking Engagements
           </Badge>
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-speaking-title">​Strengthen. Heal. Evolve.</h1>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-speaking-description">Keynotes and workshops that help you Strengthen your game plan, Heal from self-doubt and setbacks, and Evolve into the powerful, confident person ready to level up your life and impact your world.</p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-speaking-description">Keynotes and workshops that help you <strong>Strengthen</strong> your game plan, <strong>Heal</strong> from self-doubt and setbacks, and <strong>Evolve</strong> into the powerful, confident person ready to level up your life and impact your world.</p>
           <div className="flex justify-center">
             <Button size="lg" asChild data-testid="button-book-speaking">
               <a href="mailto:petawilliams@yes2wellnessfl.com">Book a Speaking Engagement</a>
