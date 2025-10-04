@@ -194,7 +194,7 @@ export default function PublicSpeakingEngagements() {
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 <div>
-                  <strong className="whitespace-nowrap block mb-1">Actionable Empowerment:</strong>
+                  <strong className="whitespace-nowrap block mb-1">Actionable Empowerment</strong>
                   <span>They leave with research-backed tools to Strengthen their core resilience, directly reducing professional burnout and increasing productivity.</span>
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function PublicSpeakingEngagements() {
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 <div>
-                  <strong className="whitespace-nowrap block mb-1">The Flawless Partnership:</strong>
+                  <strong className="whitespace-nowrap block mb-1">The Flawless Partnership</strong>
                   <span>You get a professional speaker who guarantees an engaging, organized, and impactful session that elevates the quality and satisfaction of your entire event.</span>
                 </div>
               </div>
