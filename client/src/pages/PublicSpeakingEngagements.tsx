@@ -175,7 +175,7 @@ export default function PublicSpeakingEngagements() {
       <section className="py-16 bg-muted/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card border rounded-2xl p-8 md:p-12">
-            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 text-center" data-testid="text-booking-peta-title">Why Peta? A Transformational Investment.</h3>
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 text-center" data-testid="text-booking-peta-title">Why Peta? A Transformational Investment</h3>
             
             <div className="space-y-3 mb-6 max-w-3xl mx-auto">
               <div className="flex items-start text-sm text-muted-foreground pl-[0px] pr-[0px] pt-[13px] pb-[13px]">
