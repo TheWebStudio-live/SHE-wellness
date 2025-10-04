@@ -46,9 +46,7 @@ export default function PublicSpeakingEngagements() {
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-3" data-testid="text-upcoming-speaking-title">
               Upcoming Speaking Engagements
             </h2>
-            <p className="text-base text-muted-foreground mb-6" data-testid="text-upcoming-speaking-description">
-              Join Peta Williams as she shares powerful insights on empowerment, healing, and transformation.
-            </p>
+            <p className="text-base text-muted-foreground mb-6" data-testid="text-upcoming-speaking-description">​Join Peta Williams as she delivers insights on empowerment, healing, and transformation.</p>
             
             <ul className="space-y-3 mb-6 text-left max-w-xl mx-auto">
               {upcomingEvents.map((event, index) => (
