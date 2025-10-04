@@ -87,7 +87,7 @@ export default function PublicSpeakingEngagements() {
             <p className="text-muted-foreground/80 max-w-3xl mx-auto mb-8 italic font-normal text-[12px]" data-testid="text-credentials">
               Licensed mental health counselor, certified sex & intimacy coach, and transformational speaker with international experience inspiring women, students, and professionals.
             </p>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-topics-description">Your audience is struggling with heartbreak, self-doubt, or burnout. Peta delivers actionable strategies they can use immediately — leaving them empowered, confident, and ready to take control of their lives and careers.</p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-topics-description">​Your audience is struggling with conflict, self-doubt, or burnout. Peta delivers actionable strategies they can use immediately—leaving them empowered, confident, and ready to Strengthen, Heal, and Evolve for unshakable success.</p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
