@@ -175,27 +175,27 @@ export default function PublicSpeakingEngagements() {
       <section className="py-16 bg-muted/30">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card border rounded-2xl p-8 md:p-12 text-center">
-            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-peta-title">Why Book Peta For Your Event?</h3>
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-booking-peta-title">Why Peta? A Transformational Investment.</h3>
             
             <div className="space-y-3 mb-6">
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
-                Practical, research-backed strategies for real-world impact
+                Booking Peta is investing in your audience's success—delivering emotional depth and tangible results.
               </div>
               
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
-                Expertise across women's empowerment, student development, and professional resilience
+                <strong>Emotional ROI, Guaranteed:</strong> Peta moves audiences with deeply personal storytelling, ensuring your attendees feel seen, inspired, and activated to make meaningful life changes.
               </div>
               
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
-                Deeply personal storytelling combined with actionable tools
+                <strong>Actionable Empowerment:</strong> They leave with research-backed tools to Strengthen their core resilience, directly reducing professional burnout and increasing productivity.
               </div>
               
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
-                Engages audiences with clarity, energy, and inspiration
+                <strong>The Flawless Partnership:</strong> You get a professional speaker who guarantees an engaging, organized, and impactful session that elevates the quality and satisfaction of your entire event.
               </div>
             </div>
             <Button size="lg" asChild data-testid="button-book-peta">
