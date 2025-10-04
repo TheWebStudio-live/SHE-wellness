@@ -186,7 +186,7 @@ export default function PublicSpeakingEngagements() {
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 <div>
-                  <strong className="whitespace-nowrap block mb-1">Emotional ROI, Guaranteed:</strong>
+                  <strong className="whitespace-nowrap block mb-1">Emotional ROI, Guaranteed</strong>
                   <span>Peta moves audiences with deeply personal storytelling, ensuring your attendees feel seen, inspired, and activated to make meaningful life changes.</span>
                 </div>
               </div>
