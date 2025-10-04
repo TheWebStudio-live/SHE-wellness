@@ -30,9 +30,7 @@ export default function PublicSpeakingEngagements() {
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-speaking-engagements">
             Public Speaking Engagements
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-speaking-title">
-            Inspire. Empower. Transform.
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-speaking-title">​Strengthen. Heal. Evolve.</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-speaking-description">
             Powerful keynotes and workshops that inspire audiences to embrace their authentic selves, 
             break through limitations, and create meaningful change in their lives and communities.
