@@ -14,9 +14,7 @@ export default function HeroSection() {
         <h1 className="text-6xl md:text-8xl font-serif font-bold mb-6" data-testid="text-hero-title">
           S.H.E.
         </h1>
-        <p className="text-xl md:text-2xl mb-4 font-light opacity-90" data-testid="text-hero-subtitle">
-          Self-love • Healing • Evolution
-        </p>
+        <p className="text-xl md:text-2xl mb-4 font-light opacity-90" data-testid="text-hero-subtitle">Strengthen • Heal • Evolve</p>
         <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto leading-relaxed opacity-80" data-testid="text-hero-description">
           Empowering women to reclaim their power, heal from heartbreak, and create lives filled with purpose, confidence, and joy.
         </p>
