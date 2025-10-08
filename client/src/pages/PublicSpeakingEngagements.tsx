@@ -146,7 +146,7 @@ export default function PublicSpeakingEngagements() {
             <Card className="hover-elevate" data-testid="card-topic-resilience-wellbeing">
               <CardHeader>
                 <Mic className="w-8 h-8 text-primary mb-2" />
-                <CardTitle className="text-lg font-serif whitespace-nowrap overflow-hidden text-ellipsis">Resilience & Well-Being for Professionals</CardTitle>
+                <CardTitle className="text-lg font-serif whitespace-nowrap overflow-hidden text-ellipsis">Resilience for Professionals</CardTitle>
               </CardHeader>
               <CardContent>
                 <div className="mb-4">
