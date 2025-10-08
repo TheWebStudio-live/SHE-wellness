@@ -12,7 +12,6 @@ export default function SHECollection() {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
       {/* Hero Section */}
       <section className="relative py-8 min-h-[40vh] sm:min-h-[60vh] flex items-center bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5"></div>
@@ -35,7 +34,6 @@ export default function SHECollection() {
           </div>
         </div>
       </section>
-
       {/* Collection Features */}
       <section className="py-16 bg-muted/30 relative overflow-hidden">
         {/* Diverse Women Empowerment Image - Full Background */}
@@ -50,9 +48,7 @@ export default function SHECollection() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">
-              Empowerment Through Design
-            </h2>
+            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">S.H.E. Activism Apparel</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-features-description">
               Every piece in the S.H.E. Collection is thoughtfully designed to remind you of your power, 
               your journey, and your limitless potential.
@@ -113,10 +109,6 @@ export default function SHECollection() {
           </div>
         </div>
       </section>
-
-
-
-
       <Footer />
     </div>
   );
