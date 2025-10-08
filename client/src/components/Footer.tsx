@@ -22,9 +22,7 @@ export default function Footer() {
               <h3 className="text-2xl font-serif font-bold text-primary" data-testid="text-footer-brand">
                 S.H.E.
               </h3>
-              <p className="text-sm text-muted-foreground mt-1">
-                Self-love • Healing • Evolution
-              </p>
+              <p className="text-sm text-muted-foreground mt-1">Strengthen • Heal • Evolve</p>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md" data-testid="text-footer-description">Empowering women of color and allies to break free from toxic cycles, reclaim their power, and achieve lasting, true success—while prioritizing healthy love only. Your journey to self-love and empowerment starts here.</p>
           </div>
