@@ -20,25 +20,6 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
-        
-        {/* Left Decorative Graphics */}
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 pointer-events-none hidden md:block opacity-20">
-          <div className="relative w-32 h-64">
-            <Heart className="absolute top-8 left-4 w-12 h-12 text-primary/40" />
-            <Sparkles className="absolute top-32 left-8 w-10 h-10 text-primary/30" />
-            <Star className="absolute bottom-12 left-6 w-8 h-8 text-primary/35" />
-          </div>
-        </div>
-        
-        {/* Right Decorative Graphics */}
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 pointer-events-none hidden md:block opacity-20">
-          <div className="relative w-32 h-64">
-            <Shield className="absolute top-12 right-6 w-10 h-10 text-primary/35" />
-            <Sparkles className="absolute top-36 right-8 w-12 h-12 text-primary/40" />
-            <BookOpen className="absolute bottom-16 right-4 w-9 h-9 text-primary/30" />
-          </div>
-        </div>
-        
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
