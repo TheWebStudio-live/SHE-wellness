@@ -52,8 +52,10 @@ export default function AboutMe() {
             <Button size="lg" data-testid="button-book-accessible" className="flex-1 sm:flex-none">
               🌱 Book with Accessible Rate
             </Button>
-            <Button size="lg" data-testid="button-book-standard" className="flex-1 sm:flex-none">
-              🌟 Book with Standard Rate
+            <Button size="lg" data-testid="button-book-standard" className="flex-1 sm:flex-none" asChild>
+              <a href="https://peta.podia.com/the-soul-shift-with-s-h-e/buy" target="_blank" rel="noopener noreferrer">
+                🌟 Book with Standard Rate
+              </a>
             </Button>
           </div>
         </div>
