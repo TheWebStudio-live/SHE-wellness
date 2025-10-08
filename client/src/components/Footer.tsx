@@ -26,10 +26,7 @@ export default function Footer() {
                 Self-love • Healing • Evolution
               </p>
             </div>
-            <p className="text-muted-foreground mb-6 max-w-md" data-testid="text-footer-description">
-              Empowering women to reclaim their power, heal from heartbreak, and create lives filled 
-              with purpose, confidence, and joy. Your journey to self-love and empowerment starts here.
-            </p>
+            <p className="text-muted-foreground mb-6 max-w-md" data-testid="text-footer-description">Empowering women of color and allies to break free from toxic cycles, reclaim their power, and achieve lasting, true success—while prioritizing healthy love only. Your journey to self-love and empowerment starts here.</p>
           </div>
           
           {/* Links Sections */}
