@@ -42,24 +42,9 @@ export default function AboutMe() {
           <p className="text-muted-foreground leading-relaxed mb-6 text-base" data-testid="text-coach-bio-2">
             Seeing how many of us struggle to reconnect with ourselves while giving so much to others, Peta created this experience to make personal growth accessible, practical, and deeply transformative. Whether you're navigating a relationship or thriving on your own, she understands the sacrifices, the doubts, and the longing to step fully into your potential.
           </p>
-          <p className="text-muted-foreground leading-relaxed text-base mb-6" data-testid="text-coach-bio-3">
+          <p className="text-muted-foreground leading-relaxed text-base" data-testid="text-coach-bio-3">
             With compassion and excitement, Peta is here to guide you every step of the way. This experience isn't just about learning—it's about stepping into your best self, reclaiming your power, and creating the life you deserve. Let's begin this journey together and unlock the greatness within you.
           </p>
-          <p className="text-foreground font-medium mb-4 text-center" data-testid="text-booking-instruction">
-            Book your 1:1 coaching session below
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" data-testid="button-book-accessible" className="flex-1 sm:flex-none" asChild>
-              <a href="https://peta.podia.com/transformational-coaching-accessible-rate/buy" target="_blank" rel="noopener noreferrer">
-                🌱 Book with Accessible Rate
-              </a>
-            </Button>
-            <Button size="lg" data-testid="button-book-standard" className="flex-1 sm:flex-none" asChild>
-              <a href="https://peta.podia.com/the-soul-shift-with-s-h-e/buy" target="_blank" rel="noopener noreferrer">
-                🌟 Book with Standard Rate
-              </a>
-            </Button>
-          </div>
         </div>
       </div>
     </section>
