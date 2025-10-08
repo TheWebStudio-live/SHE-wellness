@@ -65,12 +65,7 @@ export default function AboutBrand() {
             <h3 className="text-2xl font-serif font-bold text-foreground mb-4" data-testid="text-mission-title">
               Our Mission
             </h3>
-            <p className="text-muted-foreground leading-relaxed text-lg" data-testid="text-mission-description">
-              We believe every woman deserves to live a life filled with purpose, confidence, and joy. 
-              Through breakup recovery, wellness coaching, and empowerment tools, S.H.E. guides women 
-              on their journey to self-discovery and authentic living. Whether you're healing from heartbreak 
-              or simply ready to level up your life, we're here to support your transformation.
-            </p>
+            <p className="text-muted-foreground leading-relaxed text-lg" data-testid="text-mission-description"> S.H.E. empowers women of color and allies to Strengthen, Heal, and Evolve—beyond heartbreak and toxic cycles. Through evidence-based coaching and activism, S.H.E. helps women reclaim their joy, prioritize their wellbeing, and thrive in life and love.</p>
           </div>
         </div>
       </div>
