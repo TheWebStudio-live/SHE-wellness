@@ -49,8 +49,10 @@ export default function AboutMe() {
             Book your 1:1 coaching session below
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" data-testid="button-book-accessible" className="flex-1 sm:flex-none">
-              🌱 Book with Accessible Rate
+            <Button size="lg" data-testid="button-book-accessible" className="flex-1 sm:flex-none" asChild>
+              <a href="https://peta.podia.com/transformational-coaching-accessible-rate/buy" target="_blank" rel="noopener noreferrer">
+                🌱 Book with Accessible Rate
+              </a>
             </Button>
             <Button size="lg" data-testid="button-book-standard" className="flex-1 sm:flex-none" asChild>
               <a href="https://peta.podia.com/the-soul-shift-with-s-h-e/buy" target="_blank" rel="noopener noreferrer">
