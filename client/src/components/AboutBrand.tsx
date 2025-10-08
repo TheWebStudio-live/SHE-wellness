@@ -29,7 +29,7 @@ export default function AboutBrand() {
           </div>
         </div>
         
-        <div className="mt-32 text-center">
+        <div className="mt-16 text-center">
           <div className="bg-card rounded-2xl p-8 max-w-4xl mx-auto border">
             <h3 className="text-2xl font-serif font-bold text-foreground mb-4" data-testid="text-mission-title">
               Our Mission
