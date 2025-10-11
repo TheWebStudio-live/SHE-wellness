@@ -107,17 +107,19 @@ export default function SHECollection() {
         </div>
       </section>
       {/* Wear the Glow-Up Section */}
-      <section className="py-16 bg-background">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-glowup-title">
-            Wear the Glow-Up. Own Your Power.
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8" data-testid="text-glowup-description">
-            S.H.E. is more than apparel—it's energy that turns pain into purpose, with a community that never lets you dim your light.
-          </p>
-          <Button size="lg" data-testid="button-join-collective">
-            Join this Collective Power Move
-          </Button>
+      <section className="py-16 bg-muted/30">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-card rounded-2xl p-8 md:p-12 text-center border">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-glowup-title">
+              Wear the Glow-Up. Own Your Power.
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8" data-testid="text-glowup-description">
+              S.H.E. is more than apparel—it's energy that turns pain into purpose, with a community that never lets you dim your light.
+            </p>
+            <Button size="lg" data-testid="button-join-collective">
+              Join this Collective Power Move
+            </Button>
+          </div>
         </div>
       </section>
       <Footer />
