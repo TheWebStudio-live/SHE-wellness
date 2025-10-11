@@ -21,111 +21,29 @@ export default function SHECollection() {
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
         
-        {/* Left Botanical Decoration */}
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block animate-[float_6s_ease-in-out_infinite]">
-          <svg width="220" height="600" viewBox="0 0 220 600" className="text-primary">
-            {/* Main branches */}
-            <path d="M 200 300 Q 170 240, 160 180 Q 155 150, 150 120" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 200 300 Q 180 340, 170 380 Q 165 410, 160 440" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 200 300 Q 165 310, 155 330" stroke="currentColor" fill="none" strokeWidth="1.2"/>
+        {/* Left Tree Decoration */}
+        <div className="absolute left-0 bottom-0 opacity-15 animate-[sway_8s_ease-in-out_infinite]">
+          <svg width="80" height="300" viewBox="0 0 80 300" className="text-primary md:w-[120px] md:h-[400px]">
+            {/* Trunk */}
+            <path d="M 70 300 L 70 180 Q 70 170, 68 160" stroke="currentColor" fill="none" strokeWidth="3"/>
             
-            {/* Top section leaves - very top */}
-            <path d="M 200 300 Q 165 260, 155 240" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="150" cy="235" rx="24" ry="10" fill="currentColor" opacity="0.3" transform="rotate(-40 150 235)"/>
-            <path d="M 200 300 Q 168 268, 160 250" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="156" cy="245" rx="20" ry="9" fill="currentColor" opacity="0.3" transform="rotate(-38 156 245)"/>
-            <path d="M 200 300 Q 172 275, 165 258" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="162" cy="253" rx="18" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-35 162 253)"/>
-            
-            {/* Upper-middle leaves */}
-            <path d="M 200 300 Q 160 280, 148 265" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="143" cy="260" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(-33 143 260)"/>
-            <path d="M 200 300 Q 165 285, 153 272" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="149" cy="267" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-30 149 267)"/>
-            <path d="M 200 300 Q 170 290, 160 278" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="156" cy="273" rx="19" ry="7" fill="currentColor" opacity="0.3" transform="rotate(-28 156 273)"/>
-            <path d="M 200 300 Q 175 295, 168 285" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="164" cy="280" rx="17" ry="7" fill="currentColor" opacity="0.3" transform="rotate(-25 164 280)"/>
-            
-            {/* Center leaves */}
-            <path d="M 200 300 Q 170 305, 158 315" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="153" cy="320" rx="25" ry="11" fill="currentColor" opacity="0.3" transform="rotate(20 153 320)"/>
-            <path d="M 200 300 Q 175 308, 165 318" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="160" cy="323" rx="23" ry="10" fill="currentColor" opacity="0.3" transform="rotate(22 160 323)"/>
-            <path d="M 200 300 Q 180 310, 172 320" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="168" cy="325" rx="21" ry="9" fill="currentColor" opacity="0.3" transform="rotate(24 168 325)"/>
-            
-            {/* Lower-middle leaves */}
-            <path d="M 200 300 Q 168 320, 160 335" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="156" cy="342" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(28 156 342)"/>
-            <path d="M 200 300 Q 172 325, 165 342" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="161" cy="348" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(30 161 348)"/>
-            <path d="M 200 300 Q 176 330, 170 348" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="166" cy="354" rx="19" ry="8" fill="currentColor" opacity="0.3" transform="rotate(32 166 354)"/>
-            <path d="M 200 300 Q 180 335, 175 353" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="171" cy="359" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(34 171 359)"/>
-            
-            {/* Bottom section leaves */}
-            <path d="M 200 300 Q 170 345, 164 365" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="160" cy="372" rx="21" ry="8" fill="currentColor" opacity="0.3" transform="rotate(36 160 372)"/>
-            <path d="M 200 300 Q 175 350, 170 372" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="166" cy="378" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(38 166 378)"/>
-            <path d="M 200 300 Q 178 355, 174 378" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="170" cy="385" rx="19" ry="7" fill="currentColor" opacity="0.3" transform="rotate(40 170 385)"/>
+            {/* Tree canopy - layered triangular shapes */}
+            <path d="M 40 80 L 10 160 L 20 160 L 5 200 L 25 200 L 15 240 L 70 240 L 70 180 Q 70 120, 55 80 Z" fill="currentColor" opacity="0.4"/>
+            <path d="M 50 60 L 25 130 L 35 130 L 20 170 L 40 170 L 30 210 L 70 210 L 70 160 Q 70 100, 60 60 Z" fill="currentColor" opacity="0.35"/>
+            <path d="M 60 40 L 40 100 L 50 100 L 35 140 L 55 140 L 45 180 L 70 180 L 70 120 Q 70 80, 65 40 Z" fill="currentColor" opacity="0.3"/>
           </svg>
         </div>
         
-        {/* Right Botanical Decoration */}
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block animate-[float_6s_ease-in-out_infinite_1s]">
-          <svg width="220" height="600" viewBox="0 0 220 600" className="text-primary">
-            {/* Main branches */}
-            <path d="M 20 300 Q 50 240, 60 180 Q 65 150, 70 120" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 20 300 Q 40 340, 50 380 Q 55 410, 60 440" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 20 300 Q 55 310, 65 330" stroke="currentColor" fill="none" strokeWidth="1.2"/>
+        {/* Right Tree Decoration */}
+        <div className="absolute right-0 bottom-0 opacity-15 animate-[sway_8s_ease-in-out_infinite_1.5s]">
+          <svg width="80" height="300" viewBox="0 0 80 300" className="text-primary md:w-[120px] md:h-[400px]">
+            {/* Trunk */}
+            <path d="M 10 300 L 10 180 Q 10 170, 12 160" stroke="currentColor" fill="none" strokeWidth="3"/>
             
-            {/* Top section leaves - very top */}
-            <path d="M 20 300 Q 55 260, 65 240" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="70" cy="235" rx="24" ry="10" fill="currentColor" opacity="0.3" transform="rotate(40 70 235)"/>
-            <path d="M 20 300 Q 52 268, 60 250" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="64" cy="245" rx="20" ry="9" fill="currentColor" opacity="0.3" transform="rotate(38 64 245)"/>
-            <path d="M 20 300 Q 48 275, 55 258" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="58" cy="253" rx="18" ry="8" fill="currentColor" opacity="0.3" transform="rotate(35 58 253)"/>
-            
-            {/* Upper-middle leaves */}
-            <path d="M 20 300 Q 60 280, 72 265" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="77" cy="260" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(33 77 260)"/>
-            <path d="M 20 300 Q 55 285, 67 272" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="71" cy="267" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(30 71 267)"/>
-            <path d="M 20 300 Q 50 290, 60 278" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="64" cy="273" rx="19" ry="7" fill="currentColor" opacity="0.3" transform="rotate(28 64 273)"/>
-            <path d="M 20 300 Q 45 295, 52 285" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="56" cy="280" rx="17" ry="7" fill="currentColor" opacity="0.3" transform="rotate(25 56 280)"/>
-            
-            {/* Center leaves */}
-            <path d="M 20 300 Q 50 305, 62 315" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="67" cy="320" rx="25" ry="11" fill="currentColor" opacity="0.3" transform="rotate(-20 67 320)"/>
-            <path d="M 20 300 Q 45 308, 55 318" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="60" cy="323" rx="23" ry="10" fill="currentColor" opacity="0.3" transform="rotate(-22 60 323)"/>
-            <path d="M 20 300 Q 40 310, 48 320" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="52" cy="325" rx="21" ry="9" fill="currentColor" opacity="0.3" transform="rotate(-24 52 325)"/>
-            
-            {/* Lower-middle leaves */}
-            <path d="M 20 300 Q 52 320, 60 335" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="64" cy="342" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(-28 64 342)"/>
-            <path d="M 20 300 Q 48 325, 55 342" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="59" cy="348" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-30 59 348)"/>
-            <path d="M 20 300 Q 44 330, 50 348" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="54" cy="354" rx="19" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-32 54 354)"/>
-            <path d="M 20 300 Q 40 335, 45 353" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="49" cy="359" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(-34 49 359)"/>
-            
-            {/* Bottom section leaves */}
-            <path d="M 20 300 Q 50 345, 56 365" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="60" cy="372" rx="21" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-36 60 372)"/>
-            <path d="M 20 300 Q 45 350, 50 372" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="54" cy="378" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-38 54 378)"/>
-            <path d="M 20 300 Q 42 355, 46 378" stroke="currentColor" fill="none" strokeWidth="0.8"/>
-            <ellipse cx="50" cy="385" rx="19" ry="7" fill="currentColor" opacity="0.3" transform="rotate(-40 50 385)"/>
+            {/* Tree canopy - layered triangular shapes */}
+            <path d="M 40 80 L 70 160 L 60 160 L 75 200 L 55 200 L 65 240 L 10 240 L 10 180 Q 10 120, 25 80 Z" fill="currentColor" opacity="0.4"/>
+            <path d="M 30 60 L 55 130 L 45 130 L 60 170 L 40 170 L 50 210 L 10 210 L 10 160 Q 10 100, 20 60 Z" fill="currentColor" opacity="0.35"/>
+            <path d="M 20 40 L 40 100 L 30 100 L 45 140 L 25 140 L 35 180 L 10 180 L 10 120 Q 10 80, 15 40 Z" fill="currentColor" opacity="0.3"/>
           </svg>
         </div>
         

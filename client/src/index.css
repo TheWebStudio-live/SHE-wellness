@@ -338,11 +338,11 @@
   }
 }
 
-@keyframes float {
+@keyframes sway {
   0%, 100% {
-    transform: translateY(0px);
+    transform: rotate(0deg);
   }
   50% {
-    transform: translateY(-10px);
+    transform: rotate(3deg);
   }
 }
