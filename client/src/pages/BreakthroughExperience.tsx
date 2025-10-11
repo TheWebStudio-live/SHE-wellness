@@ -101,15 +101,12 @@ export default function BreakthroughExperience() {
               <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-overview-title">
                 What You'll Experience
               </h2>
-              <p className="text-lg text-muted-foreground max-w-2xl leading-loose" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
+              <p className="text-lg text-muted-foreground max-w-2xl leading-loose mb-6" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
+              <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
             </div>
           </div>
           
           <div className="h-96"></div>
-          
-          <div className="text-center mt-16">
-            <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
-          </div>
         </div>
       </section>
       {/* Your 10-Module Journey */}
