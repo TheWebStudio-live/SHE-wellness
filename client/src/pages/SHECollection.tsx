@@ -21,29 +21,37 @@ export default function SHECollection() {
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
         
-        {/* Left Tree Decoration */}
-        <div className="absolute left-0 bottom-0 opacity-15 animate-[sway_8s_ease-in-out_infinite]">
-          <svg width="80" height="300" viewBox="0 0 80 300" className="text-primary md:w-[120px] md:h-[400px]">
-            {/* Trunk */}
-            <path d="M 70 300 L 70 180 Q 70 170, 68 160" stroke="currentColor" fill="none" strokeWidth="3"/>
+        {/* Left Botanical Line Art */}
+        <div className="absolute left-4 top-1/2 -translate-y-1/2 opacity-20 animate-[sway_8s_ease-in-out_infinite]">
+          <svg width="100" height="400" viewBox="0 0 100 400" className="text-foreground md:w-[140px] md:h-[500px]">
+            {/* Main stem */}
+            <path d="M 50 400 Q 48 300, 45 200 Q 43 100, 40 20" stroke="currentColor" fill="none" strokeWidth="1.5"/>
             
-            {/* Tree canopy - layered triangular shapes */}
-            <path d="M 40 80 L 10 160 L 20 160 L 5 200 L 25 200 L 15 240 L 70 240 L 70 180 Q 70 120, 55 80 Z" fill="currentColor" opacity="0.4"/>
-            <path d="M 50 60 L 25 130 L 35 130 L 20 170 L 40 170 L 30 210 L 70 210 L 70 160 Q 70 100, 60 60 Z" fill="currentColor" opacity="0.35"/>
-            <path d="M 60 40 L 40 100 L 50 100 L 35 140 L 55 140 L 45 180 L 70 180 L 70 120 Q 70 80, 65 40 Z" fill="currentColor" opacity="0.3"/>
+            {/* Leaves - elegant curved shapes */}
+            <path d="M 40 80 Q 15 70, 10 50 Q 8 40, 15 35 Q 25 32, 35 45 Q 38 55, 40 70" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 42 120 Q 70 110, 78 90 Q 82 80, 75 72 Q 65 68, 52 82 Q 46 92, 44 110" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 44 160 Q 12 155, 5 135 Q 2 122, 10 115 Q 22 110, 38 128 Q 42 140, 44 155" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 46 200 Q 75 195, 85 175 Q 90 162, 82 152 Q 70 145, 52 165 Q 47 180, 46 195" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 47 250 Q 18 248, 8 228 Q 4 215, 12 205 Q 24 198, 42 218 Q 46 232, 47 245" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 48 300 Q 78 298, 88 278 Q 93 265, 85 255 Q 73 248, 54 268 Q 49 282, 48 295" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 49 350 Q 22 350, 12 330 Q 7 317, 15 307 Q 27 300, 44 320 Q 48 334, 49 345" stroke="currentColor" fill="none" strokeWidth="1.5"/>
           </svg>
         </div>
         
-        {/* Right Tree Decoration */}
-        <div className="absolute right-0 bottom-0 opacity-15 animate-[sway_8s_ease-in-out_infinite_1.5s]">
-          <svg width="80" height="300" viewBox="0 0 80 300" className="text-primary md:w-[120px] md:h-[400px]">
-            {/* Trunk */}
-            <path d="M 10 300 L 10 180 Q 10 170, 12 160" stroke="currentColor" fill="none" strokeWidth="3"/>
+        {/* Right Botanical Line Art */}
+        <div className="absolute right-4 top-1/2 -translate-y-1/2 opacity-20 animate-[sway_8s_ease-in-out_infinite_1.5s]">
+          <svg width="100" height="400" viewBox="0 0 100 400" className="text-foreground md:w-[140px] md:h-[500px]">
+            {/* Main stem */}
+            <path d="M 50 400 Q 52 300, 55 200 Q 57 100, 60 20" stroke="currentColor" fill="none" strokeWidth="1.5"/>
             
-            {/* Tree canopy - layered triangular shapes */}
-            <path d="M 40 80 L 70 160 L 60 160 L 75 200 L 55 200 L 65 240 L 10 240 L 10 180 Q 10 120, 25 80 Z" fill="currentColor" opacity="0.4"/>
-            <path d="M 30 60 L 55 130 L 45 130 L 60 170 L 40 170 L 50 210 L 10 210 L 10 160 Q 10 100, 20 60 Z" fill="currentColor" opacity="0.35"/>
-            <path d="M 20 40 L 40 100 L 30 100 L 45 140 L 25 140 L 35 180 L 10 180 L 10 120 Q 10 80, 15 40 Z" fill="currentColor" opacity="0.3"/>
+            {/* Leaves - elegant curved shapes mirrored */}
+            <path d="M 60 80 Q 85 70, 90 50 Q 92 40, 85 35 Q 75 32, 65 45 Q 62 55, 60 70" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 58 120 Q 30 110, 22 90 Q 18 80, 25 72 Q 35 68, 48 82 Q 54 92, 56 110" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 56 160 Q 88 155, 95 135 Q 98 122, 90 115 Q 78 110, 62 128 Q 58 140, 56 155" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 54 200 Q 25 195, 15 175 Q 10 162, 18 152 Q 30 145, 48 165 Q 53 180, 54 195" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 53 250 Q 82 248, 92 228 Q 96 215, 88 205 Q 76 198, 58 218 Q 54 232, 53 245" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 52 300 Q 22 298, 12 278 Q 7 265, 15 255 Q 27 248, 46 268 Q 51 282, 52 295" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 51 350 Q 78 350, 88 330 Q 93 317, 85 307 Q 73 300, 56 320 Q 52 334, 51 345" stroke="currentColor" fill="none" strokeWidth="1.5"/>
           </svg>
         </div>
         
