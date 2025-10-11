@@ -8,6 +8,7 @@ import SHEWordCollage from '@/components/SHEWordCollage';
 import diverseWomenImage from '@assets/generated_images/Diverse_women_empowerment_botanical_design_8108153e.png';
 import activismImage from '@assets/generated_images/Abstract_activism_botanical_empowerment_design_e8b28187.png';
 import handPlantDrawing from '@assets/Screenshot 2025-10-11 at 16.14.14_1760213674420.png';
+import handsPlantDrawing from '@assets/Screenshot 2025-10-11 at 16.16.45_1760213821437.png';
 
 export default function SHECollection() {
   return (
@@ -27,6 +28,14 @@ export default function SHECollection() {
             alt="Hand holding plant drawing background" 
             className="w-1/2 md:w-1/3 h-auto object-contain opacity-10"
             data-testid="img-hand-plant-background"
+          />
+        </div>
+        <div className="absolute inset-0 flex justify-start items-end">
+          <img 
+            src={handsPlantDrawing} 
+            alt="Hands nurturing plant drawing background" 
+            className="w-1/2 md:w-1/3 h-auto object-contain opacity-10"
+            data-testid="img-hands-plant-background"
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
