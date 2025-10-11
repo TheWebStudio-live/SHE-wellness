@@ -7,7 +7,6 @@ import { Heart, Shield, Star, Sparkles, BookOpen, Users } from 'lucide-react';
 import SHEWordCollage from '@/components/SHEWordCollage';
 import diverseWomenImage from '@assets/generated_images/Diverse_women_empowerment_botanical_design_8108153e.png';
 import activismImage from '@assets/generated_images/Abstract_activism_botanical_empowerment_design_e8b28187.png';
-import botanicalLeavesImage from '@assets/Screenshot 2025-10-11 at 15.58.56_1760212837956.png';
 
 export default function SHECollection() {
   return (
@@ -21,14 +20,6 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
-        <div className="absolute inset-0 flex justify-center items-center">
-          <img 
-            src={botanicalLeavesImage} 
-            alt="Botanical leaves decorative background" 
-            className="w-full h-full object-cover opacity-30"
-            data-testid="img-botanical-leaves-background"
-          />
-        </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
