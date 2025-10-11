@@ -180,14 +180,14 @@ export default function PublicSpeakingEngagements() {
             <div className="space-y-3 mb-6 max-w-3xl mx-auto">
               <div className="flex items-start text-sm text-muted-foreground pl-[0px] pr-[0px] pt-[13px] pb-[13px]">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
-                Booking Peta is investing in your audience's success—delivering emotional depth and tangible results.
+                Booking Peta is investing in your audience's success—delivering real emotional impact and tangible results.
               </div>
               
               <div className="flex items-start text-sm text-muted-foreground">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 <div>
                   <strong className="whitespace-nowrap block mb-1">Emotional ROI, Guaranteed</strong>
-                  <span>Peta moves audiences with deeply personal storytelling, ensuring your attendees feel seen, inspired, and activated to make meaningful life changes.</span>
+                  <span>Peta moves audiences with authentic storytelling that leaves attendees seen, inspired, and ready to act.</span>
                 </div>
               </div>
               
@@ -195,7 +195,7 @@ export default function PublicSpeakingEngagements() {
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 <div>
                   <strong className="whitespace-nowrap block mb-1">Actionable Empowerment</strong>
-                  <span>They leave with research-backed tools to Strengthen their core resilience, directly reducing professional burnout and increasing productivity.</span>
+                  <span>Attendees walk away with tools to build resilience, reduce burnout, and boost productivity.</span>
                 </div>
               </div>
               
@@ -203,7 +203,7 @@ export default function PublicSpeakingEngagements() {
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 <div>
                   <strong className="whitespace-nowrap block mb-1">The Flawless Partnership</strong>
-                  <span>You get a professional speaker who guarantees an engaging, organized, and impactful session that elevates the quality and satisfaction of your entire event.</span>
+                  <span>Professional, engaging, and organized—Peta ensures your event leaves a lasting impact.</span>
                 </div>
               </div>
             </div>
