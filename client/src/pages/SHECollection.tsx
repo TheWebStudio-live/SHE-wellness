@@ -21,37 +21,71 @@ export default function SHECollection() {
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
         
-        {/* Left Botanical Line Art */}
-        <div className="absolute left-4 top-1/2 -translate-y-1/2 opacity-20 animate-[sway_8s_ease-in-out_infinite]">
-          <svg width="100" height="400" viewBox="0 0 100 400" className="text-foreground md:w-[140px] md:h-[500px]">
-            {/* Main stem */}
-            <path d="M 50 400 Q 48 300, 45 200 Q 43 100, 40 20" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+        {/* Left Tree with Foliage */}
+        <div className="absolute left-0 bottom-0 opacity-15 animate-[sway_6s_ease-in-out_infinite]">
+          <svg width="200" height="400" viewBox="0 0 200 400" className="text-primary md:w-[280px] md:h-[550px]">
+            {/* Trunk */}
+            <path d="M 180 400 L 180 250 Q 180 240, 175 220" stroke="currentColor" fill="none" strokeWidth="4" strokeLinecap="round"/>
             
-            {/* Leaves - elegant curved shapes */}
-            <path d="M 40 80 Q 15 70, 10 50 Q 8 40, 15 35 Q 25 32, 35 45 Q 38 55, 40 70" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 42 120 Q 70 110, 78 90 Q 82 80, 75 72 Q 65 68, 52 82 Q 46 92, 44 110" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 44 160 Q 12 155, 5 135 Q 2 122, 10 115 Q 22 110, 38 128 Q 42 140, 44 155" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 46 200 Q 75 195, 85 175 Q 90 162, 82 152 Q 70 145, 52 165 Q 47 180, 46 195" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 47 250 Q 18 248, 8 228 Q 4 215, 12 205 Q 24 198, 42 218 Q 46 232, 47 245" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 48 300 Q 78 298, 88 278 Q 93 265, 85 255 Q 73 248, 54 268 Q 49 282, 48 295" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 49 350 Q 22 350, 12 330 Q 7 317, 15 307 Q 27 300, 44 320 Q 48 334, 49 345" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            {/* Main branches */}
+            <path d="M 175 260 Q 140 250, 110 240" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 176 240 Q 150 230, 125 215" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 177 220 Q 140 205, 100 185" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 178 200 Q 145 180, 115 155" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 179 180 Q 150 155, 125 125" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 179 160 Q 155 130, 135 95" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            
+            {/* Leaf clusters - filled organic shapes */}
+            <ellipse cx="100" cy="230" rx="35" ry="28" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="115" cy="210" rx="32" ry="26" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="90" cy="180" rx="38" ry="30" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="108" cy="150" rx="35" ry="28" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="120" cy="120" rx="40" ry="32" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="130" cy="90" rx="38" ry="30" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="145" cy="60" rx="35" ry="28" fill="currentColor" opacity="0.25"/>
+            
+            {/* Additional scattered leaves */}
+            <ellipse cx="80" cy="200" rx="18" ry="14" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="140" cy="180" rx="20" ry="16" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="95" cy="140" rx="22" ry="17" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="145" cy="130" rx="19" ry="15" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="110" cy="100" rx="24" ry="18" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="155" cy="80" rx="21" ry="16" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="125" cy="50" rx="25" ry="19" fill="currentColor" opacity="0.2"/>
           </svg>
         </div>
         
-        {/* Right Botanical Line Art */}
-        <div className="absolute right-4 top-1/2 -translate-y-1/2 opacity-20 animate-[sway_8s_ease-in-out_infinite_1.5s]">
-          <svg width="100" height="400" viewBox="0 0 100 400" className="text-foreground md:w-[140px] md:h-[500px]">
-            {/* Main stem */}
-            <path d="M 50 400 Q 52 300, 55 200 Q 57 100, 60 20" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+        {/* Right Tree with Foliage */}
+        <div className="absolute right-0 bottom-0 opacity-15 animate-[sway_6s_ease-in-out_infinite_1s]">
+          <svg width="200" height="400" viewBox="0 0 200 400" className="text-primary md:w-[280px] md:h-[550px]">
+            {/* Trunk */}
+            <path d="M 20 400 L 20 250 Q 20 240, 25 220" stroke="currentColor" fill="none" strokeWidth="4" strokeLinecap="round"/>
             
-            {/* Leaves - elegant curved shapes mirrored */}
-            <path d="M 60 80 Q 85 70, 90 50 Q 92 40, 85 35 Q 75 32, 65 45 Q 62 55, 60 70" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 58 120 Q 30 110, 22 90 Q 18 80, 25 72 Q 35 68, 48 82 Q 54 92, 56 110" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 56 160 Q 88 155, 95 135 Q 98 122, 90 115 Q 78 110, 62 128 Q 58 140, 56 155" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 54 200 Q 25 195, 15 175 Q 10 162, 18 152 Q 30 145, 48 165 Q 53 180, 54 195" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 53 250 Q 82 248, 92 228 Q 96 215, 88 205 Q 76 198, 58 218 Q 54 232, 53 245" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 52 300 Q 22 298, 12 278 Q 7 265, 15 255 Q 27 248, 46 268 Q 51 282, 52 295" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <path d="M 51 350 Q 78 350, 88 330 Q 93 317, 85 307 Q 73 300, 56 320 Q 52 334, 51 345" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            {/* Main branches */}
+            <path d="M 25 260 Q 60 250, 90 240" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 24 240 Q 50 230, 75 215" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 23 220 Q 60 205, 100 185" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 22 200 Q 55 180, 85 155" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 21 180 Q 50 155, 75 125" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 21 160 Q 45 130, 65 95" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            
+            {/* Leaf clusters - filled organic shapes */}
+            <ellipse cx="100" cy="230" rx="35" ry="28" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="85" cy="210" rx="32" ry="26" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="110" cy="180" rx="38" ry="30" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="92" cy="150" rx="35" ry="28" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="80" cy="120" rx="40" ry="32" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="70" cy="90" rx="38" ry="30" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="55" cy="60" rx="35" ry="28" fill="currentColor" opacity="0.25"/>
+            
+            {/* Additional scattered leaves */}
+            <ellipse cx="120" cy="200" rx="18" ry="14" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="60" cy="180" rx="20" ry="16" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="105" cy="140" rx="22" ry="17" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="55" cy="130" rx="19" ry="15" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="90" cy="100" rx="24" ry="18" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="45" cy="80" rx="21" ry="16" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="75" cy="50" rx="25" ry="19" fill="currentColor" opacity="0.2"/>
           </svg>
         </div>
         
