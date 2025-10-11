@@ -21,11 +21,11 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
-        <div className="absolute inset-0 flex justify-center items-center">
+        <div className="absolute inset-0 flex justify-start items-center">
           <img 
             src={treeLineDrawing} 
             alt="Tree line drawing background" 
-            className="w-full h-full object-cover opacity-10"
+            className="w-full h-full object-contain object-left opacity-10"
             data-testid="img-tree-background"
           />
         </div>
