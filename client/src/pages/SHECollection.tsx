@@ -30,11 +30,11 @@ export default function SHECollection() {
             data-testid="img-hand-plant-background"
           />
         </div>
-        <div className="absolute inset-0 flex justify-start items-end">
+        <div className="absolute inset-0 flex justify-start items-end pb-8">
           <img 
             src={handsPlantDrawing} 
             alt="Hands nurturing plant drawing background" 
-            className="w-1/2 md:w-1/3 h-auto object-contain opacity-10"
+            className="w-1/3 md:w-1/4 h-auto object-contain opacity-10"
             data-testid="img-hands-plant-background"
           />
         </div>
