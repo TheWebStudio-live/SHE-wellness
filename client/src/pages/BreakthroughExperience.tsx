@@ -84,7 +84,19 @@ export default function BreakthroughExperience() {
         </div>
       </section>
       {/* Program Overview */}
-      <section className="py-16 relative overflow-hidden">
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-overview-title">
+              What You'll Experience
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-loose" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
+          </div>
+        </div>
+      </section>
+      
+      {/* Transformation Background Image Section */}
+      <section className="relative overflow-hidden">
         {/* Transformation Background Image */}
         <div className="absolute inset-0 flex justify-center items-center">
           <img 
@@ -96,16 +108,9 @@ export default function BreakthroughExperience() {
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-overview-title">
-              What You'll Experience
-            </h2>
-            <p className="text-lg max-w-2xl mx-auto leading-loose text-[#404a45]" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
-          </div>
-          
           <div className="h-96"></div>
           
-          <div className="text-center mt-16">
+          <div className="text-center mt-16 pb-16">
             <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
           </div>
         </div>
