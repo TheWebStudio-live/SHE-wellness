@@ -28,7 +28,7 @@ export default function PublicSpeakingEngagements() {
         }}></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-speaking-engagements">
-            Public Speaking Engagements
+            Power Talks
           </Badge>
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-speaking-title">​Strengthen. Heal. Evolve.</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-speaking-description">Keynotes and workshops that help you <strong>Strengthen</strong> your game plan, <strong>Heal</strong> from self-doubt and setbacks, and <strong>Evolve</strong> into the powerful, confident person ready to level up your life and impact your world.</p>
@@ -44,9 +44,9 @@ export default function PublicSpeakingEngagements() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-card border rounded-2xl p-6 md:p-8 text-center">
             <h2 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-3" data-testid="text-upcoming-speaking-title">
-              Upcoming Speaking Engagements
+              Upcoming Power Talks
             </h2>
-            <p className="text-base text-muted-foreground mb-6" data-testid="text-upcoming-speaking-description">​Join Peta Williams as she delivers insights on empowerment, healing, and transformation.</p>
+            <p className="text-base text-muted-foreground mb-6" data-testid="text-upcoming-speaking-description">Join Peta Williams as she delivers insights on empowerment, healing, and transformation.</p>
             
             <ul className="space-y-3 mb-6 text-left max-w-xl mx-auto">
               {upcomingEvents.map((event, index) => (

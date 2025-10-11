@@ -11,7 +11,7 @@ export default function Navigation() {
     { path: '/', label: 'Home', testId: 'home' },
     { path: '/she-collection', label: 'S.H.E. Collection', testId: 'she-collection' },
     { path: '/breakthrough-experience', label: 'The Breakthrough Experience', testId: 'breakthrough-experience' },
-    { path: '/speaking-engagements', label: 'Public Speaking Engagements', testId: 'speaking-engagements' },
+    { path: '/speaking-engagements', label: 'Power Talks', testId: 'speaking-engagements' },
   ];
 
   return (

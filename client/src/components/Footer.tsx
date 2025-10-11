@@ -4,7 +4,7 @@ const footerLinks = {
   'Quick Links': [
     { label: 'S.H.E. Collection', href: '/she-collection' },
     { label: 'The Breakthrough Experience', href: '/breakthrough-experience' },
-    { label: 'Public Speaking Engagements', href: '/speaking-engagements' }
+    { label: 'Power Talks', href: '/speaking-engagements' }
   ],
   'Support': [
     { label: 'Contact Us', href: 'mailto:petawilliams@yes2wellnessfl.com' }
