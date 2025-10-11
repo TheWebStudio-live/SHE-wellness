@@ -100,7 +100,7 @@ export default function BreakthroughExperience() {
             <h2 className="text-3xl font-serif font-bold text-foreground mt-[-44px] mb-[-44px]" data-testid="text-overview-title">
               What You'll Experience
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-loose" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-loose mt-[44px] mb-[44px]" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
           </div>
           
           <div className="h-96"></div>
