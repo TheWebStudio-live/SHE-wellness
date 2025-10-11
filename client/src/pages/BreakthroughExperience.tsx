@@ -105,7 +105,7 @@ export default function BreakthroughExperience() {
           
           <div className="h-64"></div>
           
-          <div className="text-center mt-12">
+          <div className="text-center mt-20">
             <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
           </div>
         </div>
