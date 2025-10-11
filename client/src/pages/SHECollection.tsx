@@ -22,7 +22,7 @@ export default function SHECollection() {
         }}></div>
         
         {/* Left Botanical Decoration */}
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block">
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block animate-[float_6s_ease-in-out_infinite]">
           <svg width="220" height="600" viewBox="0 0 220 600" className="text-primary">
             {/* Main branches */}
             <path d="M 200 300 Q 170 240, 160 180 Q 155 150, 150 120" stroke="currentColor" fill="none" strokeWidth="1.5"/>
@@ -76,7 +76,7 @@ export default function SHECollection() {
         </div>
         
         {/* Right Botanical Decoration */}
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block">
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block animate-[float_6s_ease-in-out_infinite_1s]">
           <svg width="220" height="600" viewBox="0 0 220 600" className="text-primary">
             {/* Main branches */}
             <path d="M 20 300 Q 50 240, 60 180 Q 65 150, 70 120" stroke="currentColor" fill="none" strokeWidth="1.5"/>
