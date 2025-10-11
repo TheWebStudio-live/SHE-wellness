@@ -34,7 +34,7 @@ export default function SHECollection() {
           <img 
             src={handsPlantDrawing} 
             alt="Hands nurturing plant drawing background" 
-            className="w-1/4 md:w-1/5 h-auto object-contain opacity-10"
+            className="w-1/3 md:w-1/4 h-auto object-contain opacity-10"
             data-testid="img-hands-plant-background"
           />
         </div>
