@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Heart, Shield, Star, Sparkles, BookOpen, Users, TreePine, Leaf } from 'lucide-react';
+import { Heart, Shield, Star, Sparkles, BookOpen, Users } from 'lucide-react';
 import SHEWordCollage from '@/components/SHEWordCollage';
 import diverseWomenImage from '@assets/generated_images/Diverse_women_empowerment_botanical_design_8108153e.png';
 import activismImage from '@assets/generated_images/Abstract_activism_botanical_empowerment_design_e8b28187.png';
@@ -20,19 +20,6 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
-        
-        {/* Decorative Nature Graphics - Left Side */}
-        <div className="absolute left-4 top-1/2 -translate-y-1/2 hidden lg:block opacity-20">
-          <TreePine className="w-32 h-32 text-primary" />
-          <Leaf className="w-16 h-16 text-primary absolute -right-4 top-8" />
-        </div>
-        
-        {/* Decorative Nature Graphics - Right Side */}
-        <div className="absolute right-4 top-1/2 -translate-y-1/2 hidden lg:block opacity-20">
-          <TreePine className="w-32 h-32 text-primary" />
-          <Leaf className="w-16 h-16 text-primary absolute -left-4 top-8" />
-        </div>
-        
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
