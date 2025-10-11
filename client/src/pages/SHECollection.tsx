@@ -23,29 +23,63 @@ export default function SHECollection() {
         
         {/* Left Botanical Decoration */}
         <div className="absolute left-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block">
-          <svg width="200" height="400" viewBox="0 0 200 400" className="text-primary">
-            <path d="M 180 200 Q 150 180, 140 160" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <ellipse cx="135" cy="155" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-30 135 155)"/>
-            <path d="M 180 200 Q 150 190, 145 175" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <ellipse cx="142" cy="170" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(-25 142 170)"/>
-            <path d="M 180 200 Q 160 205, 150 215" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <ellipse cx="145" cy="220" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(20 145 220)"/>
-            <path d="M 180 200 Q 155 210, 148 225" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <ellipse cx="144" cy="232" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(25 144 232)"/>
+          <svg width="200" height="500" viewBox="0 0 200 500" className="text-primary">
+            {/* Main branch */}
+            <path d="M 180 250 Q 160 200, 150 150" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 180 250 Q 165 280, 155 310" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            
+            {/* Upper leaves */}
+            <path d="M 180 250 Q 150 230, 140 210" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="135" cy="205" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(-35 135 205)"/>
+            <path d="M 180 250 Q 150 240, 145 225" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="142" cy="220" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-30 142 220)"/>
+            <path d="M 180 250 Q 155 235, 148 218" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="144" cy="213" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(-25 144 213)"/>
+            
+            {/* Middle leaves */}
+            <path d="M 180 250 Q 160 255, 150 265" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="145" cy="270" rx="24" ry="10" fill="currentColor" opacity="0.3" transform="rotate(20 145 270)"/>
+            <path d="M 180 250 Q 155 260, 148 275" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="144" cy="282" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(25 144 282)"/>
+            
+            {/* Lower leaves */}
+            <path d="M 180 250 Q 160 270, 152 290" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="148" cy="296" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(30 148 296)"/>
+            <path d="M 180 250 Q 165 275, 158 295" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="154" cy="302" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(35 154 302)"/>
+            <path d="M 180 250 Q 162 285, 156 308" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="152" cy="315" rx="21" ry="8" fill="currentColor" opacity="0.3" transform="rotate(40 152 315)"/>
           </svg>
         </div>
         
         {/* Right Botanical Decoration */}
         <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block">
-          <svg width="200" height="400" viewBox="0 0 200 400" className="text-primary">
-            <path d="M 20 200 Q 50 180, 60 160" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <ellipse cx="65" cy="155" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(30 65 155)"/>
-            <path d="M 20 200 Q 50 190, 55 175" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <ellipse cx="58" cy="170" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(25 58 170)"/>
-            <path d="M 20 200 Q 40 205, 50 215" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <ellipse cx="55" cy="220" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(-20 55 220)"/>
-            <path d="M 20 200 Q 45 210, 52 225" stroke="currentColor" fill="none" strokeWidth="1.5"/>
-            <ellipse cx="56" cy="232" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-25 56 232)"/>
+          <svg width="200" height="500" viewBox="0 0 200 500" className="text-primary">
+            {/* Main branch */}
+            <path d="M 20 250 Q 40 200, 50 150" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <path d="M 20 250 Q 35 280, 45 310" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            
+            {/* Upper leaves */}
+            <path d="M 20 250 Q 50 230, 60 210" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="65" cy="205" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(35 65 205)"/>
+            <path d="M 20 250 Q 50 240, 55 225" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="58" cy="220" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(30 58 220)"/>
+            <path d="M 20 250 Q 45 235, 52 218" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="56" cy="213" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(25 56 213)"/>
+            
+            {/* Middle leaves */}
+            <path d="M 20 250 Q 40 255, 50 265" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="55" cy="270" rx="24" ry="10" fill="currentColor" opacity="0.3" transform="rotate(-20 55 270)"/>
+            <path d="M 20 250 Q 45 260, 52 275" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="56" cy="282" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(-25 56 282)"/>
+            
+            {/* Lower leaves */}
+            <path d="M 20 250 Q 40 270, 48 290" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="52" cy="296" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-30 52 296)"/>
+            <path d="M 20 250 Q 35 275, 42 295" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="46" cy="302" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(-35 46 302)"/>
+            <path d="M 20 250 Q 38 285, 44 308" stroke="currentColor" fill="none" strokeWidth="1"/>
+            <ellipse cx="48" cy="315" rx="21" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-40 48 315)"/>
           </svg>
         </div>
         
