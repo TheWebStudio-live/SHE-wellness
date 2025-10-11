@@ -21,47 +21,47 @@ export default function SHECollection() {
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
         
-        {/* Decorative Graphics - Left Side with Animations */}
-        <div className="absolute left-4 top-1/4 opacity-[0.08] pointer-events-none hidden md:block animate-float-slow">
+        {/* Decorative Graphics - Left Side */}
+        <div className="absolute left-4 top-1/4 opacity-[0.08] pointer-events-none hidden md:block">
           <Sparkles className="w-24 h-24 text-primary" />
         </div>
-        <div className="absolute left-8 bottom-1/4 opacity-[0.06] pointer-events-none hidden md:block animate-float-medium">
+        <div className="absolute left-8 bottom-1/4 opacity-[0.06] pointer-events-none hidden md:block">
           <Heart className="w-32 h-32 text-primary" />
         </div>
-        <div className="absolute left-20 top-1/2 opacity-[0.05] pointer-events-none hidden lg:block animate-float-fast">
+        <div className="absolute left-20 top-1/2 opacity-[0.05] pointer-events-none hidden lg:block">
           <Star className="w-20 h-20 text-primary" />
         </div>
         
         {/* Additional Left Side Botanical Elements */}
-        <div className="absolute left-12 top-[15%] opacity-[0.07] pointer-events-none hidden lg:block animate-drift-left">
+        <div className="absolute left-12 top-[15%] opacity-[0.07] pointer-events-none hidden lg:block">
           <Leaf className="w-16 h-16 text-primary rotate-45" />
         </div>
-        <div className="absolute left-6 top-[60%] opacity-[0.06] pointer-events-none hidden md:block animate-pulse-gentle">
+        <div className="absolute left-6 top-[60%] opacity-[0.06] pointer-events-none hidden md:block">
           <Leaf className="w-20 h-20 text-primary -rotate-12" />
         </div>
-        <div className="absolute left-16 bottom-[15%] opacity-[0.05] pointer-events-none hidden lg:block animate-drift-left-slow">
+        <div className="absolute left-16 bottom-[15%] opacity-[0.05] pointer-events-none hidden lg:block">
           <Leaf className="w-14 h-14 text-primary rotate-90" />
         </div>
         
-        {/* Decorative Graphics - Right Side with Animations */}
-        <div className="absolute right-4 top-1/3 opacity-[0.08] pointer-events-none hidden md:block animate-float-medium">
+        {/* Decorative Graphics - Right Side */}
+        <div className="absolute right-4 top-1/3 opacity-[0.08] pointer-events-none hidden md:block">
           <Shield className="w-28 h-28 text-primary" />
         </div>
-        <div className="absolute right-12 bottom-1/3 opacity-[0.06] pointer-events-none hidden md:block animate-float-slow">
+        <div className="absolute right-12 bottom-1/3 opacity-[0.06] pointer-events-none hidden md:block">
           <Sparkles className="w-24 h-24 text-primary" />
         </div>
-        <div className="absolute right-24 top-2/3 opacity-[0.05] pointer-events-none hidden lg:block animate-float-fast">
+        <div className="absolute right-24 top-2/3 opacity-[0.05] pointer-events-none hidden lg:block">
           <Heart className="w-20 h-20 text-primary" />
         </div>
         
         {/* Additional Right Side Botanical Elements */}
-        <div className="absolute right-8 top-[20%] opacity-[0.07] pointer-events-none hidden lg:block animate-drift-right">
+        <div className="absolute right-8 top-[20%] opacity-[0.07] pointer-events-none hidden lg:block">
           <Leaf className="w-18 h-18 text-primary -rotate-45" />
         </div>
-        <div className="absolute right-6 top-[55%] opacity-[0.06] pointer-events-none hidden md:block animate-pulse-gentle">
+        <div className="absolute right-6 top-[55%] opacity-[0.06] pointer-events-none hidden md:block">
           <Leaf className="w-16 h-16 text-primary rotate-12" />
         </div>
-        <div className="absolute right-20 bottom-[20%] opacity-[0.05] pointer-events-none hidden lg:block animate-drift-right-slow">
+        <div className="absolute right-20 bottom-[20%] opacity-[0.05] pointer-events-none hidden lg:block">
           <Leaf className="w-14 h-14 text-primary -rotate-90" />
         </div>
         
