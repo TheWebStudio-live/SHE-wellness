@@ -90,7 +90,7 @@ export default function BreakthroughExperience() {
           <img 
             src={transformationImage} 
             alt="Transformation journey with botanical elements representing 90-day growth" 
-            className="w-full h-full object-cover opacity-50"
+            className="w-full h-full object-cover opacity-35"
             data-testid="img-transformation-background"
           />
         </div>
