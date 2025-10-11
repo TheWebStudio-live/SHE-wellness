@@ -8,7 +8,7 @@ import SHEWordCollage from '@/components/SHEWordCollage';
 import diverseWomenImage from '@assets/generated_images/Diverse_women_empowerment_botanical_design_8108153e.png';
 import activismImage from '@assets/generated_images/Abstract_activism_botanical_empowerment_design_e8b28187.png';
 import handPlantDrawing from '@assets/Screenshot 2025-10-11 at 16.14.14_1760213674420.png';
-import handsPlantDrawing from '@assets/Screenshot 2025-10-11 at 16.16.45_1760213821437.png';
+import handsPlantDrawing from '@assets/Screenshot 2025-10-11 at 16.19.56_1760214011521.png';
 
 export default function SHECollection() {
   return (
