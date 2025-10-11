@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Lightbulb, Target, Zap, Clock, Users, CheckCircle } from 'lucide-react';
+import { Clock, Users, CheckCircle } from 'lucide-react';
 import transformationImage from '@assets/generated_images/Transformation_journey_botanical_background_design_bc9764b3.png';
 
 const modules = [
@@ -103,46 +103,7 @@ export default function BreakthroughExperience() {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="text-center hover-elevate" data-testid="card-self-discovery">
-              <CardHeader>
-                <Lightbulb className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Deep Self-Discovery</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Uncover your authentic self, identify limiting beliefs, and discover 
-                  your true passions and purpose.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center hover-elevate" data-testid="card-goal-setting">
-              <CardHeader>
-                <Target className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Strategic Goal Setting</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Learn powerful goal-setting techniques and create a clear roadmap 
-                  for achieving your dreams.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center hover-elevate" data-testid="card-transformation">
-              <CardHeader>
-                <Zap className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Rapid Transformation</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Experience breakthrough moments and rapid shifts that create 
-                  lasting change in your mindset and behavior.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
+          <div className="h-64"></div>
           
           <div className="text-center mt-12">
             <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
