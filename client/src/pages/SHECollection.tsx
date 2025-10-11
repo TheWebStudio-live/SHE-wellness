@@ -20,6 +20,35 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
+        
+        {/* Left Botanical Decoration */}
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block">
+          <svg width="200" height="400" viewBox="0 0 200 400" className="text-primary">
+            <path d="M 180 200 Q 150 180, 140 160" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <ellipse cx="135" cy="155" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-30 135 155)"/>
+            <path d="M 180 200 Q 150 190, 145 175" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <ellipse cx="142" cy="170" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(-25 142 170)"/>
+            <path d="M 180 200 Q 160 205, 150 215" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <ellipse cx="145" cy="220" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(20 145 220)"/>
+            <path d="M 180 200 Q 155 210, 148 225" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <ellipse cx="144" cy="232" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(25 144 232)"/>
+          </svg>
+        </div>
+        
+        {/* Right Botanical Decoration */}
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-20 hidden lg:block">
+          <svg width="200" height="400" viewBox="0 0 200 400" className="text-primary">
+            <path d="M 20 200 Q 50 180, 60 160" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <ellipse cx="65" cy="155" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(30 65 155)"/>
+            <path d="M 20 200 Q 50 190, 55 175" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <ellipse cx="58" cy="170" rx="18" ry="7" fill="currentColor" opacity="0.3" transform="rotate(25 58 170)"/>
+            <path d="M 20 200 Q 40 205, 50 215" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <ellipse cx="55" cy="220" rx="22" ry="9" fill="currentColor" opacity="0.3" transform="rotate(-20 55 220)"/>
+            <path d="M 20 200 Q 45 210, 52 225" stroke="currentColor" fill="none" strokeWidth="1.5"/>
+            <ellipse cx="56" cy="232" rx="20" ry="8" fill="currentColor" opacity="0.3" transform="rotate(-25 56 232)"/>
+          </svg>
+        </div>
+        
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
