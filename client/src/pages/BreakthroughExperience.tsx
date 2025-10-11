@@ -103,9 +103,9 @@ export default function BreakthroughExperience() {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-loose" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
           </div>
           
-          <div className="h-64"></div>
+          <div className="h-96"></div>
           
-          <div className="text-center mt-32">
+          <div className="text-center mt-16">
             <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
           </div>
         </div>
