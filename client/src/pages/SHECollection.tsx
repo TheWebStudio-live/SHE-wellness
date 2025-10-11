@@ -7,7 +7,7 @@ import { Heart, Shield, Star, Sparkles, BookOpen, Users } from 'lucide-react';
 import SHEWordCollage from '@/components/SHEWordCollage';
 import diverseWomenImage from '@assets/generated_images/Diverse_women_empowerment_botanical_design_8108153e.png';
 import activismImage from '@assets/generated_images/Abstract_activism_botanical_empowerment_design_e8b28187.png';
-import treeLineDrawing from '@assets/Screenshot 2025-10-11 at 16.07.57_1760213350920.png';
+import handPlantDrawing from '@assets/Screenshot 2025-10-11 at 16.14.14_1760213674420.png';
 
 export default function SHECollection() {
   return (
@@ -21,12 +21,12 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
-        <div className="absolute inset-0 flex justify-start items-center">
+        <div className="absolute inset-0 flex justify-end items-start">
           <img 
-            src={treeLineDrawing} 
-            alt="Tree line drawing background" 
-            className="w-full h-full object-contain object-left opacity-10"
-            data-testid="img-tree-background"
+            src={handPlantDrawing} 
+            alt="Hand holding plant drawing background" 
+            className="w-1/2 md:w-1/3 h-auto object-contain opacity-10"
+            data-testid="img-hand-plant-background"
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
