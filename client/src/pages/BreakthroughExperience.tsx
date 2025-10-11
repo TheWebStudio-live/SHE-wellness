@@ -84,7 +84,7 @@ export default function BreakthroughExperience() {
         </div>
       </section>
       {/* Program Overview */}
-      <section className="py-8 relative overflow-hidden">
+      <section className="py-4 md:py-8 relative overflow-hidden">
         {/* Transformation Background Image */}
         <div className="absolute inset-0 flex justify-center items-center">
           <img 
@@ -96,7 +96,7 @@ export default function BreakthroughExperience() {
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="h-20"></div>
+          <div className="h-8 md:h-20"></div>
           
           <div className="text-center mb-8">
             <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-overview-title">
@@ -107,7 +107,7 @@ export default function BreakthroughExperience() {
             <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
           </div>
           
-          <div className="h-20"></div>
+          <div className="h-8 md:h-20"></div>
         </div>
       </section>
       {/* Your 10-Module Journey */}
