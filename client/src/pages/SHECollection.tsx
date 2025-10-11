@@ -48,7 +48,7 @@ export default function SHECollection() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">S.H.E. Activism Apparel</h2>
+            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-features-title">Empowerment Through Design</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto" data-testid="text-features-description">
               Every piece in the S.H.E. Collection is thoughtfully designed to remind you of your power, 
               your journey, and your limitless potential.
