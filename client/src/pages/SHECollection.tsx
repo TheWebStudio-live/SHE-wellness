@@ -3,7 +3,7 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Heart, Shield, Star, Sparkles, BookOpen, Users } from 'lucide-react';
+import { Heart, Shield, Star, Sparkles, BookOpen, Users, Leaf } from 'lucide-react';
 import SHEWordCollage from '@/components/SHEWordCollage';
 import diverseWomenImage from '@assets/generated_images/Diverse_women_empowerment_botanical_design_8108153e.png';
 import activismImage from '@assets/generated_images/Abstract_activism_botanical_empowerment_design_e8b28187.png';
@@ -21,26 +21,48 @@ export default function SHECollection() {
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
         
-        {/* Decorative Graphics - Left Side */}
-        <div className="absolute left-4 top-1/4 opacity-[0.08] pointer-events-none hidden md:block">
+        {/* Decorative Graphics - Left Side with Animations */}
+        <div className="absolute left-4 top-1/4 opacity-[0.08] pointer-events-none hidden md:block animate-float-slow">
           <Sparkles className="w-24 h-24 text-primary" />
         </div>
-        <div className="absolute left-8 bottom-1/4 opacity-[0.06] pointer-events-none hidden md:block">
+        <div className="absolute left-8 bottom-1/4 opacity-[0.06] pointer-events-none hidden md:block animate-float-medium">
           <Heart className="w-32 h-32 text-primary" />
         </div>
-        <div className="absolute left-20 top-1/2 opacity-[0.05] pointer-events-none hidden lg:block">
+        <div className="absolute left-20 top-1/2 opacity-[0.05] pointer-events-none hidden lg:block animate-float-fast">
           <Star className="w-20 h-20 text-primary" />
         </div>
         
-        {/* Decorative Graphics - Right Side */}
-        <div className="absolute right-4 top-1/3 opacity-[0.08] pointer-events-none hidden md:block">
+        {/* Additional Left Side Botanical Elements */}
+        <div className="absolute left-12 top-[15%] opacity-[0.07] pointer-events-none hidden lg:block animate-drift-left">
+          <Leaf className="w-16 h-16 text-primary rotate-45" />
+        </div>
+        <div className="absolute left-6 top-[60%] opacity-[0.06] pointer-events-none hidden md:block animate-pulse-gentle">
+          <Leaf className="w-20 h-20 text-primary -rotate-12" />
+        </div>
+        <div className="absolute left-16 bottom-[15%] opacity-[0.05] pointer-events-none hidden lg:block animate-drift-left-slow">
+          <Leaf className="w-14 h-14 text-primary rotate-90" />
+        </div>
+        
+        {/* Decorative Graphics - Right Side with Animations */}
+        <div className="absolute right-4 top-1/3 opacity-[0.08] pointer-events-none hidden md:block animate-float-medium">
           <Shield className="w-28 h-28 text-primary" />
         </div>
-        <div className="absolute right-12 bottom-1/3 opacity-[0.06] pointer-events-none hidden md:block">
+        <div className="absolute right-12 bottom-1/3 opacity-[0.06] pointer-events-none hidden md:block animate-float-slow">
           <Sparkles className="w-24 h-24 text-primary" />
         </div>
-        <div className="absolute right-24 top-2/3 opacity-[0.05] pointer-events-none hidden lg:block">
+        <div className="absolute right-24 top-2/3 opacity-[0.05] pointer-events-none hidden lg:block animate-float-fast">
           <Heart className="w-20 h-20 text-primary" />
+        </div>
+        
+        {/* Additional Right Side Botanical Elements */}
+        <div className="absolute right-8 top-[20%] opacity-[0.07] pointer-events-none hidden lg:block animate-drift-right">
+          <Leaf className="w-18 h-18 text-primary -rotate-45" />
+        </div>
+        <div className="absolute right-6 top-[55%] opacity-[0.06] pointer-events-none hidden md:block animate-pulse-gentle">
+          <Leaf className="w-16 h-16 text-primary rotate-12" />
+        </div>
+        <div className="absolute right-20 bottom-[20%] opacity-[0.05] pointer-events-none hidden lg:block animate-drift-right-slow">
+          <Leaf className="w-14 h-14 text-primary -rotate-90" />
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
