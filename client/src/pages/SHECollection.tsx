@@ -25,33 +25,47 @@ export default function SHECollection() {
         <div className="absolute left-0 bottom-0 opacity-15 animate-[sway_6s_ease-in-out_infinite]">
           <svg width="200" height="400" viewBox="0 0 200 400" className="text-primary md:w-[280px] md:h-[550px]">
             {/* Trunk */}
-            <path d="M 180 400 L 180 250 Q 180 240, 175 220" stroke="currentColor" fill="none" strokeWidth="4" strokeLinecap="round"/>
+            <path d="M 100 400 L 100 250 Q 100 240, 98 220" stroke="currentColor" fill="none" strokeWidth="4" strokeLinecap="round"/>
             
-            {/* Main branches */}
-            <path d="M 175 260 Q 140 250, 110 240" stroke="currentColor" fill="none" strokeWidth="2.5"/>
-            <path d="M 176 240 Q 150 230, 125 215" stroke="currentColor" fill="none" strokeWidth="2.5"/>
-            <path d="M 177 220 Q 140 205, 100 185" stroke="currentColor" fill="none" strokeWidth="2.5"/>
-            <path d="M 178 200 Q 145 180, 115 155" stroke="currentColor" fill="none" strokeWidth="2.5"/>
-            <path d="M 179 180 Q 150 155, 125 125" stroke="currentColor" fill="none" strokeWidth="2.5"/>
-            <path d="M 179 160 Q 155 130, 135 95" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            {/* Left side branches */}
+            <path d="M 98 280 Q 70 270, 45 260" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 98 250 Q 65 240, 35 225" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 98 220 Q 60 205, 30 185" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 99 190 Q 65 175, 40 155" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 99 160 Q 70 145, 45 125" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 99 130 Q 75 115, 55 95" stroke="currentColor" fill="none" strokeWidth="2.5"/>
             
-            {/* Leaf clusters - filled organic shapes */}
-            <ellipse cx="100" cy="230" rx="35" ry="28" fill="currentColor" opacity="0.25"/>
-            <ellipse cx="115" cy="210" rx="32" ry="26" fill="currentColor" opacity="0.3"/>
-            <ellipse cx="90" cy="180" rx="38" ry="30" fill="currentColor" opacity="0.25"/>
-            <ellipse cx="108" cy="150" rx="35" ry="28" fill="currentColor" opacity="0.3"/>
-            <ellipse cx="120" cy="120" rx="40" ry="32" fill="currentColor" opacity="0.25"/>
-            <ellipse cx="130" cy="90" rx="38" ry="30" fill="currentColor" opacity="0.3"/>
-            <ellipse cx="145" cy="60" rx="35" ry="28" fill="currentColor" opacity="0.25"/>
+            {/* Right side branches */}
+            <path d="M 102 270 Q 130 260, 155 250" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 102 240 Q 135 230, 165 215" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 102 210 Q 140 195, 170 175" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 101 180 Q 135 165, 160 145" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 101 150 Q 130 135, 155 115" stroke="currentColor" fill="none" strokeWidth="2.5"/>
+            <path d="M 101 120 Q 125 105, 145 85" stroke="currentColor" fill="none" strokeWidth="2.5"/>
             
-            {/* Additional scattered leaves */}
-            <ellipse cx="80" cy="200" rx="18" ry="14" fill="currentColor" opacity="0.2"/>
-            <ellipse cx="140" cy="180" rx="20" ry="16" fill="currentColor" opacity="0.2"/>
-            <ellipse cx="95" cy="140" rx="22" ry="17" fill="currentColor" opacity="0.2"/>
-            <ellipse cx="145" cy="130" rx="19" ry="15" fill="currentColor" opacity="0.2"/>
-            <ellipse cx="110" cy="100" rx="24" ry="18" fill="currentColor" opacity="0.2"/>
-            <ellipse cx="155" cy="80" rx="21" ry="16" fill="currentColor" opacity="0.2"/>
-            <ellipse cx="125" cy="50" rx="25" ry="19" fill="currentColor" opacity="0.2"/>
+            {/* Left side leaf clusters */}
+            <ellipse cx="40" cy="255" rx="35" ry="28" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="30" cy="220" rx="32" ry="26" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="25" cy="180" rx="38" ry="30" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="35" cy="150" rx="35" ry="28" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="40" cy="120" rx="40" ry="32" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="50" cy="90" rx="38" ry="30" fill="currentColor" opacity="0.3"/>
+            
+            {/* Right side leaf clusters */}
+            <ellipse cx="160" cy="245" rx="35" ry="28" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="170" cy="210" rx="32" ry="26" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="175" cy="170" rx="38" ry="30" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="165" cy="140" rx="35" ry="28" fill="currentColor" opacity="0.3"/>
+            <ellipse cx="160" cy="110" rx="40" ry="32" fill="currentColor" opacity="0.25"/>
+            <ellipse cx="150" cy="80" rx="38" ry="30" fill="currentColor" opacity="0.3"/>
+            
+            {/* Additional scattered leaves on both sides */}
+            <ellipse cx="50" cy="235" rx="20" ry="16" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="150" cy="225" rx="18" ry="14" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="45" cy="190" rx="22" ry="17" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="155" cy="180" rx="20" ry="16" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="55" cy="135" rx="24" ry="18" fill="currentColor" opacity="0.2"/>
+            <ellipse cx="145" cy="125" rx="21" ry="16" fill="currentColor" opacity="0.2"/>
           </svg>
         </div>
         
