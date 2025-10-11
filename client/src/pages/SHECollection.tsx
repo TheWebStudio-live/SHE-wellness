@@ -20,32 +20,6 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
-        
-        {/* Decorative Botanical Elements */}
-        <div className="absolute top-0 left-0 w-64 h-64 opacity-15 pointer-events-none">
-          <svg viewBox="0 0 200 200" className="w-full h-full">
-            <path d="M10,50 Q30,20 50,10 T90,5" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M15,60 Q35,35 55,25 T95,20" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M20,70 Q40,50 60,40 T100,35" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M25,80 Q45,65 65,55 T105,50" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M30,90 Q50,80 70,70 T110,65" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M5,70 Q15,50 25,40 T45,30" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M8,85 Q18,65 28,55 T48,45" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-          </svg>
-        </div>
-        
-        <div className="absolute top-0 right-0 w-64 h-64 opacity-15 pointer-events-none">
-          <svg viewBox="0 0 200 200" className="w-full h-full transform scale-x-[-1]">
-            <path d="M10,50 Q30,20 50,10 T90,5" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M15,60 Q35,35 55,25 T95,20" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M20,70 Q40,50 60,40 T100,35" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M25,80 Q45,65 65,55 T105,50" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M30,90 Q50,80 70,70 T110,65" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M5,70 Q15,50 25,40 T45,30" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-            <path d="M8,85 Q18,65 28,55 T48,45" stroke="currentColor" fill="none" strokeWidth="1.5" className="text-primary" />
-          </svg>
-        </div>
-        
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
