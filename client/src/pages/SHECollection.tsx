@@ -20,6 +20,30 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
+        
+        {/* Animated Leafy Decorations */}
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 opacity-30 pointer-events-none hidden md:block">
+          <div className="animate-float">
+            <svg width="120" height="200" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 100 Q 10 80, 30 70 Q 50 60, 40 40 Q 30 20, 50 10" stroke="#4a7c59" strokeWidth="2" fill="none" opacity="0.4"/>
+              <ellipse cx="35" cy="55" rx="15" ry="25" fill="#5a9367" opacity="0.3" transform="rotate(-30 35 55)"/>
+              <ellipse cx="45" cy="85" rx="18" ry="28" fill="#4a7c59" opacity="0.4" transform="rotate(20 45 85)"/>
+              <ellipse cx="25" cy="115" rx="16" ry="26" fill="#6aa876" opacity="0.3" transform="rotate(-20 25 115)"/>
+            </svg>
+          </div>
+        </div>
+        
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 opacity-30 pointer-events-none hidden md:block">
+          <div className="animate-float-delayed">
+            <svg width="120" height="200" viewBox="0 0 120 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M100 100 Q 110 80, 90 70 Q 70 60, 80 40 Q 90 20, 70 10" stroke="#4a7c59" strokeWidth="2" fill="none" opacity="0.4"/>
+              <ellipse cx="85" cy="55" rx="15" ry="25" fill="#5a9367" opacity="0.3" transform="rotate(30 85 55)"/>
+              <ellipse cx="75" cy="85" rx="18" ry="28" fill="#4a7c59" opacity="0.4" transform="rotate(-20 75 85)"/>
+              <ellipse cx="95" cy="115" rx="16" ry="26" fill="#6aa876" opacity="0.3" transform="rotate(20 95 115)"/>
+            </svg>
+          </div>
+        </div>
+        
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
