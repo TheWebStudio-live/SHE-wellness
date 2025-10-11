@@ -20,6 +20,45 @@ export default function SHECollection() {
                            radial-gradient(circle at 80% 40%, rgba(160, 140, 110, 0.04) 0%, transparent 50%),
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
+        
+        {/* Animated Left Chevrons */}
+        <div className="absolute left-4 md:left-12 top-1/2 -translate-y-1/2 hidden sm:flex flex-col gap-6 z-0">
+          <div className="animate-pulse-slow opacity-40">
+            <svg className="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+          <div className="animate-pulse-slow opacity-60" style={{ animationDelay: '0.3s' }}>
+            <svg className="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+          <div className="animate-pulse-slow opacity-80" style={{ animationDelay: '0.6s' }}>
+            <svg className="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+        
+        {/* Animated Right Chevrons */}
+        <div className="absolute right-4 md:right-12 top-1/2 -translate-y-1/2 hidden sm:flex flex-col gap-6 z-0">
+          <div className="animate-pulse-slow opacity-40">
+            <svg className="w-8 h-8 text-primary rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+          <div className="animate-pulse-slow opacity-60" style={{ animationDelay: '0.3s' }}>
+            <svg className="w-8 h-8 text-primary rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+          <div className="animate-pulse-slow opacity-80" style={{ animationDelay: '0.6s' }}>
+            <svg className="w-8 h-8 text-primary rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+        </div>
+        
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-collection">
             S.H.E. Collection
