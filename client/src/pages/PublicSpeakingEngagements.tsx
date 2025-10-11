@@ -178,7 +178,7 @@ export default function PublicSpeakingEngagements() {
             <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4 text-center" data-testid="text-booking-peta-title">Why Peta? A Transformational Investment</h3>
             
             <div className="space-y-3 mb-6 max-w-3xl mx-auto">
-              <div className="flex items-start text-sm text-muted-foreground pl-[0px] pr-[0px] pt-[13px] pb-[13px]">
+              <div className="flex items-start text-sm text-muted-foreground pl-[0px] pr-[0px] pt-[4px] pb-[4px]">
                 <CheckCircle className="w-4 h-4 mr-2 mt-0.5 flex-shrink-0 text-primary" />
                 Booking Peta is investing in your audience's success—delivering real emotional impact and tangible results.
               </div>
