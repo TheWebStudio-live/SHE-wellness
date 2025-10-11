@@ -21,42 +21,26 @@ export default function SHECollection() {
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
         
-        {/* Animated Left Chevrons */}
-        <div className="absolute left-4 md:left-12 top-1/2 -translate-y-1/2 hidden sm:flex flex-col gap-6 z-0">
-          <div className="animate-pulse-slow opacity-40">
-            <svg className="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
-          <div className="animate-pulse-slow opacity-60" style={{ animationDelay: '0.3s' }}>
-            <svg className="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
-          <div className="animate-pulse-slow opacity-80" style={{ animationDelay: '0.6s' }}>
-            <svg className="w-8 h-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
+        {/* Decorative Graphics - Left Side */}
+        <div className="absolute left-4 top-1/4 opacity-[0.08] pointer-events-none hidden md:block">
+          <Sparkles className="w-24 h-24 text-primary" />
+        </div>
+        <div className="absolute left-8 bottom-1/4 opacity-[0.06] pointer-events-none hidden md:block">
+          <Heart className="w-32 h-32 text-primary" />
+        </div>
+        <div className="absolute left-20 top-1/2 opacity-[0.05] pointer-events-none hidden lg:block">
+          <Star className="w-20 h-20 text-primary" />
         </div>
         
-        {/* Animated Right Chevrons */}
-        <div className="absolute right-4 md:right-12 top-1/2 -translate-y-1/2 hidden sm:flex flex-col gap-6 z-0">
-          <div className="animate-pulse-slow opacity-40">
-            <svg className="w-8 h-8 text-primary rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
-          <div className="animate-pulse-slow opacity-60" style={{ animationDelay: '0.3s' }}>
-            <svg className="w-8 h-8 text-primary rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
-          <div className="animate-pulse-slow opacity-80" style={{ animationDelay: '0.6s' }}>
-            <svg className="w-8 h-8 text-primary rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-            </svg>
-          </div>
+        {/* Decorative Graphics - Right Side */}
+        <div className="absolute right-4 top-1/3 opacity-[0.08] pointer-events-none hidden md:block">
+          <Shield className="w-28 h-28 text-primary" />
+        </div>
+        <div className="absolute right-12 bottom-1/3 opacity-[0.06] pointer-events-none hidden md:block">
+          <Sparkles className="w-24 h-24 text-primary" />
+        </div>
+        <div className="absolute right-24 top-2/3 opacity-[0.05] pointer-events-none hidden lg:block">
+          <Heart className="w-20 h-20 text-primary" />
         </div>
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
