@@ -10,7 +10,7 @@ export default function Navigation() {
   const navItems = [
     { path: '/', label: 'Home', testId: 'home' },
     { path: '/she-collection', label: 'S.H.E. Collection', testId: 'she-collection' },
-    { path: '/breakthrough-experience', label: 'The Breakthrough Experience', testId: 'breakthrough-experience' },
+    { path: '/breakthrough-experience', label: 'S.H.E. 28', testId: 'breakthrough-experience' },
     { path: '/speaking-engagements', label: 'Power Talks', testId: 'speaking-engagements' },
   ];
 

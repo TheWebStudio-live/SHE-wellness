@@ -3,66 +3,14 @@ import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Clock, Users, CheckCircle } from 'lucide-react';
+import { BookOpen, Users, Heart, Sparkles, Gift, Shield } from 'lucide-react';
 import transformationImage from '@assets/generated_images/Transformation_journey_botanical_background_design_bc9764b3.png';
-
-const modules = [
-  {
-    number: 1,
-    title: 'Know Thyself',
-    description: 'Feel in control of your emotions instead of letting them control you. Discover what you\'re truly feeling, transform challenges into growth, and set intentions that guide you toward balance, confidence, and a life you love.'
-  },
-  {
-    number: 2,
-    title: 'Own Your Power',
-    description: 'Stop giving your energy away and start standing in your strength. Learn how to set boundaries, honor your needs, and make decisions that reflect the confident, unstoppable person you are.'
-  },
-  {
-    number: 3,
-    title: 'Break Free from the Past',
-    description: 'Let go of lingering hurt and patterns that no longer serve you. Heal old wounds, release guilt and regret, and open the door to a future filled with freedom, joy, and self-assurance.'
-  },
-  {
-    number: 4,
-    title: 'Build Resilience',
-    description: 'Life will test you—but you can rise stronger every time. Develop the emotional tools and mindset strategies that allow you to bounce back from challenges and thrive no matter what comes your way.'
-  },
-  {
-    number: 5,
-    title: 'Create Your Thriving Life',
-    description: 'Step into the life you deserve. From clarity and purpose to meaningful goals and joyful habits, design a path that reflects your true potential—and live it fully, with confidence and grace.'
-  },
-  {
-    number: 6,
-    title: 'Nurture Your Inner Self',
-    description: 'Reconnect with who you truly are and rebuild your self-esteem. Through empowering affirmations, self-care, and transformative practices, you\'ll embrace growth and unlock the full potential within you.'
-  },
-  {
-    number: 7,
-    title: 'From Overwhelm to Empowerment',
-    description: 'Turn stress into strength. Learn to trust your inner voice, master your emotions, and use the Circle of Control to tackle life\'s challenges with clarity, confidence, and ease.'
-  },
-  {
-    number: 8,
-    title: 'Unlock Self-Love',
-    description: 'Cultivate daily practices that nourish your mind, body, and soul. Discover the power of Metta meditation to build compassion, inner peace, and lasting resilience—that radiates from the inside out.'
-  },
-  {
-    number: 9,
-    title: 'Master Self-Discipline',
-    description: 'Transform fleeting motivation into lasting success. Gain the tools to build self-discipline, strengthen your resilience, and unlock the consistent habits that help you reach your fullest potential.'
-  },
-  {
-    number: 10,
-    title: 'Protect Your Peace',
-    description: 'Spot toxic behaviors, set strong boundaries, and safeguard your emotional well-being. This final module empowers you to reclaim your inner harmony and step confidently into a life of self-respect and freedom.'
-  }
-];
 
 export default function BreakthroughExperience() {
   return (
     <div className="min-h-screen">
       <Navigation />
+      
       {/* Hero Section */}
       <section className="relative py-12 min-h-[50vh] flex items-center bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5"></div>
@@ -72,113 +20,244 @@ export default function BreakthroughExperience() {
                            radial-gradient(circle at 40% 70%, rgba(200, 170, 140, 0.03) 0%, transparent 50%)`
         }}></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-breakthrough-experience">
-            The Breakthrough Experience
+          <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-28">
+            S.H.E. 28
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-2" data-testid="text-breakthrough-title">Step Into Your Unbothered Era</h1>
-          <h2 className="text-2xl md:text-3xl font-serif font-semibold text-foreground mb-4" data-testid="text-breakthrough-subtitle">One module at a time</h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-6" data-testid="text-breakthrough-description">Your Glow-Up Starts Here — Break free from toxic cycles, transform heartbreak into clarity, master your emotions, and feel results from day one.</p>
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-hero-title">
+            S.H.E. 28 — Recenter, Reclaim, and Radiate with S.H.E.
+          </h1>
+          <h2 className="text-2xl md:text-3xl font-serif font-semibold text-foreground mb-6" data-testid="text-hero-subtitle">
+            Step into your Unbothered Era and reclaim inner peace, protected by your personal power.
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-hero-description">
+            A 28-day journey to recenter, reclaim, and radiate your most empowered self. Each day includes a reflection, a release, and a chance to step further into your Unbothered Era.
+          </p>
           <div className="flex justify-center">
-            <Button size="lg" data-testid="button-enroll-now">Coming soon</Button>
+            <Button size="lg" data-testid="button-join-hive">
+              Join the Hive →
+            </Button>
           </div>
         </div>
       </section>
-      {/* Program Overview */}
-      <section className="py-4 md:py-8 relative overflow-hidden">
-        {/* Transformation Background Image */}
+
+      {/* Section 1: About the Journal */}
+      <section className="py-16 relative overflow-hidden">
         <div className="absolute inset-0 flex justify-center items-center">
           <img 
             src={transformationImage} 
-            alt="Transformation journey with botanical elements representing 90-day growth" 
+            alt="Transformation journey with meditation and botanical elements" 
             className="w-full h-full object-cover opacity-25"
             data-testid="img-transformation-background"
           />
         </div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="h-8 md:h-20"></div>
-          
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-serif font-bold text-foreground mb-4" data-testid="text-overview-title">
-              What You'll Experience
+          <div className="text-center mb-12">
+            <h2 className="text-sm uppercase tracking-wider text-primary font-semibold mb-2" data-testid="text-section1-label">
+              About the Journal
             </h2>
-            <p className="text-lg max-w-2xl mx-auto leading-loose mb-8 text-[#4c5951]" data-testid="text-overview-description">Chaos and heartbreak tried to hold you down—this self-paced journey equips you to find clarity, reclaim your energy, and step boldly into your unbothered era. Your comeback begins today.</p>
-            
-            <Button size="lg" data-testid="button-reclaim-power">I'm Ready to Reclaim My Power</Button>
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-8" data-testid="text-section1-title">
+              About S.H.E. 28
+            </h3>
           </div>
           
-          <div className="h-8 md:h-20"></div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-8">
+            <Card className="hover-elevate" data-testid="card-decenter">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-4">
+                  <Shield className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2">Decenter & Recenter</h4>
+                    <p className="text-muted-foreground">
+                      Decenter unhealthy patterns and relationships. Recenter through daily intentional reflection.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+            
+            <Card className="hover-elevate" data-testid="card-release">
+              <CardContent className="p-6">
+                <div className="flex items-start space-x-4">
+                  <Heart className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2">Release & Build</h4>
+                    <p className="text-muted-foreground">
+                      Release what no longer serves your growth. Build daily rituals for clarity, joy, and self-mastery.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+          
+          <div className="text-center">
+            <div className="bg-card border rounded-2xl p-8 max-w-2xl mx-auto">
+              <p className="text-lg text-foreground font-semibold mb-2" data-testid="text-extra-info">
+                Start anytime. Continue as long as you want.
+              </p>
+              <p className="text-3xl font-bold text-primary" data-testid="text-price">
+                $9.99/month membership
+              </p>
+            </div>
+          </div>
         </div>
       </section>
-      {/* Your 10-Module Journey */}
+
+      {/* Section 2: Healing Hive Community */}
       <section className="py-16 bg-muted/30">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-4" data-testid="text-modules-title">
-              Your 10-Module Journey
+            <h2 className="text-sm uppercase tracking-wider text-primary font-semibold mb-2" data-testid="text-section2-label">
+              Healing Hive Community
             </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto" data-testid="text-modules-description">
-              A comprehensive roadmap to transform your healing into real, lasting change. Each module builds upon the last, 
-              guiding you from self-discovery to empowered living.
+            <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section2-title">
+              Your Healing Hive
+            </h3>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8" data-testid="text-section2-description">
+              A sacred space where women decenter chaos, center their light, and reclaim inner peace and personal power.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-            {modules.map((module) => (
-              <Card key={module.number} className="hover-elevate transition-all duration-300" data-testid={`card-module-${module.number}`}>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <Card className="text-center hover-elevate" data-testid="card-journal-access">
+              <CardHeader>
+                <BookOpen className="w-12 h-12 mx-auto text-primary mb-4" />
+                <CardTitle className="text-xl font-serif">Monthly Journal Access</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Monthly access to S.H.E. 28 journal — your daily companion for reflection and growth.
+                </p>
+              </CardContent>
+            </Card>
+            
+            <Card className="text-center hover-elevate" data-testid="card-connect">
+              <CardHeader>
+                <Users className="w-12 h-12 mx-auto text-primary mb-4" />
+                <CardTitle className="text-xl font-serif">Connect & Grow</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Connect with Coach Peta Williams and empowered sisters on the same journey.
+                </p>
+              </CardContent>
+            </Card>
+            
+            <Card className="text-center hover-elevate" data-testid="card-safe-space">
+              <CardHeader>
+                <Heart className="w-12 h-12 mx-auto text-primary mb-4" />
+                <CardTitle className="text-xl font-serif">Safe Space</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  Safe, supportive, growth-focused community where your voice matters.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+          
+          <div className="text-center">
+            <p className="text-xl font-serif text-foreground" data-testid="text-unbothered-era">
+              Your Unbothered Era starts here.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3: Membership Perks */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-8" data-testid="text-section3-title">
+              Membership Perks
+            </h2>
+          </div>
+          
+          <div className="max-w-4xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              <Card className="hover-elevate" data-testid="card-perk-price">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0">
-                      <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-                        <span className="text-white font-bold text-lg">{module.number}</span>
-                      </div>
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-lg font-semibold text-foreground mb-2" data-testid={`text-module-title-${module.number}`}>
-                        Module {module.number}: {module.title}
-                      </h3>
-                      <p className="text-muted-foreground text-sm leading-relaxed" data-testid={`text-module-description-${module.number}`}>
-                        {module.description}
+                    <Gift className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="text-lg font-semibold text-foreground mb-2">$9.99/month</h4>
+                      <p className="text-muted-foreground">
+                        Full journal + community access for unlimited growth and connection.
                       </p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
-            ))}
-          </div>
-          
-          <div className="text-center">
-            <div className="bg-card border rounded-2xl p-8 max-w-3xl mx-auto">
-              <h3 className="text-2xl font-serif font-bold text-foreground mb-4" data-testid="text-course-investment">
-                Your Investment in Transformation
-              </h3>
-              <div className="flex items-center justify-center space-x-4 mb-4">
-                <span className="text-sm text-muted-foreground line-through">$249</span>
-                <span className="text-4xl font-bold text-primary" data-testid="text-course-price">$99</span>
-              </div>
-              <p className="text-muted-foreground mb-6">
-                Normally, personalized coaching sessions can cost thousands. For a limited time, 
-                you can access this $249 transformative experience for only $99.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-6">
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <Clock className="w-4 h-4 mr-2" />
-                  Self-paced learning
-                </div>
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <CheckCircle className="w-4 h-4 mr-2" />
-                  Lifetime access
-                </div>
-                <div className="flex items-center text-sm text-muted-foreground">
-                  <CheckCircle className="w-4 h-4 mr-2" />
-                  14-day guarantee
-                </div>
-              </div>
-              <Button size="lg" className="px-8" data-testid="button-enroll-course">I’m Ready to Heal & Thrive</Button>
+              
+              <Card className="hover-elevate" data-testid="card-perk-discount">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <Sparkles className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="text-lg font-semibold text-foreground mb-2">15% off S.H.E. Apparel</h4>
+                      <p className="text-muted-foreground">
+                        Exclusive member discount on all S.H.E. apparel to wear your power.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              
+              <Card className="hover-elevate" data-testid="card-perk-selfpaced">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <BookOpen className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="text-lg font-semibold text-foreground mb-2">Self-Paced Guidance</h4>
+                      <p className="text-muted-foreground">
+                        Start anytime, reflect at your rhythm — your journey, your pace.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              
+              <Card className="hover-elevate" data-testid="card-perk-unlimited">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <Heart className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="text-lg font-semibold text-foreground mb-2">Unlimited Access</h4>
+                      <p className="text-muted-foreground">
+                        Access to all journal entries as long as your membership is active.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+            
+            <div className="text-center">
+              <Button size="lg" data-testid="button-join-healing-hive">
+                Join the Healing Hive →
+              </Button>
             </div>
           </div>
         </div>
       </section>
+
+      {/* Section 4: Rise Unapologetically */}
+      <section className="py-16 bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section4-title">
+            Rise Unapologetically
+          </h2>
+          <p className="text-lg text-foreground leading-loose mb-8" data-testid="text-section4-description">
+            Reclaim your peace. Recenter your life. Radiate unapologetically.<br />
+            S.H.E. 28 is your sacred space to reflect, release, and evolve — supported by your sisters in the Healing Hive.
+          </p>
+          <Button size="lg" data-testid="button-start-journey">
+            Start Your S.H.E. 28 Journey →
+          </Button>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
