@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { BookOpen, Users, Heart, Sparkles, Gift, Shield } from 'lucide-react';
 import transformationImage from '@assets/generated_images/Transformation_journey_botanical_background_design_bc9764b3.png';
+import petaPhoto from '@assets/PHOTO-2025-10-26-11-02-07_1761538881754.jpg';
 
 export default function BreakthroughExperience() {
   return (
@@ -226,17 +227,31 @@ export default function BreakthroughExperience() {
       </section>
       {/* Section 4: Rise Unapologetically */}
       <section className="py-16 bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section4-title">
-            Rise Unapologetically
-          </h2>
-          <p className="text-lg text-foreground leading-loose mb-8" data-testid="text-section4-description">
-            Reclaim your peace. Recenter your life. Radiate unapologetically.<br />
-            S.H.E. 28 is your sacred space to reflect, release, and evolve — supported by your sisters in the Healing Hive.
-          </p>
-          <Button size="lg" data-testid="button-start-journey">
-            Start Your S.H.E. 28 Journey →
-          </Button>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="order-2 lg:order-1">
+              <img 
+                src={petaPhoto}
+                alt="Coach Peta Williams"
+                className="w-full h-auto rounded-2xl shadow-lg object-cover"
+                data-testid="img-coach-peta"
+              />
+            </div>
+            <div className="order-1 lg:order-2 text-center lg:text-left">
+              <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section4-title">
+                Rise Unapologetically
+              </h2>
+              <p className="text-lg text-foreground leading-loose mb-8" data-testid="text-section4-description">
+                Reclaim your peace. Recenter your life. Radiate unapologetically.<br />
+                S.H.E. 28 is your sacred space to reflect, release, and evolve — supported by your sisters in the Healing Hive.
+              </p>
+              <div className="flex justify-center lg:justify-start">
+                <Button size="lg" data-testid="button-start-journey">
+                  Start Your S.H.E. 28 Journey →
+                </Button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />
