@@ -227,17 +227,17 @@ export default function BreakthroughExperience() {
       </section>
       {/* Section 4: Rise Unapologetically */}
       <section className="py-16 bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
+            <div className="order-2 lg:order-1 lg:col-span-2">
               <img 
                 src={petaPhoto}
                 alt="Coach Peta Williams"
-                className="w-full h-auto rounded-2xl shadow-lg object-cover"
+                className="w-full h-auto rounded-2xl shadow-lg object-cover max-w-md mx-auto"
                 data-testid="img-coach-peta"
               />
             </div>
-            <div className="order-1 lg:order-2 text-center lg:text-left">
+            <div className="order-1 lg:order-2 lg:col-span-3 text-center lg:text-left">
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section4-title">
                 Rise Unapologetically
               </h2>
