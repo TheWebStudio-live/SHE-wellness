@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { BookOpen, Users, Heart, Sparkles, Gift, Shield } from 'lucide-react';
 import transformationImage from '@assets/generated_images/Transformation_journey_botanical_background_design_bc9764b3.png';
-import petaPhoto from '@assets/PHOTO-2025-10-26-11-02-07_1761538881754.jpg';
+import petaPhoto from '@assets/PHOTO-2025-10-26-11-02-07_1761541424301.jpg';
 
 export default function BreakthroughExperience() {
   return (
