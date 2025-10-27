@@ -47,9 +47,7 @@ export default function BreakthroughExperience() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-12">
-            <h2 className="text-sm uppercase tracking-wider text-primary font-semibold mb-2" data-testid="text-section1-label">
-              About the Journal
-            </h2>
+            <h2 className="text-sm uppercase tracking-wider text-primary font-semibold mb-2" data-testid="text-section1-label">Self-Mastery Journal</h2>
             <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-8" data-testid="text-section1-title">
               About S.H.E. 28
             </h3>
