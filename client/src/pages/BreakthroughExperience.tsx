@@ -121,8 +121,8 @@ export default function BreakthroughExperience() {
             </div>
             
             <div className="flex flex-col gap-4 lg:gap-6 col-span-2">
-              <Card className="hover-elevate" data-testid="card-journal-access">
-                <CardContent className="p-6">
+              <Card className="hover-elevate flex-1" data-testid="card-journal-access">
+                <CardContent className="p-6 lg:p-8 h-full flex items-center">
                   <div className="flex items-start space-x-4">
                     <BookOpen className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
                     <div>
@@ -135,8 +135,8 @@ export default function BreakthroughExperience() {
                 </CardContent>
               </Card>
               
-              <Card className="hover-elevate" data-testid="card-connect">
-                <CardContent className="p-6">
+              <Card className="hover-elevate flex-1" data-testid="card-connect">
+                <CardContent className="p-6 lg:p-8 h-full flex items-center">
                   <div className="flex items-start space-x-4">
                     <Users className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
                     <div>
@@ -149,8 +149,8 @@ export default function BreakthroughExperience() {
                 </CardContent>
               </Card>
               
-              <Card className="hover-elevate" data-testid="card-safe-space">
-                <CardContent className="p-6">
+              <Card className="hover-elevate flex-1" data-testid="card-safe-space">
+                <CardContent className="p-6 lg:p-8 h-full flex items-center">
                   <div className="flex items-start space-x-4">
                     <Heart className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
                     <div>
