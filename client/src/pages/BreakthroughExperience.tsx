@@ -23,9 +23,6 @@ export default function BreakthroughExperience() {
             S.H.E. 28
           </Badge>
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-hero-title">Recenter. Reclaim. Radiate. </h1>
-          <h2 className="text-2xl md:text-3xl font-serif font-semibold text-foreground mb-6" data-testid="text-hero-subtitle">
-            Step into your Unbothered Era and reclaim inner peace, protected by your personal power.
-          </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed mb-8" data-testid="text-hero-description">
             A 28-day journey to recenter, reclaim, and radiate your most empowered self. Each day includes a reflection, a release, and a chance to step further into your Unbothered Era.
           </p>
@@ -148,12 +145,6 @@ export default function BreakthroughExperience() {
                 </p>
               </CardContent>
             </Card>
-          </div>
-          
-          <div className="text-center">
-            <p className="text-xl font-serif text-foreground" data-testid="text-unbothered-era">
-              Your Unbothered Era starts here.
-            </p>
           </div>
         </div>
       </section>
