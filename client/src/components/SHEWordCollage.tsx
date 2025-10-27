@@ -37,7 +37,7 @@ export default function SHEWordCollage() {
         </div>
         
         {/* Word Carousel */}
-        <div className="relative h-16 md:h-20 lg:h-24 flex items-center justify-center w-full overflow-hidden">
+        <div className="relative min-h-20 sm:min-h-20 md:h-20 lg:h-24 flex items-center justify-center w-full overflow-hidden">
           
           {/* Rotating Words - Horizontal Layout */}
           <div className="flex items-center justify-center w-full max-w-full px-2">
