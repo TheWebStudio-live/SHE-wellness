@@ -105,7 +105,7 @@ export default function BreakthroughExperience() {
             <h3 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section2-title">
               Your Healing Hive
             </h3>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8" data-testid="text-section2-description">​A Sacred Space where women decenter chaos, center their light while reclaiming inner peace. </p>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8" data-testid="text-section2-description">Your sacred community space for journaling chaos into inner peace.</p>
           </div>
           
           <div className="grid grid-cols-5 lg:grid-cols-3 gap-3 lg:gap-8 items-stretch lg:items-center">
