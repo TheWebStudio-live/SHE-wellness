@@ -111,11 +111,11 @@ export default function BreakthroughExperience() {
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="flex justify-center">
               <img 
                 src={petaPhoto}
                 alt="Coach Peta Williams"
-                className="w-full h-auto rounded-2xl shadow-lg object-cover"
+                className="w-1/2 h-auto rounded-2xl shadow-lg object-cover"
                 data-testid="img-coach-peta"
               />
             </div>
