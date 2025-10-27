@@ -110,7 +110,7 @@ export default function BreakthroughExperience() {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8" data-testid="text-section2-description">​A Sacred Space where women decenter chaos, center their light while reclaiming inner peace. </p>
           </div>
           
-          <div className="grid grid-cols-5 lg:grid-cols-3 gap-3 lg:gap-8 items-start">
+          <div className="grid grid-cols-5 lg:grid-cols-3 gap-3 lg:gap-8 items-stretch">
             <div className="col-span-2 lg:col-span-1 flex justify-center lg:justify-end">
               <img 
                 src={petaPhoto}
