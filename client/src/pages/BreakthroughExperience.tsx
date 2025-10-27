@@ -110,42 +110,59 @@ export default function BreakthroughExperience() {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8" data-testid="text-section2-description">​A Sacred Space where women decenter chaos, center their light while reclaiming inner peace. </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-            <Card className="text-center hover-elevate" data-testid="card-journal-access">
-              <CardHeader>
-                <BookOpen className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Monthly Journal Access</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Monthly access to S.H.E. 28 journal — your daily companion for reflection and growth.
-                </p>
-              </CardContent>
-            </Card>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <img 
+                src={petaPhoto}
+                alt="Coach Peta Williams"
+                className="w-full h-auto rounded-2xl shadow-lg object-cover"
+                data-testid="img-coach-peta"
+              />
+            </div>
             
-            <Card className="text-center hover-elevate" data-testid="card-connect">
-              <CardHeader>
-                <Users className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Connect & Grow</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Connect with Coach Peta Williams and empowered sisters on the same journey.
-                </p>
-              </CardContent>
-            </Card>
-            
-            <Card className="text-center hover-elevate" data-testid="card-safe-space">
-              <CardHeader>
-                <Heart className="w-12 h-12 mx-auto text-primary mb-4" />
-                <CardTitle className="text-xl font-serif">Safe Space</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">
-                  Safe, supportive, growth-focused community where your voice matters.
-                </p>
-              </CardContent>
-            </Card>
+            <div className="flex flex-col gap-6">
+              <Card className="hover-elevate" data-testid="card-journal-access">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <BookOpen className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="text-xl font-serif font-semibold text-foreground mb-2">Monthly Journal Access</h4>
+                      <p className="text-muted-foreground">
+                        Monthly access to S.H.E. 28 journal — your daily companion for reflection and growth.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              
+              <Card className="hover-elevate" data-testid="card-connect">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <Users className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="text-xl font-serif font-semibold text-foreground mb-2">Connect & Grow</h4>
+                      <p className="text-muted-foreground">
+                        Connect with Coach Peta Williams and empowered sisters on the same journey.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+              
+              <Card className="hover-elevate" data-testid="card-safe-space">
+                <CardContent className="p-6">
+                  <div className="flex items-start space-x-4">
+                    <Heart className="w-8 h-8 text-primary flex-shrink-0 mt-1" />
+                    <div>
+                      <h4 className="text-xl font-serif font-semibold text-foreground mb-2">Safe Space</h4>
+                      <p className="text-muted-foreground">
+                        Safe, supportive, growth-focused community where your voice matters.
+                      </p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
@@ -227,31 +244,17 @@ export default function BreakthroughExperience() {
       </section>
       {/* Section 4: Rise Unapologetically */}
       <section className="py-16 bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12 items-center">
-            <div className="order-2 lg:order-1 lg:col-span-2">
-              <img 
-                src={petaPhoto}
-                alt="Coach Peta Williams"
-                className="w-full h-auto rounded-2xl shadow-lg object-cover max-w-md mx-auto"
-                data-testid="img-coach-peta"
-              />
-            </div>
-            <div className="order-1 lg:order-2 lg:col-span-3 text-center lg:text-left">
-              <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section4-title">
-                Rise Unapologetically
-              </h2>
-              <p className="text-lg text-foreground leading-loose mb-8" data-testid="text-section4-description">
-                Reclaim your peace. Recenter your life. Radiate unapologetically.<br />
-                S.H.E. 28 is your sacred space to reflect, release, and evolve — supported by your sisters in the Healing Hive.
-              </p>
-              <div className="flex justify-center lg:justify-start">
-                <Button size="lg" data-testid="button-start-journey">
-                  Start Your S.H.E. 28 Journey →
-                </Button>
-              </div>
-            </div>
-          </div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section4-title">
+            Rise Unapologetically
+          </h2>
+          <p className="text-lg text-foreground leading-loose mb-8" data-testid="text-section4-description">
+            Reclaim your peace. Recenter your life. Radiate unapologetically.<br />
+            S.H.E. 28 is your sacred space to reflect, release, and evolve — supported by your sisters in the Healing Hive.
+          </p>
+          <Button size="lg" data-testid="button-start-journey">
+            Start Your S.H.E. 28 Journey →
+          </Button>
         </div>
       </section>
       <Footer />
