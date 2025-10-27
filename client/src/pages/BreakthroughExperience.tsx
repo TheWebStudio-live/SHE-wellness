@@ -22,7 +22,7 @@ export default function BreakthroughExperience() {
           <Badge className="mb-4 bg-primary/10 text-primary border-primary/20" data-testid="badge-she-28">
             S.H.E. 28
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-hero-title">Recenter, Reclaim, and Radiate with S.H.E.</h1>
+          <h1 className="text-4xl md:text-6xl font-serif font-bold text-foreground mb-4" data-testid="text-hero-title">Recenter. Reclaim. Radiate. </h1>
           <h2 className="text-2xl md:text-3xl font-serif font-semibold text-foreground mb-6" data-testid="text-hero-subtitle">
             Step into your Unbothered Era and reclaim inner peace, protected by your personal power.
           </h2>
