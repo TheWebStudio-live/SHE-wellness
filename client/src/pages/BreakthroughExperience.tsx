@@ -126,8 +126,8 @@ export default function BreakthroughExperience() {
                   <div className="flex items-start space-x-2 md:space-x-3 lg:space-x-4">
                     <Users className="w-5 h-5 md:w-7 md:h-7 lg:w-8 lg:h-8 text-primary flex-shrink-0 mt-0.5 lg:mt-1" />
                     <div>
-                      <h4 className="text-sm md:text-lg lg:text-xl font-serif font-semibold text-foreground mb-1 lg:mb-2">Connect & Grow</h4>
-                      <p className="text-xs md:text-sm lg:text-base text-muted-foreground">
+                      <h4 className="text-sm md:text-lg lg:text-2xl font-serif font-semibold text-foreground mb-1 lg:mb-2">Connect & Grow</h4>
+                      <p className="text-xs md:text-sm lg:text-lg text-muted-foreground">
                         Connect with Coach Peta Williams and empowered sisters on the same journey.
                       </p>
                     </div>
@@ -140,8 +140,8 @@ export default function BreakthroughExperience() {
                   <div className="flex items-start space-x-2 md:space-x-3 lg:space-x-4">
                     <BookOpen className="w-5 h-5 md:w-7 md:h-7 lg:w-8 lg:h-8 text-primary flex-shrink-0 mt-0.5 lg:mt-1" />
                     <div>
-                      <h4 className="text-sm md:text-lg lg:text-xl font-serif font-semibold text-foreground mb-1 lg:mb-2">Monthly Journal Access</h4>
-                      <p className="text-xs md:text-sm lg:text-base text-muted-foreground">
+                      <h4 className="text-sm md:text-lg lg:text-2xl font-serif font-semibold text-foreground mb-1 lg:mb-2">Monthly Journal Access</h4>
+                      <p className="text-xs md:text-sm lg:text-lg text-muted-foreground">
                         Monthly access to S.H.E. 28 journal — your daily companion for reflection and growth.
                       </p>
                     </div>
@@ -154,8 +154,8 @@ export default function BreakthroughExperience() {
                   <div className="flex items-start space-x-2 md:space-x-3 lg:space-x-4">
                     <Heart className="w-5 h-5 md:w-7 md:h-7 lg:w-8 lg:h-8 text-primary flex-shrink-0 mt-0.5 lg:mt-1" />
                     <div>
-                      <h4 className="text-sm md:text-lg lg:text-xl font-serif font-semibold text-foreground mb-1 lg:mb-2">Safe Space</h4>
-                      <p className="text-xs md:text-sm lg:text-base text-muted-foreground">
+                      <h4 className="text-sm md:text-lg lg:text-2xl font-serif font-semibold text-foreground mb-1 lg:mb-2">Safe Space</h4>
+                      <p className="text-xs md:text-sm lg:text-lg text-muted-foreground">
                         Safe, supportive, growth-focused community where your voice matters.
                       </p>
                     </div>
