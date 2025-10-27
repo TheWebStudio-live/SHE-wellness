@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { BookOpen, Users, Heart, Sparkles, Gift, Shield } from 'lucide-react';
 import transformationImage from '@assets/generated_images/Transformation_journey_botanical_background_design_bc9764b3.png';
+import petaPhoto from '@assets/PHOTO-2025-10-26-11-02-07_1761538301501.jpg';
 
 export default function BreakthroughExperience() {
   return (
@@ -107,6 +108,30 @@ export default function BreakthroughExperience() {
               Your Healing Hive
             </h3>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8" data-testid="text-section2-description">​A Sacred Space where women decenter chaos, center their light while reclaiming inner peace. </p>
+          </div>
+          
+          <div className="max-w-5xl mx-auto mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div className="flex justify-center">
+                <img 
+                  src={petaPhoto} 
+                  alt="Coach Peta Williams" 
+                  className="rounded-2xl w-full max-w-md object-cover shadow-lg"
+                  data-testid="img-peta-williams"
+                />
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-2xl md:text-3xl font-serif font-bold text-foreground mb-4">
+                  Meet Your Guide
+                </h3>
+                <p className="text-lg text-muted-foreground mb-6">
+                  Coach Peta Williams leads the Healing Hive with warmth, wisdom, and a deep commitment to helping women step into their unbothered era. Join a community where your growth is celebrated and your voice matters.
+                </p>
+                <p className="text-foreground font-semibold">
+                  Your transformation journey starts with connection.
+                </p>
+              </div>
+            </div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
