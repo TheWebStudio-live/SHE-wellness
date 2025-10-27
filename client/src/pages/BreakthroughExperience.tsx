@@ -110,17 +110,17 @@ export default function BreakthroughExperience() {
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8" data-testid="text-section2-description">​A Sacred Space where women decenter chaos, center their light while reclaiming inner peace. </p>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
-            <div className="flex justify-center lg:justify-end">
+          <div className="grid grid-cols-3 lg:grid-cols-3 gap-4 lg:gap-8 items-start">
+            <div className="col-span-1 flex justify-center lg:justify-end">
               <img 
                 src={petaPhoto}
                 alt="Coach Peta Williams"
-                className="w-full max-w-sm h-auto rounded-2xl shadow-lg object-cover"
+                className="w-full h-auto rounded-2xl shadow-lg object-cover"
                 data-testid="img-coach-peta"
               />
             </div>
             
-            <div className="flex flex-col gap-6 lg:col-span-2">
+            <div className="flex flex-col gap-4 lg:gap-6 col-span-2">
               <Card className="hover-elevate" data-testid="card-journal-access">
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
