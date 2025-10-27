@@ -243,18 +243,20 @@ export default function BreakthroughExperience() {
         </div>
       </section>
       {/* Section 4: Rise Unapologetically */}
-      <section className="py-16 bg-gradient-to-br from-stone-50 via-stone-100 to-amber-50 dark:from-stone-950/30 dark:via-stone-900/30 dark:to-amber-950/20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section4-title">
-            Rise Unapologetically
-          </h2>
-          <p className="text-lg text-foreground leading-loose mb-8" data-testid="text-section4-description">
-            Reclaim your peace. Recenter your life. Radiate unapologetically.<br />
-            S.H.E. 28 is your sacred space to reflect, release, and evolve — supported by your sisters in the Healing Hive.
-          </p>
-          <Button size="lg" data-testid="button-start-journey">
-            Start Your S.H.E. 28 Journey →
-          </Button>
+      <section className="py-16 bg-muted/30">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-card rounded-2xl p-8 md:p-12 text-center border">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground mb-6" data-testid="text-section4-title">
+              Rise Unapologetically
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8" data-testid="text-section4-description">
+              Reclaim your peace. Recenter your life. Radiate unapologetically.<br />
+              S.H.E. 28 is your sacred space to reflect, release, and evolve — supported by your sisters in the Healing Hive.
+            </p>
+            <Button size="lg" data-testid="button-start-journey">
+              Start Your S.H.E. 28 Journey →
+            </Button>
+          </div>
         </div>
       </section>
       <Footer />
